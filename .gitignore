@@ -1,0 +1,12 @@
+# KiCad local session and lock files
+*.kicad_prl
+~*.lck
+
+# KiCad automatic history and backup files
+.history/
+*.bak
+*-backups/
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db

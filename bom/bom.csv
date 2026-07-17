@@ -1,0 +1,42 @@
+Reference,Qty,Value,Footprint,MPN,Manufacturer,LCSC,LC_Stock,Chosen_Distributor,Datasheet,Validated,DNP,Notes
+"C6,C11,C9,C12,C13,C19,C18,C21,C15,C17,C29,C22,C23",13,100nF,0603,CL10B104KA8NNNC,Samsung Electro-Mechanics,C1590,,,,,,Huella asignada; consolidar propiedades al cerrar BOM.
+"C8,C5,C28",3,10uF,0805,CL21A106KPFNNNE,Samsung Electro-Mechanics,C17024,,,,,,
+"C10,C7,C16,C14",4,4.7uF,0805,CC0805KKX5R6BB475,YAGEO,C107125,,,,,,
+C20,1,1uF,0603,0603B105K160CT,Walsin Technology,C108463,,,,,,Huella asignada; consolidar propiedades al cerrar BOM.
+"C30,C31",2,22uF,0805,CL21A226MAQNNNE,Samsung Electro-Mechanics,C45783,,,,,,
+"D5,D2",2,SP0503BAHTG,SOT-143,SP0503BAHTG,Littelfuse,C3040626,,,http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf,,,
+"D8,D9,D7",3,SS14,SMA,SS14,Yangzhou Yangjie Electronic Technology,C2480,,,https://www.vishay.com/docs/88746/ss12.pdf,,,
+FB1,1,600R@100MHz,0603,GZ1608D601TF,Sunlord,C1002,,,,,,
+J1,1,Debug_U0,PinHeader_1x06_P2.54mm_Vertical,Header generico THT 1x06 P2.54 mm,Compra manual,,,,,,,Montaje manual THT; excluir de BOM y CPL JLCPCB.
+J4,1,Uart1,PinHeader_1x03_P2.54mm_Vertical,Header generico THT 1x03 P2.54 mm,Compra manual,,,,,,,Montaje manual THT; excluir de BOM y CPL JLCPCB.
+J5,1,5V_IN,PinHeader_1x02_P2.54mm_Vertical,Header manual THT 1x02 P2.54 mm,Compra manual,,,,,,,"Entrada de 5V. Montaje manual: header THT vertical 1x02, paso 2.54 mm. Excluir de BOM y CPL de ensamblaje JLCPCB."
+J6,1,Conn_02x04_Odd_Even,PinHeader_2x04_P2.54mm_Vertical,Header manual THT 2x04 P2.54 mm,Compra manual,,,,,,,Montaje manual THT; excluir de BOM y CPL JLCPCB.
+"J7,J11,J8",3,Conn_01x02,PinHeader_1x02_P2.54mm_Vertical,Header manual THT 1x02 P2.54 mm,Compra manual,,,,,,,Montaje manual THT; excluir de BOM y CPL JLCPCB.
+"J9,J10",2,Conn_01x06,PinHeader_1x06_P2.54mm_Vertical,Header manual THT 1x06 P2.54 mm,Compra manual,,,,,,,Montaje manual THT; excluir de BOM y CPL JLCPCB.
+"J14,J13,J12,J2",4,Conn_01x04,PinHeader_1x04_P2.54mm_Vertical,Header manual THT 1x04 P2.54 mm,Compra manual,,,,,,,Montaje manual THT; excluir de BOM y CPL JLCPCB.
+J15,1,Conn_01x03,PinHeader_1x03_P2.54mm_Vertical,Header manual THT 1x03 P2.54 mm,Compra manual,,,,,,,Montaje manual THT; excluir de BOM y CPL JLCPCB.
+"J16,J3",2,USB_C_Receptacle_USB2.0_16P,USB_C_Receptacle_G-Switch_GT-USB-7010ASV,GT-USB-7010ASV,G-Switch,C2988369,,,https://www.usb.org/sites/default/files/documents/usb_type-c.zip,,,
+J17,1,SERVO2,PinHeader_1x03_P2.54mm_Vertical,Header manual THT 1x03 P2.54 mm,Compra manual,,,,,,,"Montaje manual: header THT vertical 1x03, paso 2.54 mm. Excluir de BOM y CPL de ensamblaje JLCPCB."
+J18,1,SERVO1,PinHeader_1x03_P2.54mm_Vertical,Header manual THT 1x03 P2.54 mm,Compra manual,,,,,,,"Montaje manual: header THT vertical 1x03, paso 2.54 mm. Excluir de BOM y CPL de ensamblaje JLCPCB."
+J19,1,+7V_IN,PinHeader_1x02_P2.54mm_Vertical,Header manual THT 1x02 P2.54 mm,Compra manual,,,,,,,"Entrada de +7V. Montaje manual: header THT vertical 1x02, paso 2.54 mm. Excluir de BOM y CPL de ensamblaje JLCPCB."
+L2,1,4.7uH,Changjiang_FXL0530,FXL0530-4R7-M,cjiang (Changjiang Microelectronics Tech),C177246,,,https://datasheet.lcsc.com/lcsc/2504210940_cjiang-FXL0530-4R7-M_C177246.pdf,,,
+"Q4,Q3",2,SS8050,SOT-23,SS8050,Changjiang Electronics Technology (CJ),C2150,,,http://www.secosgmbh.com/datasheet/products/SSMPTransistor/SOT-23/SS8050.pdf,,,
+"R2,R3",2,R,0603,,,,,,,,,Valor pendiente: no seleccionar ni montar hasta definir el requisito eléctrico.
+"R4,R25,R5,R26",4,5.1k,0603,0603WAF5101T5E,UNI-ROYAL(Uniroyal Elec),C23186,,,,,,
+R6,1,22.1k,0603,0603WAF2212T5E,UNI-ROYAL(Uniroyal Elec),C25961,,,,,,
+R7,1,47.5k,0603,0603WAF4752T5E,UNI-ROYAL(Uniroyal Elec),C23061,,,,,,
+"R17,R21",2,4.7k,0603,0603WAF4701T5E,Walsin Technology,C23162,,,,,,Huella asignada.
+R19,1,47k,0603,0603WAF4702T5E,Walsin Technology,C25819,,,,,,
+"R20,R11,R18",3,330,0603,0603WAF3300T5E,Walsin Technology,C23138,,,,,,Huella asignada.
+"R23,R22,R9,R8,R24,R13,R1,R14,R16,R36,R12,R15,R34",13,10k,0603,0603WAF1002T5E,UNI-ROYAL(Uniroyal Elec),C25804,,,,,,Huella asignada.
+"R28,R27",2,22,0603,0603WAF220JT5E,Walsin Technology,C23345,,,,,,
+"R33,R30,R32,R31,R10,R29",6,1k,0603,0603WAF1001T5E,UNI-ROYAL(Uniroyal Elec),C21190,,,,,,Huella asignada.
+R35,1,100k,0603,0603WAF1003T5E,Walsin Technology,C25803,,,,,,
+"SW1,SW2",2,,Boton_Simple,TS1201-TZ25HAM,BXCONN(宝讯),C36936655,,,https://atta.szlcsc.com/upload/public/pdf/source/20240731/528267057C6169D47FE6AADDB119A0E9.pdf,,,
+U3,1,CP2102N-A02-GQFN24,QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm,CP2102N-A02-GQFN24R,Silicon Labs,C969151,,,https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf,,,
+U4,1,BMI088,Bosch_LGA-16_4.5x3mm_P0.5mm_LayoutBorder7x1y_ClockwisePinNumbering,BMI088,Bosch Sensortec,C194919,,,https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi088-ds001.pdf,,,
+U5,1,74HC595,SOIC-16_3.9x9.9mm_P1.27mm,SN74HC595DR,Texas Instruments,C10092,,,http://www.ti.com/lit/ds/symlink/sn74hc595.pdf,,,Montaje SMD JLCPCB.
+U6,1,ULN2003A,SOIC-16_3.9x9.9mm_P1.27mm,ULN2003BDR,Texas Instruments,C157485,,,http://www.ti.com/lit/ds/symlink/uln2003a.pdf,,,Montaje SMD JLCPCB.
+U7,1,LM358,SOIC-8_3.9x4.9mm_P1.27mm,LM358DR,Texas Instruments,C5423,,,http://www.ti.com/lit/ds/symlink/lm2904-n.pdf,,,Montaje SMD JLCPCB.
+U8,1,ESP32-S3-WROOM-1,ESP32-S3-WROOM-1,ESP32-S3-WROOM-1-N8R2,Espressif Systems,C2913204,,,https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf,,,"Modulo Wi-Fi/BLE SMD; mantener libre de cobre y componentes el keep-out de antena indicado por Espressif. JLCPCB: Extended, Standard PCBA."
+U9,1,AP63203WU,TSOT-23-6,AP63203WU-7,Diodes Incorporated,C780769,,,https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf,,,Buck 5V_SYS a +3.3V. Verificar layout y loop VIN-SW-L-COUT contra datasheet antes de ruteo.

@@ -1,0 +1,260 @@
+(footprint "IRFR5305TRPBF"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "IRFR5305TRPBF-3")
+	(tags "MOSFET (P-Channel)")
+	(property "Reference" "Q**"
+		(at 0 0.833 0)
+		(layer "F.SilkS")
+		(uuid "d90b1a12-f1cb-4baa-bbc9-75e2eec67f48")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "IRFR5305TRPBF"
+		(at 0 0.833 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0182ed42-f0b8-45e2-b9a7-4ff0b391a3b1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb2d57b2-9ffa-48b8-8aa8-dab60da70354")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b7d2110-6f3d-474b-ba35-14768614b60f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "43cedc65-361c-4736-a60d-2ef1d940ac11")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.3 2.4)
+		(end -3.3 3.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a6197e8f-83a0-47ba-bc64-1360e7706f83")
+	)
+	(fp_line
+		(start -3.3 3.05)
+		(end 3.3 3.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "94ec4034-d349-4a22-8269-5620268bddd1")
+	)
+	(fp_line
+		(start -2.28 6.5)
+		(end -2.28 6.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "85be4fa6-cc90-4a1f-807f-98b4ca9bbb2c")
+	)
+	(fp_line
+		(start -2.28 6.6)
+		(end -2.28 6.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "61337648-38ea-448e-96f1-2d9a921ea31b")
+	)
+	(fp_line
+		(start 3.3 3.05)
+		(end 3.3 2.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "871d1c25-9ce3-4d20-ba1e-37298688fc96")
+	)
+	(fp_arc
+		(start -2.28 6.5)
+		(mid -2.23 6.55)
+		(end -2.28 6.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4886370f-b61a-432b-b38a-92b4d857d1cd")
+	)
+	(fp_arc
+		(start -2.28 6.6)
+		(mid -2.33 6.55)
+		(end -2.28 6.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9dee4351-7fac-4788-b4c5-65bbfc8f38b8")
+	)
+	(fp_line
+		(start -4.3 -5.468)
+		(end 4.3 -5.468)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f33feb49-68e4-4360-a632-c47577a7c0e5")
+	)
+	(fp_line
+		(start -4.3 7.133)
+		(end -4.3 -5.468)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "aaa576fb-f8a1-402e-bb49-b7e5b3f7006d")
+	)
+	(fp_line
+		(start 4.3 -5.468)
+		(end 4.3 7.133)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "541733e2-7a6d-437c-a8cc-66acd7623541")
+	)
+	(fp_line
+		(start 4.3 7.133)
+		(end -4.3 7.133)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bed23537-4152-4b3b-91a5-7c47e1211957")
+	)
+	(fp_line
+		(start -3.3 -3.05)
+		(end -3.3 3.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "de55d2b2-eeae-4212-8dbf-720d67e5d908")
+	)
+	(fp_line
+		(start -3.3 3.05)
+		(end 3.3 3.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fe3865f6-70cc-4dc0-8874-3bb06260c9e2")
+	)
+	(fp_line
+		(start 3.3 -3.05)
+		(end -3.3 -3.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8759f99c-59c8-4ac1-a9e1-f95a000fa816")
+	)
+	(fp_line
+		(start 3.3 3.05)
+		(end 3.3 -3.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b97f6913-81bb-49db-a90f-d8333abf65b0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.833 0)
+		(layer "F.Fab")
+		(uuid "5abfa2fd-7bc1-4a63-9e45-d687a82e809f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.28 5.032)
+		(size 1.2 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5fd117b3-e082-45c8-81f6-135d42bfea8b")
+	)
+	(pad "2" smd rect
+		(at 0 -1.268)
+		(size 5.8 6.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "28a4813d-087e-4dcf-8e6a-ab478d38c145")
+	)
+	(pad "3" smd rect
+		(at 2.28 5.032)
+		(size 1.2 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "05e2d8fc-e68f-49e7-a91e-bb9f99031dee")
+	)
+	(model "${KIPRJMOD}/Libs/3D/IRFR5305TRPBF.step"
+		(offset
+			(xyz 0 -0.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)

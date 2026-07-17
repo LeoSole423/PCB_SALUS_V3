@@ -1,0 +1,500 @@
+{
+  "schematic": "PCB_SALUS_v3/PCB_SALUS_v3.kicad_sch",
+  "last_sync": "2026-07-15T17:38:32.492483+00:00",
+  "parts": {
+    "CL21A226MAQNNNE": {
+      "manufacturer": "Samsung Electro-Mechanics",
+      "description": "Unpolarized capacitor",
+      "value": "22uF",
+      "references": [
+        "C30",
+        "C31"
+      ],
+      "status": "failed",
+      "error": "No datasheet URL or all download methods failed",
+      "last_attempt": "2026-07-15T17:38:09.033634+00:00"
+    },
+    "CL10B104KA8NNNC": {
+      "manufacturer": "Samsung Electro-Mechanics",
+      "description": "Unpolarized capacitor",
+      "value": "100nF",
+      "references": [
+        "C6",
+        "C11",
+        "C9",
+        "C12",
+        "C13",
+        "C19",
+        "C18",
+        "C21",
+        "C15",
+        "C17",
+        "C29",
+        "C22",
+        "C23"
+      ],
+      "status": "failed",
+      "error": "No datasheet URL or all download methods failed",
+      "last_attempt": "2026-07-15T17:38:10.135665+00:00"
+    },
+    "CC0805KKX5R6BB475": {
+      "manufacturer": "YAGEO",
+      "description": "Unpolarized capacitor",
+      "value": "4.7uF",
+      "references": [
+        "C10",
+        "C7",
+        "C16",
+        "C14"
+      ],
+      "status": "failed",
+      "error": "No datasheet URL or all download methods failed",
+      "last_attempt": "2026-07-15T17:38:09.033034+00:00"
+    },
+    "0603B105K160CT": {
+      "manufacturer": "Walsin Technology",
+      "description": "Unpolarized capacitor",
+      "value": "1uF",
+      "references": [
+        "C20"
+      ],
+      "status": "failed",
+      "error": "No datasheet URL or all download methods failed",
+      "last_attempt": "2026-07-15T17:38:09.033430+00:00"
+    },
+    "SS14": {
+      "file": "SS14_40V_1A_Schottky_Diode_SMA.pdf",
+      "manufacturer": "Yangzhou Yangjie Electronic Technology",
+      "description": "40V 1A Schottky Diode, SMA",
+      "value": "SS14",
+      "datasheet_url": "https://www.vishay.com/docs/88746/ss12.pdf",
+      "downloaded_date": "2026-07-15T17:38:10.961251+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "D8",
+        "D9",
+        "D7"
+      ],
+      "size_bytes": 1174123,
+      "verification": "verified"
+    },
+    "CL21A106KPFNNNE": {
+      "manufacturer": "Samsung Electro-Mechanics",
+      "description": "Unpolarized capacitor",
+      "value": "10uF",
+      "references": [
+        "C8",
+        "C5",
+        "C28"
+      ],
+      "status": "failed",
+      "error": "No datasheet URL or all download methods failed",
+      "last_attempt": "2026-07-15T17:38:10.750558+00:00"
+    },
+    "GZ1608D601TF": {
+      "manufacturer": "Sunlord",
+      "description": "Ferrite bead /JLCPCB: C1002",
+      "value": "600R@100MHz",
+      "references": [
+        "FB1"
+      ],
+      "status": "failed",
+      "error": "No datasheet URL or all download methods failed",
+      "last_attempt": "2026-07-15T17:38:12.114109+00:00"
+    },
+    "SP0503BAHTG": {
+      "file": "SP0503BAHTG_TVS_Diode_Array_5.5V_Standoff_3_Channels_SOT-143_package.pdf",
+      "manufacturer": "Littelfuse",
+      "description": "TVS Diode Array, 5.5V Standoff, 3 Channels, SOT-143 package",
+      "value": "SP0503BAHTG",
+      "datasheet_url": "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf",
+      "downloaded_date": "2026-07-15T17:38:10.956687+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "D5",
+        "D2"
+      ],
+      "size_bytes": 1208625,
+      "verification": "verified"
+    },
+    "Header generico THT 1x06 P2.54 mm": {
+      "manufacturer": "Compra manual",
+      "description": "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)",
+      "value": "Debug_U0",
+      "references": [
+        "J1"
+      ],
+      "status": "not_found",
+      "error": "No LCSC results for 'Header generico THT 1x06 P2.54 mm'",
+      "last_attempt": "2026-07-15T17:38:12.182441+00:00"
+    },
+    "Header manual THT 1x04 P2.54 mm": {
+      "manufacturer": "Compra manual",
+      "description": "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",
+      "value": "Conn_01x04",
+      "references": [
+        "J14",
+        "J13",
+        "J12",
+        "J2"
+      ],
+      "status": "not_found",
+      "error": "No LCSC results for 'Header manual THT 1x04 P2.54 mm'",
+      "last_attempt": "2026-07-15T17:38:12.685855+00:00"
+    },
+    "Header manual THT 1x03 P2.54 mm": {
+      "manufacturer": "Compra manual",
+      "description": "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",
+      "value": "SERVO2",
+      "references": [
+        "J17"
+      ],
+      "status": "not_found",
+      "error": "No LCSC results for 'Header manual THT 1x03 P2.54 mm'",
+      "last_attempt": "2026-07-15T17:38:14.232155+00:00"
+    },
+    "Header manual THT 1x02 P2.54 mm": {
+      "manufacturer": "Compra manual",
+      "description": "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",
+      "value": "Conn_01x02",
+      "references": [
+        "J7",
+        "J11",
+        "J8"
+      ],
+      "status": "not_found",
+      "error": "No LCSC results for 'Header manual THT 1x02 P2.54 mm'",
+      "last_attempt": "2026-07-15T17:38:17.055269+00:00"
+    },
+    "Header generico THT 1x03 P2.54 mm": {
+      "manufacturer": "Compra manual",
+      "description": "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",
+      "value": "Uart1",
+      "references": [
+        "J4"
+      ],
+      "status": "not_found",
+      "error": "No LCSC results for 'Header generico THT 1x03 P2.54 mm'",
+      "last_attempt": "2026-07-15T17:38:15.497002+00:00"
+    },
+    "Header manual THT 2x04 P2.54 mm": {
+      "manufacturer": "Compra manual",
+      "description": "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",
+      "value": "Conn_02x04_Odd_Even",
+      "references": [
+        "J6"
+      ],
+      "status": "not_found",
+      "error": "No LCSC results for 'Header manual THT 2x04 P2.54 mm'",
+      "last_attempt": "2026-07-15T17:38:16.930306+00:00"
+    },
+    "Header manual THT 1x06 P2.54 mm": {
+      "manufacturer": "Compra manual",
+      "description": "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)",
+      "value": "Conn_01x06",
+      "references": [
+        "J9",
+        "J10"
+      ],
+      "status": "not_found",
+      "error": "No LCSC results for 'Header manual THT 1x06 P2.54 mm'",
+      "last_attempt": "2026-07-15T17:38:17.365468+00:00"
+    },
+    "GT-USB-7010ASV": {
+      "manufacturer": "G-Switch",
+      "description": "USB 2.0-only 16P Type-C Receptacle connector",
+      "value": "USB_C_Receptacle_USB2.0_16P",
+      "references": [
+        "J16",
+        "J3"
+      ],
+      "status": "failed",
+      "error": "No datasheet URL or all download methods failed",
+      "last_attempt": "2026-07-15T17:38:13.649489+00:00"
+    },
+    "0603WAF4701T5E": {
+      "manufacturer": "Walsin Technology",
+      "description": "Resistor",
+      "value": "4.7k",
+      "references": [
+        "R17",
+        "R21"
+      ],
+      "status": "failed",
+      "error": "No datasheet URL or all download methods failed",
+      "last_attempt": "2026-07-15T17:38:19.211955+00:00"
+    },
+    "0603WAF4702T5E": {
+      "manufacturer": "Walsin Technology",
+      "description": "Resistor",
+      "value": "47k",
+      "references": [
+        "R19"
+      ],
+      "status": "failed",
+      "error": "No datasheet URL or all download methods failed",
+      "last_attempt": "2026-07-15T17:38:19.761994+00:00"
+    },
+    "0603WAF3300T5E": {
+      "manufacturer": "Walsin Technology",
+      "description": "Resistor",
+      "value": "330",
+      "references": [
+        "R20",
+        "R11",
+        "R18"
+      ],
+      "status": "failed",
+      "error": "No datasheet URL or all download methods failed",
+      "last_attempt": "2026-07-15T17:38:20.326677+00:00"
+    },
+    "0603WAF1002T5E": {
+      "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "description": "Resistor",
+      "value": "10k",
+      "references": [
+        "R23",
+        "R22",
+        "R9",
+        "R8",
+        "R24",
+        "R13",
+        "R1",
+        "R14",
+        "R16",
+        "R36",
+        "R12",
+        "R15",
+        "R34"
+      ],
+      "status": "failed",
+      "error": "No datasheet URL or all download methods failed",
+      "last_attempt": "2026-07-15T17:38:20.888564+00:00"
+    },
+    "FXL0530-4R7-M": {
+      "manufacturer": "cjiang (Changjiang Microelectronics Tech)",
+      "description": "Inductor",
+      "value": "4.7uH",
+      "references": [
+        "L2"
+      ],
+      "status": "failed",
+      "error": "No datasheet URL or all download methods failed",
+      "last_attempt": "2026-07-15T17:38:18.544331+00:00"
+    },
+    "0603WAF220JT5E": {
+      "manufacturer": "Walsin Technology",
+      "description": "Resistor",
+      "value": "22",
+      "references": [
+        "R28",
+        "R27"
+      ],
+      "status": "failed",
+      "error": "No datasheet URL or all download methods failed",
+      "last_attempt": "2026-07-15T17:38:21.460713+00:00"
+    },
+    "SS8050": {
+      "file": "SS8050_General_Purpose_NPN_Transistor_1.5A_Ic_25V_Vce_SOT-23.pdf",
+      "manufacturer": "Changjiang Electronics Technology (CJ)",
+      "description": "General Purpose NPN Transistor, 1.5A Ic, 25V Vce, SOT-23",
+      "value": "SS8050",
+      "datasheet_url": "http://www.secosgmbh.com/datasheet/products/SSMPTransistor/SOT-23/SS8050.pdf",
+      "downloaded_date": "2026-07-15T17:38:18.736861+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "Q4",
+        "Q3"
+      ],
+      "size_bytes": 317938,
+      "verification": "verified"
+    },
+    "0603WAF1001T5E": {
+      "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "description": "Resistor",
+      "value": "1k",
+      "references": [
+        "R33",
+        "R30",
+        "R32",
+        "R31",
+        "R10",
+        "R29"
+      ],
+      "status": "failed",
+      "error": "No datasheet URL or all download methods failed",
+      "last_attempt": "2026-07-15T17:38:22.526089+00:00"
+    },
+    "0603WAF1003T5E": {
+      "manufacturer": "Walsin Technology",
+      "description": "Resistor",
+      "value": "100k",
+      "references": [
+        "R35"
+      ],
+      "status": "failed",
+      "error": "No datasheet URL or all download methods failed",
+      "last_attempt": "2026-07-15T17:38:22.889396+00:00"
+    },
+    "0603WAF5101T5E": {
+      "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "description": "Resistor",
+      "value": "5.1k",
+      "references": [
+        "R4",
+        "R25",
+        "R5",
+        "R26"
+      ],
+      "status": "failed",
+      "error": "No datasheet URL or all download methods failed",
+      "last_attempt": "2026-07-15T17:38:22.937553+00:00"
+    },
+    "0603WAF2212T5E": {
+      "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "description": "Resistor",
+      "value": "22.1k",
+      "references": [
+        "R6"
+      ],
+      "status": "failed",
+      "error": "No datasheet URL or all download methods failed",
+      "last_attempt": "2026-07-15T17:38:23.103863+00:00"
+    },
+    "0603WAF4752T5E": {
+      "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "description": "Resistor",
+      "value": "47.5k",
+      "references": [
+        "R7"
+      ],
+      "status": "failed",
+      "error": "No datasheet URL or all download methods failed",
+      "last_attempt": "2026-07-15T17:38:23.452589+00:00"
+    },
+    "CP2102N-A02-GQFN24R": {
+      "file": "CP2102N-A02-GQFN24R_USB_to_UART_master_bridge_QFN-24.pdf",
+      "manufacturer": "Silicon Labs",
+      "description": "USB to UART master bridge, QFN-24",
+      "value": "CP2102N-A02-GQFN24",
+      "datasheet_url": "https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf",
+      "downloaded_date": "2026-07-15T17:38:24.472503+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "U3"
+      ],
+      "size_bytes": 2252034,
+      "verification": "likely"
+    },
+    "SN74HC595DR": {
+      "file": "SN74HC595DR_8-bit_serial_in_out_Shift_Register_3-State_Outputs.pdf",
+      "manufacturer": "Texas Instruments",
+      "description": "8-bit serial in/out Shift Register 3-State Outputs",
+      "value": "74HC595",
+      "datasheet_url": "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf",
+      "downloaded_date": "2026-07-15T17:38:25.179747+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "U5"
+      ],
+      "size_bytes": 2710670,
+      "verification": "likely"
+    },
+    "ULN2003BDR": {
+      "file": "ULN2003BDR_High_Voltage_High_Current_Darlington_Transistor_Arrays.pdf",
+      "manufacturer": "Texas Instruments",
+      "description": "High Voltage, High Current Darlington Transistor Arrays, SOIC16/SOIC16W/DIP16/TSSOP16",
+      "value": "ULN2003A",
+      "datasheet_url": "http://www.ti.com/lit/ds/symlink/uln2003a.pdf",
+      "downloaded_date": "2026-07-15T17:38:26.373864+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "U6"
+      ],
+      "size_bytes": 1850855,
+      "verification": "likely"
+    },
+    "TS1201-TZ25HAM": {
+      "file": "TS1201-TZ25HAM.pdf",
+      "manufacturer": "BXCONN(\u5b9d\u8baf)",
+      "description": "",
+      "value": "",
+      "datasheet_url": "https://atta.szlcsc.com/upload/public/pdf/source/20240731/528267057C6169D47FE6AADDB119A0E9.pdf",
+      "downloaded_date": "2026-07-15T17:38:23.518654+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "SW1",
+        "SW2"
+      ],
+      "size_bytes": 108989,
+      "verification": "unverified"
+    },
+    "LM358DR": {
+      "file": "LM358DR_Low-Power_Dual_Operational_Amplifiers_DIP-8_SOIC-8_TO-99-8.pdf",
+      "manufacturer": "Texas Instruments",
+      "description": "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8",
+      "value": "LM358",
+      "datasheet_url": "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf",
+      "downloaded_date": "2026-07-15T17:38:27.014538+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "U7"
+      ],
+      "size_bytes": 2070380,
+      "verification": "likely"
+    },
+    "BMI088": {
+      "file": "BMI088_Accelerometer_Gyroscope_6-Axis_Sensor_I2C_SPI_interface_LGA-16.pdf",
+      "manufacturer": "Bosch Sensortec",
+      "description": "Accelerometer, Gyroscope, 6-Axis Sensor, I2C / SPI interface, LGA-16",
+      "value": "BMI088",
+      "datasheet_url": "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi088-ds001.pdf",
+      "downloaded_date": "2026-07-15T17:38:24.812421+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "U4"
+      ],
+      "size_bytes": 1368590,
+      "verification": "verified"
+    },
+    "ESP32-S3-WROOM-1-N8R2": {
+      "file": "ESP32-S3-WROOM-1-N8R2_RF_Module_ESP32-S3_SoC_Wi-Fi_802.11b_g_n_Bluetooth_BLE_32-bit_3.3V.pdf",
+      "manufacturer": "Espressif Systems",
+      "description": "RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, onboard antenna, SMD",
+      "value": "ESP32-S3-WROOM-1",
+      "datasheet_url": "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf",
+      "downloaded_date": "2026-07-15T17:38:27.631602+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "U8"
+      ],
+      "size_bytes": 1280501,
+      "verification": "verified"
+    },
+    "AP63203WU-7": {
+      "file": "AP63203WU-7_2A_1.1MHz_Buck_DC_DC_Converter_fixed_3.3V_output_voltage_TSOT-23-6.pdf",
+      "manufacturer": "Diodes Incorporated",
+      "description": "2A, 1.1MHz Buck DC/DC Converter, fixed 3.3V output voltage, TSOT-23-6",
+      "value": "AP63203WU",
+      "datasheet_url": "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf",
+      "downloaded_date": "2026-07-15T17:38:27.875675+00:00",
+      "source": "schematic",
+      "status": "ok",
+      "references": [
+        "U9"
+      ],
+      "size_bytes": 1226090,
+      "verification": "likely"
+    }
+  }
+}

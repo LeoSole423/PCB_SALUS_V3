@@ -1,0 +1,239 @@
+(footprint "TRANS_IRLML6344TRPBF"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.554 -2.845 0)
+		(layer "F.SilkS")
+		(uuid "27bd1230-cb86-4ede-9b08-47561bf9a90b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TRANS_IRLML6344TRPBF"
+		(at 11.079 2.845 0)
+		(layer "F.Fab")
+		(uuid "b0c5d1e2-1f57-4210-b0e1-8a935b93c6ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "95a9d103-133d-4840-a733-2d889e4d592c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e2dfabcf-961a-472c-ab7c-f9d307cb2e70")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c42d35a-3d3b-4505-a77a-df276c502083")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.079 1.46)
+		(end 0.65 1.46)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8b4fde97-1d3c-47f9-8a35-84f2d32c14a3")
+	)
+	(fp_line
+		(start 0.65 -1.46)
+		(end -0.079 -1.46)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6c2b345f-d6d8-4ace-9428-0d28f46c78e1")
+	)
+	(fp_line
+		(start 0.65 -0.721)
+		(end 0.65 -1.46)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3c5f1f43-a180-42a5-83cb-95f1e28152ea")
+	)
+	(fp_line
+		(start 0.65 1.46)
+		(end 0.65 0.721)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "00f8917e-a6a2-432b-9f22-4c0b15325302")
+	)
+	(fp_circle
+		(center -2.135 -0.95)
+		(end -2.035 -0.95)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "44ca6c63-4419-423f-b05f-c79e1d3715c5")
+	)
+	(fp_line
+		(start -1.621 -1.71)
+		(end -1.621 1.71)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2436a642-f3dd-479c-994e-7452a83d96b1")
+	)
+	(fp_line
+		(start -1.621 1.71)
+		(end 1.621 1.71)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "22331d37-f308-4db4-877f-96a5d74a319f")
+	)
+	(fp_line
+		(start 1.621 -1.71)
+		(end -1.621 -1.71)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "39f50938-63a6-4d95-9683-167cf7d8b647")
+	)
+	(fp_line
+		(start 1.621 1.71)
+		(end 1.621 -1.71)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "391d0807-5999-422a-93a9-bebb3fb6241f")
+	)
+	(fp_line
+		(start -0.65 -1.46)
+		(end -0.65 1.46)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e7d97f36-994c-4da2-ad3a-cee6cca752a0")
+	)
+	(fp_line
+		(start -0.65 1.46)
+		(end 0.65 1.46)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "369f909c-7e95-479d-8c57-16ca44a4e99d")
+	)
+	(fp_line
+		(start 0.65 -1.46)
+		(end -0.65 -1.46)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2651c98a-d1cb-46be-a34c-ebd11f81455c")
+	)
+	(fp_line
+		(start 0.65 1.46)
+		(end 0.65 -1.46)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "285853ec-95e6-4798-8502-76c762915afa")
+	)
+	(fp_circle
+		(center -2.135 -0.95)
+		(end -2.035 -0.95)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "35bca2f6-fed9-4542-87a4-e5e78dca0a73")
+	)
+	(pad "1" smd rect
+		(at -0.885 -0.95)
+		(size 0.972 0.802)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "b021f11e-ee0a-4950-8aa5-c6aa6bd88816")
+	)
+	(pad "2" smd rect
+		(at -0.885 0.95)
+		(size 0.972 0.802)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "91649b19-a17e-4e58-b37e-a792cc495287")
+	)
+	(pad "3" smd rect
+		(at 0.885 0)
+		(size 0.972 0.802)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "36cfee2e-de86-4ada-87d5-bcc98f504346")
+	)
+	(model "C:/Users/Usuario/Documents/Descargas SnapMagic/Transistores/IRLML6344TRPBF/IRLML6344TRPBF.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
