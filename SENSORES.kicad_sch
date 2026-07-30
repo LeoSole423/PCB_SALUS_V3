@@ -13564,6 +13564,7 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 60.96 130.81 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13573,7 +13574,7 @@
 		(dnp no)
 		(uuid "bbe486d3-cefb-484d-8f83-ba7b8ea70b27")
 		(property "Reference" "C21"
-			(at 63.754 131.572 0)
+			(at 58.166 131.572 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13584,7 +13585,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 63.754 134.112 0)
+			(at 58.166 134.112 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13595,7 +13596,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 61.9252 134.62 0)
+			(at 59.9948 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13628,7 +13629,7 @@
 			)
 		)
 		(property "LCSC PN" "C1590"
-			(at 0 0 0)
+			(at 121.92 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13639,7 +13640,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 0 0 0)
+			(at 121.92 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13650,7 +13651,7 @@
 			)
 		)
 		(property "MPN" "CL10B104KA8NNNC"
-			(at 0 0 0)
+			(at 121.92 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

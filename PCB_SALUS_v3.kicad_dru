@@ -1,0 +1,21 @@
+(version 1)
+
+# Permite la geometría interna de la huella USB-C estándar,
+# pero solo entre pads y agujeros del mismo conector.
+(rule "USB-C: clearance interna J3"
+    (constraint hole_clearance (min 0.19mm))
+    (condition "A.memberOfFootprint('J3') && B.memberOfFootprint('J3')"))
+
+(rule "USB-C: clearance interna J16"
+    (constraint hole_clearance (min 0.19mm))
+    (condition "A.memberOfFootprint('J16') && B.memberOfFootprint('J16')"))
+
+# Los pads GND del USB deben conectarse de forma sólida al plano,
+# evitando radios térmicos insuficientes cerca de las ranuras mecánicas.
+(rule "USB-C: GND sólido J3 y J16"
+    (constraint zone_connection solid)
+    (condition "(A.memberOfFootprint('J3') || A.memberOfFootprint('J16')) && A.NetName == 'GND'"))
+
+(rule "ESP32-S3: vias termicas de U8"
+    (constraint hole_size (min 0.20mm))
+    (condition "A.memberOfFootprint('U8')"))
