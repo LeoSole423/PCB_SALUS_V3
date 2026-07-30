@@ -6074,29 +6074,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 26.67 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 26.67 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC PN" "C23162"
+		(property "MPN" "0603WAF4701T5E"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -6118,8 +6096,30 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF4701T5E"
+		(property "LCSC PN" "C23162"
 			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 26.67 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9976,6 +9976,39 @@
 				)
 			)
 		)
+		(property "MPN" "0603WAF4701T5E"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Walsin Technology"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC PN" "C23162"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Datasheet" ""
 			(at 185.42 34.29 0)
 			(hide yes)
@@ -9998,7 +10031,7 @@
 				)
 			)
 		)
-		(property "BOM Comments" "Valor pendiente: no seleccionar ni montar hasta definir el requisito eléctrico."
+		(property "BOM Comments" "Componente confirmado: resistencia pull-up de 4.7 kOhm, 0603, LCSC C23162."
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -15125,6 +15158,39 @@
 				)
 			)
 		)
+		(property "MPN" "0603WAF4701T5E"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Walsin Technology"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC PN" "C23162"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Datasheet" ""
 			(at 185.42 64.77 0)
 			(hide yes)
@@ -15147,7 +15213,7 @@
 				)
 			)
 		)
-		(property "BOM Comments" "Valor pendiente: no seleccionar ni montar hasta definir el requisito eléctrico."
+		(property "BOM Comments" "Componente confirmado: resistencia pull-up de 4.7 kOhm, 0603, LCSC C23162."
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
