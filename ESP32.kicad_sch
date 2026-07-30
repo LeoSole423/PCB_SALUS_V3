@@ -4363,6 +4363,12 @@
 		(uuid "3426d328-fec6-4756-a0aa-f573239c6744")
 	)
 	(junction
+		(at 167.64 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "357c69a7-4d68-468f-b4d8-e9865bdd8a92")
+	)
+	(junction
 		(at 245.11 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4391,12 +4397,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8206e893-0aea-4214-8924-bbc7a95fc7cf")
-	)
-	(junction
-		(at 167.64 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "908fbcfe-93bf-4327-af95-72b77d5632b0")
 	)
 	(junction
 		(at 265.43 46.99)
@@ -5274,7 +5274,7 @@
 		)
 		(uuid "0d1f9c70-1989-49ca-9fc2-c9191c1c8735")
 	)
-	(label "USB2_DM"
+	(label "USB2_D-"
 		(at 267.97 152.4 0)
 		(effects
 			(font
@@ -5284,7 +5284,7 @@
 		)
 		(uuid "1af13ca1-85d5-483b-a9a5-5b3faca0a181")
 	)
-	(label "USB2_DM"
+	(label "USB2_D-"
 		(at 99.06 137.16 0)
 		(effects
 			(font
@@ -5354,7 +5354,7 @@
 		)
 		(uuid "54cc8cc9-bef4-44f1-9df6-0e233e080817")
 	)
-	(label "USB_DM"
+	(label "USB_D-"
 		(at 69.85 62.23 180)
 		(effects
 			(font
@@ -5364,7 +5364,7 @@
 		)
 		(uuid "5614887e-3ffc-47a3-99ba-d4a1333c87c8")
 	)
-	(label "USB_DP"
+	(label "USB_D+"
 		(at 205.74 66.04 0)
 		(effects
 			(font
@@ -5444,7 +5444,7 @@
 		)
 		(uuid "7f6df097-b439-45b5-baee-f85ccd04f468")
 	)
-	(label "USB_DM"
+	(label "USB_D-"
 		(at 185.42 48.26 0)
 		(effects
 			(font
@@ -5454,7 +5454,7 @@
 		)
 		(uuid "8aa8d393-bcb0-4e07-a47e-e1d12096befb")
 	)
-	(label "USB2_DM"
+	(label "USB2_D-"
 		(at 247.65 132.08 0)
 		(effects
 			(font
@@ -5474,7 +5474,7 @@
 		)
 		(uuid "98ddabd7-7f15-415f-8220-b28a52ed5748")
 	)
-	(label "USB2_DP"
+	(label "USB2_D+"
 		(at 247.65 137.16 0)
 		(effects
 			(font
@@ -5544,7 +5544,7 @@
 		)
 		(uuid "c9b32813-f32d-44f9-8c03-da4e01a5e6c8")
 	)
-	(label "USB2_DP"
+	(label "USB2_D+"
 		(at 267.97 149.86 0)
 		(effects
 			(font
@@ -5554,7 +5554,7 @@
 		)
 		(uuid "c9dfd105-fb61-4a64-b386-e244720efe9d")
 	)
-	(label "USB_DP"
+	(label "USB_D+"
 		(at 185.42 53.34 0)
 		(effects
 			(font
@@ -5584,7 +5584,7 @@
 		)
 		(uuid "d9a1a618-ea08-4e1c-b776-e3721281a21a")
 	)
-	(label "USB_DM"
+	(label "USB_D-"
 		(at 205.74 68.58 0)
 		(effects
 			(font
@@ -5614,7 +5614,7 @@
 		)
 		(uuid "f766b215-a914-4384-b271-d61e819b531f")
 	)
-	(label "USB2_DP"
+	(label "USB2_D+"
 		(at 99.06 139.7 0)
 		(effects
 			(font
@@ -5624,7 +5624,7 @@
 		)
 		(uuid "f892d91c-789a-4d7c-b574-f9b3a90f7c78")
 	)
-	(label "USB_DP"
+	(label "USB_D+"
 		(at 69.85 64.77 180)
 		(effects
 			(font
@@ -11139,6 +11139,7 @@
 	(symbol
 		(lib_id "power:+3.3V")
 		(at 45.72 46.99 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11146,7 +11147,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a0ea6449-6535-4cce-8741-14bc382e3e68")
 		(property "Reference" "#PWR031"
 			(at 49.53 46.99 0)
@@ -11160,7 +11160,7 @@
 			)
 		)
 		(property "Value" "CP2102_3V3"
-			(at 44.45 44.45 90)
+			(at 44.45 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11977,7 +11977,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c518e06d-4515-4f2e-9ee3-fd053a9d554c")
 		(property "Reference" "J3"
 			(at 167.64 25.4 0)
