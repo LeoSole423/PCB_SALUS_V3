@@ -6444,7 +6444,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:Boton_Simple"
+		(property "Footprint" "Footprints:Switch-Definitivo"
 			(at 236.22 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -6455,7 +6455,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20240731/528267057C6169D47FE6AADDB119A0E9.pdf"
+		(property "Datasheet" "http://www.helloxkb.com/uploads/qingchukaiguan/TS-1187A-X-X-X.pdf"
 			(at 236.22 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -6477,7 +6477,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "TS1201-TZ25HAM"
+		(property "Manufacturer Part" "TS-1187A-B-A-B"
 			(at 236.22 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -6488,7 +6488,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "BXCONN(宝讯)"
+		(property "Manufacturer" "XKB Connection"
 			(at 236.22 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -6499,7 +6499,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C36936655"
+		(property "Supplier Part" "C318884"
 			(at 236.22 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -6532,7 +6532,7 @@
 				)
 			)
 		)
-		(property "LCSC PN" "C36936655"
+		(property "LCSC PN" "C318884"
 			(at 236.22 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -6543,7 +6543,7 @@
 				)
 			)
 		)
-		(property "MPN" "TS1201-TZ25HAM"
+		(property "MPN" "TS-1187A-B-A-B"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -8355,7 +8355,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:Boton_Simple"
+		(property "Footprint" "Footprints:Switch-Definitivo"
 			(at 265.43 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -8366,7 +8366,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20240731/528267057C6169D47FE6AADDB119A0E9.pdf"
+		(property "Datasheet" "http://www.helloxkb.com/uploads/qingchukaiguan/TS-1187A-X-X-X.pdf"
 			(at 265.43 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -8388,7 +8388,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "TS1201-TZ25HAM"
+		(property "Manufacturer Part" "TS-1187A-B-A-B"
 			(at 265.43 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -8399,7 +8399,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "BXCONN(宝讯)"
+		(property "Manufacturer" "XKB Connection"
 			(at 265.43 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -8410,7 +8410,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C36936655"
+		(property "Supplier Part" "C318884"
 			(at 265.43 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -8443,7 +8443,7 @@
 				)
 			)
 		)
-		(property "LCSC PN" "C36936655"
+		(property "LCSC PN" "C318884"
 			(at 265.43 58.42 90)
 			(hide yes)
 			(show_name no)
@@ -8454,7 +8454,7 @@
 				)
 			)
 		)
-		(property "MPN" "TS1201-TZ25HAM"
+		(property "MPN" "TS-1187A-B-A-B"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
