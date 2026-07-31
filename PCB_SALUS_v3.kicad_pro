@@ -61,7 +61,7 @@
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
           "min_clearance": 0.2,
-          "min_island_area": 5.0,
+          "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
           "remove_islands": 0,
@@ -627,7 +627,7 @@
       },
       {
         "netclass": "POWER_3V3",
-        "pattern": "*/BUCK_3.3V"
+        "pattern": "*/LINEAR_3.3V"
       },
       {
         "netclass": "USB_5V",
@@ -783,7 +783,7 @@
         "uuid": "73bd63ea-8f0f-4b31-8d24-3cde4b540ad9"
       }
     ],
-    "used_designators": "L1-2,#FLG1-10,SW1-2,R1-38,C1-32,D1-9,FB1,#PWR1-114,J1-20,Q1-4,F1-2,U1-9",
+    "used_designators": "L1-2,#FLG1-10,SW1-2,JP1-2,R1-38,C1-32,D1-9,FB1,#PWR1-114,J1-20,Q1-4,F1-2,U1-9",
     "variants": []
   },
   "sheets": [
