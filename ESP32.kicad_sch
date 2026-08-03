@@ -7738,7 +7738,7 @@
 				)
 			)
 		)
-		(property "Value" "SM712_SOT23"
+		(property "Value" "SM712-02HTG"
 			(at 143.51 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7770,7 +7770,51 @@
 				)
 			)
 		)
-		(property "Description" "7V/12V, 600W Asymmetrical TVS Diode Array, SOT-23"
+		(property "Description" "2-channel bidirectional RS-485 TVS diode array, SOT-23"
+			(at 143.51 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "DOWO"
+			(at 143.51 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "SM712-02HTG"
+			(at 143.51 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SM712-02HTG"
+			(at 143.51 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC PN" "C5449363"
 			(at 143.51 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -7932,7 +7976,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "467a4b31-b11d-42dc-aa03-58b70f6b79f9")
@@ -8423,9 +8467,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "577d7728-f08b-4632-8070-ff3aeb06847d")
 		(property "Reference" "J1"
@@ -11320,9 +11364,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f705dfb3-4eef-44de-b4c0-4f165e90cc4c")

@@ -5,15 +5,17 @@
   "runs": {
     "2026-07-16_1919": {
       "source_hashes": {
-        "PCB_SALUS_v3.kicad_sch": "sha256:c951b0b67598c9e549af5b654545d3a18005987f1bc8bac11d8d79d5dbb2abb7"
+        "PCB_SALUS_v3.kicad_sch": "sha256:c951b0b67598c9e549af5b654545d3a18005987f1bc8bac11d8d79d5dbb2abb7",
+        "PCB_SALUS_v3.kicad_pcb": "sha256:d0adf5ca0b0fbdca4ad8cbe04aa443976f3352fb4ef12eef840ab93a30979cd3"
       },
       "outputs": {
-        "schematic": "schematic.json"
+        "schematic": "schematic.json",
+        "pcb": "pcb.json"
       },
       "scripts": {
         "schematic": "analyze_schematic.py PCB_SALUS_v3.kicad_sch"
       },
-      "generated": "2026-07-16T19:19:17-03:00",
+      "generated": "2026-08-03T14:44:25-03:00",
       "pinned": false
     }
   }
