@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "coordinates": {"x_sign": 1, "y_sign": -1, "origin": "kicad_auxiliary"},
+  "defaults": {"origin": "anchor"},
+  "review": {
+    "center_difference_mm": 0.2,
+    "min_component_spacing_mm": 0.2,
+    "require_confirmation_references": ["U1", "U2", "U4", "U5", "U6", "U7", "U8", "J16", "SW1", "SW2", "C30", "D1", "D5", "D7", "D9"]
+  },
+  "rules": [
+    {"id": "salus-u1-anchor", "match": {"reference": "U1"}, "origin": "anchor", "rotation_offset_deg": 0, "position_offset_local_mm": [0, 0], "requires_confirmation": true, "reason": "DPAK anchor is not pad centroid", "source": "local footprint audit"},
+    {"id": "salus-u8-anchor", "match": {"reference": "U8"}, "origin": "anchor", "rotation_offset_deg": 0, "position_offset_local_mm": [0, 0], "requires_confirmation": true, "reason": "module anchor is not pad centroid", "source": "local footprint audit"},
+    {"id": "salus-j16-anchor", "match": {"reference": "J16"}, "origin": "anchor", "rotation_offset_deg": 0, "position_offset_local_mm": [0, 0], "requires_confirmation": true, "reason": "USB-C anchor is not pad centroid", "source": "local footprint audit"},
+    {"id": "toolkit-bosch-lga", "match": {"footprint_regex": "Bosch_LGA"}, "origin": "anchor", "rotation_offset_deg": 90, "position_offset_local_mm": [0, 0], "requires_confirmation": true, "reason": "Fabrication Toolkit baseline", "source": "Fabrication Toolkit transformations.csv"},
+    {"id": "toolkit-tantalum", "match": {"footprint_regex": "CP_EIA"}, "origin": "anchor", "rotation_offset_deg": 180, "position_offset_local_mm": [0, 0], "requires_confirmation": true, "reason": "Fabrication Toolkit baseline", "source": "Fabrication Toolkit transformations.csv"},
+    {"id": "toolkit-sot", "match": {"footprint_regex": "SOT-(23|143)"}, "origin": "anchor", "rotation_offset_deg": 180, "position_offset_local_mm": [0, 0], "requires_confirmation": true, "reason": "Fabrication Toolkit baseline", "source": "Fabrication Toolkit transformations.csv"},
+    {"id": "toolkit-soic", "match": {"footprint_regex": "SOIC-"}, "origin": "anchor", "rotation_offset_deg": 270, "position_offset_local_mm": [0, 0], "requires_confirmation": true, "reason": "Fabrication Toolkit baseline", "source": "Fabrication Toolkit transformations.csv"}
+  ]
+}

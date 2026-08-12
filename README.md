@@ -32,3 +32,12 @@ placement, ruteo, DRC y pruebas de banco.
 - [Puente H BTS7960](docs/04_PUENTE_H_BTS7960.md)
 - [Mapa de submodulos y pinout](docs/05_MAPA_DE_SUBMODULOS_Y_PINOUT.md)
 - [Revision V3](docs/06_REVISION_V3_2026-07-15.md)
+- [Generacion CPL auditable KiCad → JLCPCB](docs/07_CPL_AUDITABLE_KICAD_JLCPCB.md)
+
+## CPL para JLCPCB
+
+Para toda exportación futura de montaje usar exclusivamente
+`tools/jlc_cpl.py` y el perfil versionado `config/jlcpcb-cpl.json`. La guía
+incluye el flujo reproducible para agentes, auditoría de centroides y
+calibración desde el visor de JLCPCB. No editar rotaciones o posiciones
+directamente en un CSV.
