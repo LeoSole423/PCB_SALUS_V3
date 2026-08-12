@@ -132,7 +132,7 @@
 		(at 127.15 125.5 -90)
 		(property "Reference" "SW2"
 			(at 0 -3.077 270)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "b6ae01ce-b88f-4acf-8972-ba827c795817")
 			(effects
 				(font
@@ -614,7 +614,7 @@
 		(tags "net tie solder jumper bridged")
 		(property "Reference" "JP1"
 			(at 0 -1.8 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "f0c4168e-676c-4e69-957a-9af72a700936")
 			(effects
 				(font
@@ -903,7 +903,7 @@
 		(tags "Through hole pin header THT 1x06 2.54mm single row")
 		(property "Reference" "J9"
 			(at 0 -2.38 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "7e0b2f22-06ee-4e96-9e27-b44bf157ae6c")
 			(effects
 				(font
@@ -913,13 +913,13 @@
 			)
 		)
 		(property "Value" "RELES_1"
-			(at 0 15.08 0)
+			(at -2.95 0.02 90)
 			(layer "F.Fab")
 			(uuid "931d5e15-d0ac-40c0-83b1-1b89dff5b627")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.2 1.2)
+					(thickness 0.18)
 				)
 			)
 		)
@@ -1227,7 +1227,7 @@
 		(tags "resistor")
 		(property "Reference" "R37"
 			(at 0 -1.43 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "6073248a-fd0d-4e5d-a912-bfa173426b7e")
 			(effects
 				(font
@@ -1437,7 +1437,7 @@
 		(tags "DPAK TO-252 DPAK-3 TO-252-3 SOT-428")
 		(property "Reference" "U1"
 			(at 0 -4.5 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "b0585f73-f33b-4821-8581-3342ba2e8996")
 			(effects
 				(font
@@ -1837,7 +1837,7 @@
 		(tags "resistor")
 		(property "Reference" "R29"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "1a2dc242-3c6f-4d2e-ad53-bfa07e2b106b")
 			(effects
 				(font
@@ -2047,7 +2047,7 @@
 		(tags "Through hole pin header THT 1x06 2.54mm single row")
 		(property "Reference" "J1"
 			(at 0 -2.38 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "ba042527-1c1d-4647-82bf-14bb42a2865c")
 			(effects
 				(font
@@ -2057,13 +2057,13 @@
 			)
 		)
 		(property "Value" "Debug_U0"
-			(at 0 15.08 0)
+			(at 3 1.5 90)
 			(layer "F.Fab")
 			(uuid "44becacd-c4f4-4756-b858-b6e4b2898490")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.2 1.2)
+					(thickness 0.18)
 				)
 			)
 		)
@@ -2397,7 +2397,7 @@
 		(tags "resistor")
 		(property "Reference" "R33"
 			(at 0 -1.43 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "a97c9673-bd24-404b-9f71-b10d5a89e422")
 			(effects
 				(font
@@ -2607,7 +2607,7 @@
 		(tags "resistor")
 		(property "Reference" "R4"
 			(at 0 -1.43 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "d47daa66-ca0f-4d5f-a552-a34b13fe2ea0")
 			(effects
 				(font
@@ -2765,7 +2765,7 @@
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J4"
 			(at 0 -2.38 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "e5247bcb-0f10-45ec-b4ea-67b95d7af862")
 			(effects
 				(font
@@ -2780,8 +2780,8 @@
 			(uuid "bf71b853-5c6e-4021-81f7-0742fbe5bde2")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.2 1.2)
+					(thickness 0.18)
 				)
 			)
 		)
@@ -3082,7 +3082,7 @@
 		(tags "capacitor")
 		(property "Reference" "C13"
 			(at 0 -1.43 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "0c112be3-24de-4176-9650-f1d8368eec39")
 			(effects
 				(font
@@ -3292,7 +3292,7 @@
 		(tags "resistor")
 		(property "Reference" "R11"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "08d23a0d-ec15-4899-8883-d568780303b9")
 			(effects
 				(font
@@ -3489,7 +3489,7 @@
 		(tags "Through hole pin header THT 1x06 2.54mm single row")
 		(property "Reference" "J10"
 			(at 0 -2.38 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "d0a500ec-16c8-4c60-8cd1-a52fe03f9ec9")
 			(effects
 				(font
@@ -3499,13 +3499,13 @@
 			)
 		)
 		(property "Value" "RELES_2"
-			(at 0 15.08 0)
+			(at -3.4 0.02 90)
 			(layer "F.Fab")
 			(uuid "f9200ee8-720d-4bc0-bf41-79478c3d07ae")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.2 1.2)
+					(thickness 0.18)
 				)
 			)
 		)
@@ -3813,7 +3813,7 @@
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "D1"
 			(at 0 -2.4 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "34a498b4-062a-4f93-8761-8e86449d4889")
 			(effects
 				(font
@@ -4247,7 +4247,7 @@
 		(tags "inductor handsolder")
 		(property "Reference" "FB1"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "89b6ea8e-e24f-4756-a9f8-6021aa5c2ba3")
 			(effects
 				(font
@@ -4457,7 +4457,7 @@
 		(tags "resistor")
 		(property "Reference" "R20"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "69007df4-a7c8-444f-8105-cc696934b267")
 			(effects
 				(font
@@ -4654,7 +4654,7 @@
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J7"
 			(at 0 -2.38 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "1d0e154e-6a5e-4244-bc9f-fd0614ae2d11")
 			(effects
 				(font
@@ -4665,12 +4665,12 @@
 		)
 		(property "Value" "FC1"
 			(at 0 4.92 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "aac98097-1fcd-4e06-af7c-9de60742c7dd")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.2 1.2)
+					(thickness 0.18)
 				)
 			)
 		)
@@ -4934,7 +4934,7 @@
 		(tags "resistor")
 		(property "Reference" "R34"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "c6cc5a5c-876a-48e9-88f8-507193a38aa4")
 			(effects
 				(font
@@ -5131,7 +5131,7 @@
 		(tags "solder jumper open")
 		(property "Reference" "JP2"
 			(at 0 -1.8 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "facc7566-1c43-4cb2-99fd-bf32952ad3dd")
 			(effects
 				(font
@@ -5407,7 +5407,7 @@
 		(tags "resistor")
 		(property "Reference" "R16"
 			(at 0 -1.43 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "446ff46e-23a8-4d0a-b5ff-136e2b1c4be0")
 			(effects
 				(font
@@ -5604,7 +5604,7 @@
 		(tags "capacitor")
 		(property "Reference" "C12"
 			(at 0 -1.43 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "9df78c4c-4726-464c-b74a-cddaf40ed6c0")
 			(effects
 				(font
@@ -5814,7 +5814,7 @@
 		(tags "resistor")
 		(property "Reference" "R30"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "b6030ba7-6e98-4416-a6bc-e2945cebace3")
 			(effects
 				(font
@@ -6024,7 +6024,7 @@
 		(tags "resistor")
 		(property "Reference" "R15"
 			(at 0 -1.43 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "e299dc40-666d-4f0c-afe3-15c35713b100")
 			(effects
 				(font
@@ -6221,7 +6221,7 @@
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J19"
 			(at 0 -2.38 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "d25ef00c-fad1-4b5b-8c7f-0e9358fcc76e")
 			(effects
 				(font
@@ -6236,8 +6236,8 @@
 			(uuid "0e707f97-362c-4e14-8575-136890b9c840")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.2 1.2)
+					(thickness 0.18)
 				)
 			)
 		)
@@ -6501,7 +6501,7 @@
 		(tags "capacitor tantalum")
 		(property "Reference" "C30"
 			(at 0 -2.35 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "e5b92265-d265-4c5d-a63e-5d6cb6ffc3e6")
 			(effects
 				(font
@@ -6760,7 +6760,7 @@
 		(tags "capacitor")
 		(property "Reference" "C23"
 			(at 0 -1.43 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "34ebea8b-9879-4a99-b7c3-26af616af97f")
 			(effects
 				(font
@@ -6970,7 +6970,7 @@
 		(tags "Bosch LGA NoLead")
 		(property "Reference" "U4"
 			(at 0 -2.55 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "bb4fbbd2-06f1-4d98-8c6a-cdcf012c2785")
 			(effects
 				(font
@@ -7617,7 +7617,7 @@
 		(tags "SOT-143")
 		(property "Reference" "D5"
 			(at 0.02 -2.7 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "f321e7aa-9b9d-4e31-9753-25a3f4addc48")
 			(effects
 				(font
@@ -7921,7 +7921,7 @@
 		(tags "capacitor")
 		(property "Reference" "C7"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "16200aac-a212-436d-8e28-46a9000e1763")
 			(effects
 				(font
@@ -8131,7 +8131,7 @@
 		(tags "resistor")
 		(property "Reference" "R18"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "edb16c36-41c6-4124-a93c-b3c122c5e607")
 			(effects
 				(font
@@ -8328,7 +8328,7 @@
 		(tags "Through hole pin header THT 1x04 2.54mm single row")
 		(property "Reference" "J21"
 			(at 0 -2.38 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "28fd7913-a57c-4d9d-a335-8787bbd5e3b0")
 			(effects
 				(font
@@ -8339,12 +8339,12 @@
 		)
 		(property "Value" "RS485"
 			(at 0 10 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "d16cce6b-9fd7-4db1-a053-b40d7722ebca")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.2 1.2)
+					(thickness 0.18)
 				)
 			)
 		)
@@ -8643,7 +8643,7 @@
 		(tags "Through hole pin header THT 1x04 2.54mm single row")
 		(property "Reference" "J12"
 			(at 0 -2.38 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "aa5d870d-f4a1-4b20-8acd-fd90f25d272e")
 			(effects
 				(font
@@ -8658,8 +8658,8 @@
 			(uuid "d41cd055-a5bd-48b7-9a1f-4c76da400d18")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.2 1.2)
+					(thickness 0.18)
 				)
 			)
 		)
@@ -8945,7 +8945,7 @@
 		(tags "Through hole pin header THT 1x04 2.54mm single row")
 		(property "Reference" "J14"
 			(at 0 -2.38 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "e75b2d9d-b007-4588-a7f8-2264ee08c0fa")
 			(effects
 				(font
@@ -8960,8 +8960,8 @@
 			(uuid "1c00cd96-4c4e-4f8c-ae48-b88c905a3bcc")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.2 1.2)
+					(thickness 0.18)
 				)
 			)
 		)
@@ -9247,7 +9247,7 @@
 		(tags "Diode SMA (DO-214AC)")
 		(property "Reference" "D7"
 			(at 0 -2.5 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "0ebe15e6-5190-4347-8306-69c81cd95048")
 			(effects
 				(font
@@ -9579,7 +9579,7 @@
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J15"
 			(at 0 -2.38 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "12f453b8-242e-4d69-ba25-d049fd3ea6bd")
 			(effects
 				(font
@@ -9594,8 +9594,8 @@
 			(uuid "a986291f-68a7-4bb2-b62d-1032b0ffeb39")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.2 1.2)
+					(thickness 0.18)
 				)
 			)
 		)
@@ -9870,7 +9870,7 @@
 		(tags "resistor")
 		(property "Reference" "R24"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "0ee1a31f-d824-48cc-a5da-4c6d43327ab7")
 			(effects
 				(font
@@ -10067,7 +10067,7 @@
 		(tags "resistor")
 		(property "Reference" "R28"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "db3bb5a3-2239-4fe4-aa33-ce41d61bc170")
 			(effects
 				(font
@@ -10264,7 +10264,7 @@
 		(tags "SOIC SO 16-pin-NSOP R-16 R-16-S D0016A M2B SO16 SOT109-1 751B SOIC_N narrow")
 		(property "Reference" "U5"
 			(at 0 -5.9 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "d9b9c976-f143-4bbb-bd2b-a5c563a70781")
 			(effects
 				(font
@@ -10780,7 +10780,7 @@
 		(tags "resistor")
 		(property "Reference" "R22"
 			(at 0 -1.43 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "7a957e1c-af42-4c57-b9e7-0ad4e51d6d5a")
 			(effects
 				(font
@@ -10990,7 +10990,7 @@
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J17"
 			(at 0 -2.38 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "5d51d5a9-2531-4615-9c26-9b06353242a9")
 			(effects
 				(font
@@ -11005,8 +11005,8 @@
 			(uuid "346ef01c-966f-4d93-a6fd-418b09550268")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.2 1.2)
+					(thickness 0.18)
 				)
 			)
 		)
@@ -11281,7 +11281,7 @@
 		(tags "resistor")
 		(property "Reference" "R13"
 			(at 0 -1.43 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "b6acb371-7577-4e94-8106-b5f53638af07")
 			(effects
 				(font
@@ -11491,7 +11491,7 @@
 		(tags "SOIC SO")
 		(property "Reference" "U2"
 			(at 0 -3.4 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "d4a7b054-7b22-4f01-8b16-a0eaa29c32ae")
 			(effects
 				(font
@@ -11925,7 +11925,7 @@
 		(tags "capacitor")
 		(property "Reference" "C15"
 			(at 0 -1.43 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "04f5b73a-2482-4418-8827-4e3b53987146")
 			(effects
 				(font
@@ -12135,7 +12135,7 @@
 		(tags "capacitor")
 		(property "Reference" "C6"
 			(at 0 -1.43 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "f8f5c402-0162-4c90-beca-69990579e86d")
 			(effects
 				(font
@@ -12345,7 +12345,7 @@
 		(tags "resistor")
 		(property "Reference" "R35"
 			(at 0 -1.43 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "05ad852d-bf5c-47e9-a29e-903db38698a9")
 			(effects
 				(font
@@ -12542,7 +12542,7 @@
 		(tags "Through hole pin header THT 1x04 2.54mm single row")
 		(property "Reference" "J3"
 			(at 0 -2.38 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "e852e374-263a-4e77-9f1a-2822828c61b9")
 			(effects
 				(font
@@ -12553,12 +12553,12 @@
 		)
 		(property "Value" "RS485"
 			(at 0 10 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "161eeefd-b57c-434e-b3d8-31bc54a9de5e")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.2 1.2)
+					(thickness 0.18)
 				)
 			)
 		)
@@ -12857,7 +12857,7 @@
 		(tags "USB C Type-C Receptacle SMD")
 		(property "Reference" "J16"
 			(at 0 -5.5 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "cb0667af-b980-451a-be5f-ed693110cda4")
 			(effects
 				(font
@@ -12872,8 +12872,8 @@
 			(uuid "27d268da-49a4-4b14-8369-ec7017c4165b")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.2 1.2)
+					(thickness 0.18)
 				)
 			)
 		)
@@ -13364,7 +13364,7 @@
 		(tags "resistor")
 		(property "Reference" "R26"
 			(at 0 -1.43 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "4b8cdeb0-1f9c-4663-b8e4-355851d28363")
 			(effects
 				(font
@@ -13574,7 +13574,7 @@
 		(tags "resistor")
 		(property "Reference" "R14"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "abfd5f04-e42c-4977-bde2-fe5f60df5dd3")
 			(effects
 				(font
@@ -13784,7 +13784,7 @@
 		(tags "resistor")
 		(property "Reference" "R23"
 			(at 0 -1.43 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "52119ebb-05da-4f60-8d29-3cf52fa0caac")
 			(effects
 				(font
@@ -13994,7 +13994,7 @@
 		(tags "resistor")
 		(property "Reference" "R3"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "c8f4bc0e-3535-4211-a9be-5644a5d99572")
 			(effects
 				(font
@@ -14204,7 +14204,7 @@
 		(tags "resistor")
 		(property "Reference" "R1"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "fd2c06e1-884f-4023-b8b2-67b87a49c504")
 			(effects
 				(font
@@ -14401,7 +14401,7 @@
 		(tags "capacitor")
 		(property "Reference" "C16"
 			(at 0 -1.68 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "a0650125-ef3a-462f-803e-03b7f32cff0b")
 			(effects
 				(font
@@ -14611,7 +14611,7 @@
 		(tags "capacitor")
 		(property "Reference" "C19"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "e7013dca-b1de-4e1b-915c-d33f17ebf560")
 			(effects
 				(font
@@ -14808,7 +14808,7 @@
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J20"
 			(at 0 -2.38 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "7346b13b-320b-4f71-b94b-569b54fb02ee")
 			(effects
 				(font
@@ -14823,8 +14823,8 @@
 			(uuid "ca454427-fd84-4fcf-98cc-8b5ae716eedd")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.2 1.2)
+					(thickness 0.18)
 				)
 			)
 		)
@@ -15049,7 +15049,7 @@
 		(tags "resistor")
 		(property "Reference" "R21"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "40b8c38b-2eaa-46b5-80bd-6c0fcec660aa")
 			(effects
 				(font
@@ -15247,7 +15247,7 @@
 		(property "Reference" "U8"
 			(at -10.5 11.4 270)
 			(unlocked yes)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "114b608c-b1a3-4a67-b935-1989328e4451")
 			(effects
 				(font
@@ -16252,7 +16252,7 @@
 		(tags "resistor")
 		(property "Reference" "R19"
 			(at 0 -1.43 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "ac872d38-5dc1-4581-a102-9aaf47b5abeb")
 			(effects
 				(font
@@ -16449,7 +16449,7 @@
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J8"
 			(at 0 -2.38 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "5ab50636-8c7a-4407-945e-dfc71c6b458f")
 			(effects
 				(font
@@ -16460,12 +16460,12 @@
 		)
 		(property "Value" "FC2"
 			(at 0 4.92 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "89701fcd-ba65-45b4-8529-61ffc5476748")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.2 1.2)
+					(thickness 0.18)
 				)
 			)
 		)
@@ -16729,7 +16729,7 @@
 		(tags "resistor")
 		(property "Reference" "R12"
 			(at 0 -1.43 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "a2476a1b-4222-488f-962c-96b632663efc")
 			(effects
 				(font
@@ -16926,7 +16926,7 @@
 		(tags "capacitor")
 		(property "Reference" "C28"
 			(at 0 -1.68 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "7b61309e-959d-4c85-9698-2eb6bc5243fa")
 			(effects
 				(font
@@ -17136,7 +17136,7 @@
 		(tags "capacitor")
 		(property "Reference" "C17"
 			(at 0 -1.43 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "1fae8458-9cea-47d2-a4fd-6415b5ce669e")
 			(effects
 				(font
@@ -17333,7 +17333,7 @@
 		(tags "capacitor")
 		(property "Reference" "C18"
 			(at 0 -1.43 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "71273767-d911-489f-9b8a-7616cdf108b0")
 			(effects
 				(font
@@ -17530,7 +17530,7 @@
 		(tags "Diode SMA (DO-214AC)")
 		(property "Reference" "D9"
 			(at 0 -2.5 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "332c8f63-b3bc-4aeb-a622-e014e893ba41")
 			(effects
 				(font
@@ -17862,7 +17862,7 @@
 		(tags "capacitor")
 		(property "Reference" "C8"
 			(at 0 -1.68 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "637b021b-ccd9-4f7d-be38-b232da736a40")
 			(effects
 				(font
@@ -18072,7 +18072,7 @@
 		(tags "capacitor")
 		(property "Reference" "C14"
 			(at 0 -1.68 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "5c43e41c-0317-41d8-b0c3-b3621921fa70")
 			(effects
 				(font
@@ -18282,7 +18282,7 @@
 		(tags "resistor")
 		(property "Reference" "R32"
 			(at 0 -1.43 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "4af6bdea-d7f5-4183-9648-21de5e34c44a")
 			(effects
 				(font
@@ -18492,7 +18492,7 @@
 		(tags "Through hole pin header THT 1x07 2.54mm single row")
 		(property "Reference" "J22"
 			(at 0 -2.38 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "af67538d-189a-4d1f-b874-08519d554b86")
 			(effects
 				(font
@@ -18853,7 +18853,7 @@
 		(tags "resistor")
 		(property "Reference" "R2"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "12d475df-0ddc-4092-81d0-ad026bca6a22")
 			(effects
 				(font
@@ -19063,7 +19063,7 @@
 		(tags "capacitor")
 		(property "Reference" "C20"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "282e96d9-1ef1-4bd3-8091-69e10b2ab6e3")
 			(effects
 				(font
@@ -19260,7 +19260,7 @@
 		(tags "resistor")
 		(property "Reference" "R27"
 			(at 0 -1.43 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "ae0fb5df-0030-4e6e-bc97-148eb3a0baca")
 			(effects
 				(font
@@ -19457,7 +19457,7 @@
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J11"
 			(at 0 -2.38 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "5f029bea-c1c6-4e7d-a373-04e6c2e72e32")
 			(effects
 				(font
@@ -19467,13 +19467,13 @@
 			)
 		)
 		(property "Value" "Throttle"
-			(at 0 4.92 0)
+			(at -2.5 0.04 90)
 			(layer "F.Fab")
 			(uuid "5772caba-f1ec-4236-851e-6017ee89aa2a")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.2 1.2)
+					(thickness 0.18)
 				)
 			)
 		)
@@ -19737,7 +19737,7 @@
 		(tags "SOIC SO 16-pin-NSOP R-16 R-16-S D0016A M2B SO16 SOT109-1 751B SOIC_N narrow")
 		(property "Reference" "U6"
 			(at 0 -5.9 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "b1c34aa4-7bcb-44f2-b8db-3e956ee36c10")
 			(effects
 				(font
@@ -20253,7 +20253,7 @@
 		(tags "Through hole pin header THT 1x04 2.54mm single row")
 		(property "Reference" "J2"
 			(at 0 -2.38 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "27f395d9-72a0-43fe-8b19-614f556b2f03")
 			(effects
 				(font
@@ -20264,12 +20264,12 @@
 		)
 		(property "Value" "S_GIRO"
 			(at 0 10 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "eb002cd6-d8c4-415d-935d-65b97741002a")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.2 1.2)
+					(thickness 0.18)
 				)
 			)
 		)
@@ -20555,7 +20555,7 @@
 		(tags "capacitor")
 		(property "Reference" "C5"
 			(at 0 -1.68 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "5083adf4-b1d7-4e55-87c4-7fdb26128877")
 			(effects
 				(font
@@ -20765,7 +20765,7 @@
 		(tags "resistor")
 		(property "Reference" "R36"
 			(at 0 -1.43 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "283b53ee-7e5b-4a88-9fb2-09fbd3fdbe16")
 			(effects
 				(font
@@ -20962,7 +20962,7 @@
 		(tags "Through hole pin header THT 1x04 2.54mm single row")
 		(property "Reference" "J13"
 			(at 0 -2.38 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "88097606-2416-403a-86a2-c764d801380e")
 			(effects
 				(font
@@ -20977,8 +20977,8 @@
 			(uuid "5bb2d073-aa32-4bdc-81b1-5ef1f0a58adf")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.2 1.2)
+					(thickness 0.18)
 				)
 			)
 		)
@@ -21264,7 +21264,7 @@
 		(tags "resistor")
 		(property "Reference" "R17"
 			(at 0 -1.43 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "52ad4375-f323-47ca-9ff2-7e1454cd7653")
 			(effects
 				(font
@@ -21461,7 +21461,7 @@
 		(tags "capacitor")
 		(property "Reference" "C22"
 			(at 0 -1.43 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "d4235bfd-2716-42f2-8662-b6fcdf52686d")
 			(effects
 				(font
@@ -21671,7 +21671,7 @@
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J18"
 			(at 0 -2.38 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "043a8039-04dc-4651-825c-497d459b52ee")
 			(effects
 				(font
@@ -21686,8 +21686,8 @@
 			(uuid "eaf3d7cf-4679-4cf6-b583-9575a6b2743d")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.2 1.2)
+					(thickness 0.18)
 				)
 			)
 		)
@@ -21962,7 +21962,7 @@
 		(tags "resistor")
 		(property "Reference" "R31"
 			(at 0 -1.43 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "56b8752e-e84e-45f3-b02b-d2f1cf048118")
 			(effects
 				(font
@@ -22172,7 +22172,7 @@
 		(tags "SOIC SO")
 		(property "Reference" "U7"
 			(at 0 -3.4 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "f2f52dba-e9a0-4230-b921-dc5caf8ccbee")
 			(effects
 				(font
@@ -22612,7 +22612,7 @@
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J5"
 			(at 0 -2.38 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "d3459393-406b-45d1-b79c-ad456950a3d4")
 			(effects
 				(font
@@ -22627,8 +22627,8 @@
 			(uuid "97c2a8fa-837c-41da-9238-3e85a03feb34")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.2 1.2)
+					(thickness 0.18)
 				)
 			)
 		)
@@ -22890,7 +22890,7 @@
 		(at 64.1 142.375 180)
 		(property "Reference" "SW1"
 			(at 0 -3.077 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "511bfdf5-4f67-4feb-85aa-5328f6c0ac16")
 			(effects
 				(font
@@ -23372,7 +23372,7 @@
 		(tags "Through hole pin header THT 2x04 2.54mm double row")
 		(property "Reference" "J6"
 			(at 1.27 -2.38 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "c4f86a91-dedc-4a55-81f8-f5a55538dc81")
 			(effects
 				(font
@@ -23387,8 +23387,8 @@
 			(uuid "e516eebe-47a5-4ea8-81c2-28a4afeec558")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.2 1.2)
+					(thickness 0.18)
 				)
 			)
 		)
@@ -23738,7 +23738,7 @@
 		(tags "capacitor")
 		(property "Reference" "C21"
 			(at 0 -1.43 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "c5b9f128-6640-4d15-873b-33ab94349cd4")
 			(effects
 				(font
@@ -23935,7 +23935,7 @@
 		(tags "resistor")
 		(property "Reference" "R25"
 			(at 0 -1.43 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "857fe9ac-edd6-4c43-a20b-4775ccce1c07")
 			(effects
 				(font
@@ -24158,6 +24158,237 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "f7987ece-af9f-4b44-af0e-b9dbd795367a")
+	)
+	(gr_text "1"
+		(at 142.6 121.9 0)
+		(layer "F.SilkS")
+		(uuid "aa12c99a-ab08-402a-8097-15f99eef071d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "UART1"
+		(at 63.5 100.42 0)
+		(layer "F.SilkS")
+		(uuid "6c9412ea-4082-4ad7-b1d7-50fa8aa868e7")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.18)
+			)
+		)
+	)
+	(gr_text "BOOT"
+		(at 64 147.8 0)
+		(layer "F.SilkS")
+		(uuid "99c096a7-fae1-41ef-bfdc-e8cf46d0e9b3")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.18)
+			)
+		)
+	)
+	(gr_text "I2C EXT1"
+		(at 64.3 77.24 0)
+		(layer "F.SilkS")
+		(uuid "4db80b03-cd5c-46f8-93f2-c8e940b19443")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.18)
+			)
+		)
+	)
+	(gr_text "RESET"
+		(at 127.2 117 0)
+		(layer "F.SilkS")
+		(uuid "61bcd13f-3a80-4ddd-86cc-a924865fabbb")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.18)
+			)
+		)
+	)
+	(gr_text "USB NATIVO"
+		(at 133.1 151.135 0)
+		(layer "F.SilkS")
+		(uuid "fbbd6193-6382-401a-b269-2c5199cdf1de")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.18)
+			)
+		)
+	)
+	(gr_text "SERVO 2"
+		(at 137.05 73.31 0)
+		(layer "F.SilkS")
+		(uuid "7297cb63-d86e-4b46-baf1-9df54f6d8e90")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.18)
+			)
+		)
+	)
+	(gr_text "I2C EXT2"
+		(at 138.5 118.85 0)
+		(layer "F.SilkS")
+		(uuid "687dd4b2-aa34-45ec-a338-d0f8287fcf30")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.18)
+			)
+		)
+	)
+	(gr_text "SERVO 1"
+		(at 145.9 73.27 0)
+		(layer "F.SilkS")
+		(uuid "1d9f819f-5649-4d15-a37a-d993b9fcd5c1")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.18)
+			)
+		)
+	)
+	(gr_text "RF PPM"
+		(at 145.9 116.32 0)
+		(layer "F.SilkS")
+		(uuid "fe21dde1-e8aa-4b9f-bae4-919e6369256b")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.18)
+			)
+		)
+	)
+	(gr_text "THROTTLE"
+		(at 51.5 67.5 90)
+		(layer "F.SilkS")
+		(uuid "a3ccfc65-b852-49b0-80a7-b7e09ce87b44")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.18)
+			)
+		)
+	)
+	(gr_text "DEBUG U0"
+		(at 57 94 90)
+		(layer "F.SilkS")
+		(uuid "0974d8be-322b-43b5-a8d5-7b049b330df0")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.18)
+			)
+		)
+	)
+	(gr_text "5V IN"
+		(at 82.92 53 90)
+		(layer "F.SilkS")
+		(uuid "f23def56-5f25-4ee9-ae47-54d12737709a")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.18)
+			)
+		)
+	)
+	(gr_text "7V IN"
+		(at 101.645 53 90)
+		(layer "F.SilkS")
+		(uuid "4a897a1b-8d75-44ba-9ff5-d7f2488912ac")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.18)
+			)
+		)
+	)
+	(gr_text "3V IN"
+		(at 101.665 60.155 90)
+		(layer "F.SilkS")
+		(uuid "699ef4b2-7948-4b12-aa4a-5c458aae59c8")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.18)
+			)
+		)
+	)
+	(gr_text "S HALL"
+		(at 113.53 53.25 90)
+		(layer "F.SilkS")
+		(uuid "488ddc5d-6e75-4ab8-b531-093e94bce3fb")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.18)
+			)
+		)
+	)
+	(gr_text "RELES 2"
+		(at 136.5 88 90)
+		(layer "F.SilkS")
+		(uuid "f0dcb752-a030-4c1e-bfde-ced9cc65dabf")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.18)
+			)
+		)
+	)
+	(gr_text "IBT-2"
+		(at 140.91 54.03 90)
+		(layer "F.SilkS")
+		(uuid "09e8982e-6e4f-4851-9a5b-4d7fe2682ecb")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.18)
+			)
+		)
+	)
+	(gr_text "GPIO 3V3"
+		(at 141.5 130 90)
+		(layer "F.SilkS")
+		(uuid "77ff8f53-c398-423e-95d9-291769da8486")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.18)
+			)
+		)
+	)
+	(gr_text "RELES 1"
+		(at 143 88 90)
+		(layer "F.SilkS")
+		(uuid "32a5ff6c-aefd-45b7-8999-e94985e6b6a4")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.18)
+			)
+		)
+	)
+	(gr_text "SALUS v3"
+		(at 101 82 0)
+		(layer "F.SilkS")
+		(uuid "250de694-473b-4e50-a39b-7726daed0ca2")
+		(effects
+			(font
+				(size 2.4 2.4)
+				(thickness 0.35)
+			)
+		)
 	)
 	(segment
 		(start 80.4 115.2)
