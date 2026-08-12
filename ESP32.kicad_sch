@@ -10729,7 +10729,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x07"
+		(property "Value" "GPIOS_AUX"
 			(at 177.8 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
