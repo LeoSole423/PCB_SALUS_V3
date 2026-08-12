@@ -1,0 +1,210 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-08-12T16:03:55",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.5",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/73bd63ea-8f0f-4b31-8d24-3cde4b540ad9",
+            "violations": [
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0127 mm",
+                            "pos": {
+                                "x": 1.7526,
+                                "y": 0.508
+                            },
+                            "uuid": "b86dc8da-c163-437a-995c-d3eb90d219a7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                }
+            ]
+        },
+        {
+            "path": "/ALIMENTACION/",
+            "uuid_path": "/73bd63ea-8f0f-4b31-8d24-3cde4b540ad9/ee63faab-e0b7-4195-9948-f74f91d21edc",
+            "violations": []
+        },
+        {
+            "path": "/ESP32/",
+            "uuid_path": "/73bd63ea-8f0f-4b31-8d24-3cde4b540ad9/195b6a32-4ce2-4ad3-b1b2-c1501c147c70",
+            "violations": [
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol SW1 Pin 1 [1, Unspecified, Line]",
+                            "pos": {
+                                "x": 2.3622,
+                                "y": 0.5207
+                            },
+                            "uuid": "7d8b5297-2f7c-401d-be4c-ca04b4e5fb8a"
+                        },
+                        {
+                            "description": "Symbol R23 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 2.3622,
+                                "y": 0.3556
+                            },
+                            "uuid": "7681fefe-e3f1-4354-9f41-68b7377068fd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Power input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol SW1 Pin 2 [2, Unspecified, Line]",
+                            "pos": {
+                                "x": 2.3622,
+                                "y": 0.6223
+                            },
+                            "uuid": "9c129081-cfac-4406-8102-1fd625db3a3f"
+                        },
+                        {
+                            "description": "Symbol #PWR047 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 2.3622,
+                                "y": 0.6223
+                            },
+                            "uuid": "707d88c2-5267-4f10-9b54-33c396a0ca51"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol SW2 Pin 1 [1, Unspecified, Line]",
+                            "pos": {
+                                "x": 2.6543,
+                                "y": 0.5334
+                            },
+                            "uuid": "fd2c213a-e97a-4c94-9178-76e184556fb4"
+                        },
+                        {
+                            "description": "Symbol C8 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 2.6543,
+                                "y": 0.4699
+                            },
+                            "uuid": "9d39b41c-2974-45c9-9936-c2e31ee846a1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Power input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol SW2 Pin 2 [2, Unspecified, Line]",
+                            "pos": {
+                                "x": 2.6543,
+                                "y": 0.635
+                            },
+                            "uuid": "aaa2ba8a-abd2-45e5-93ed-86a7bc47074a"
+                        },
+                        {
+                            "description": "Symbol #PWR049 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 2.6543,
+                                "y": 0.635
+                            },
+                            "uuid": "4cefbeaa-2fcc-4c6a-8bcf-d4a27d945b89"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                }
+            ]
+        },
+        {
+            "path": "/SENSORES/",
+            "uuid_path": "/73bd63ea-8f0f-4b31-8d24-3cde4b540ad9/20e3551c-55ad-441c-9e51-79e4c75cc265",
+            "violations": [
+                {
+                    "description": "Both HBRIDGE_EN and HB_EN are attached to the same items; HBRIDGE_EN will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Global Label 'HBRIDGE_EN'",
+                            "pos": {
+                                "x": 1.1938,
+                                "y": 0.5969
+                            },
+                            "uuid": "7bb2fc23-8ed9-4d52-87b1-c6907d3d5718"
+                        },
+                        {
+                            "description": "Label 'HB_EN'",
+                            "pos": {
+                                "x": 1.4351,
+                                "y": 0.7493
+                            },
+                            "uuid": "100c2d15-ad14-44d2-b14f-28ebddc98020"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "comment": "",
+                    "description": "Conflict problem between pins",
+                    "excluded": true,
+                    "items": [
+                        {
+                            "description": "Symbol U4 Pin 10 [SDO2, Output, Line]",
+                            "pos": {
+                                "x": 0.5842,
+                                "y": 0.6604
+                            },
+                            "uuid": "d0ae3c79-45d6-49aa-8024-c0ea4c7239c1"
+                        },
+                        {
+                            "description": "Symbol U4 Pin 15 [SDO1, Output, Line]",
+                            "pos": {
+                                "x": 0.5842,
+                                "y": 0.635
+                            },
+                            "uuid": "c7ca8c7d-9f52-40d4-93f4-1be64ffa0d1a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                }
+            ]
+        }
+    ],
+    "source": "PCB_SALUS_v3.kicad_sch"
+}

@@ -2171,6 +2171,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 59.69) (xy 167.64 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3a3a4d7-8b06-4842-a80b-eade46b92863")
+	)
+	(wire
+		(pts
 			(xy 43.18 60.96) (xy 44.45 60.96)
 		)
 		(stroke
@@ -2178,6 +2188,16 @@
 			(type default)
 		)
 		(uuid "b94f69cb-ff4b-433f-bbba-6d16c4a0724e")
+	)
+	(wire
+		(pts
+			(xy 165.1 59.69) (xy 165.1 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2ceb4c4-c751-4fd4-8c47-8f0865cc24d8")
 	)
 	(wire
 		(pts
@@ -2200,7 +2220,7 @@
 		(uuid "fa6fe5fa-7d27-494e-ad18-efbca3ef4e76")
 	)
 	(label "3.3V_EXT"
-		(at 165.1 62.23 180)
+		(at 165.1 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2502,7 +2522,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 165.1 55.88 90)
+		(at 165.1 54.61 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2513,7 +2533,7 @@
 		(fields_autoplaced yes)
 		(uuid "29b45ff9-c31c-495e-89e4-62dbbb7c00be")
 		(property "Reference" "J20"
-			(at 170.18 54.6099 90)
+			(at 170.18 53.3399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2524,7 +2544,7 @@
 			)
 		)
 		(property "Value" "3V_IN"
-			(at 170.18 57.1499 90)
+			(at 170.18 55.8799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2535,7 +2555,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 165.1 55.88 0)
+			(at 165.1 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2546,7 +2566,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 55.88 0)
+			(at 165.1 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2557,7 +2577,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 165.1 55.88 0)
+			(at 165.1 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

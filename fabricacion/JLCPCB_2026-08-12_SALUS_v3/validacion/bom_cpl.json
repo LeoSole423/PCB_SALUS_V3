@@ -1,0 +1,33 @@
+{
+  "bom": {
+    "lines": 26,
+    "designators": 63,
+    "unique_designators": 63,
+    "headers": [
+      "Comment",
+      "Designator",
+      "Footprint",
+      "LCSC Part #"
+    ],
+    "all_lcsc": true,
+    "all_required_fields": true
+  },
+  "cpl": {
+    "rows": 63,
+    "unique_designators": 63,
+    "headers": [
+      "Designator",
+      "Mid X",
+      "Mid Y",
+      "Layer",
+      "Rotation"
+    ],
+    "all_top": true
+  },
+  "comparison": {
+    "bom_only": [],
+    "cpl_only": [],
+    "duplicates_bom": [],
+    "duplicates_cpl": []
+  }
+}
