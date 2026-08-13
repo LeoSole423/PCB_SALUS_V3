@@ -1,0 +1,16 @@
+* SALUS v3 — respuesta a escalón del filtro PWM del acelerador
+* Ejecutar: ngspice -b spice/validar_escalon_acelerador.cir
+
+VGPIO pwm 0 PULSE(0 3.3 1m 1n 1n 100m 200m)
+R35 pwm 0 100k
+R17 pwm filtro 47k
+C20 filtro 0 100n
+EBUF buffer 0 filtro 0 1
+R18 buffer salida 330
+R19 salida 0 47k
+
+.tran 1u 40m
+.measure tran t10 WHEN v(salida)=0.327699 RISE=1
+.measure tran t90 WHEN v(salida)=2.949293 RISE=1
+.measure tran tiempo_10_90 PARAM='t90-t10'
+.end

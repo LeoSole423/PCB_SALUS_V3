@@ -19,7 +19,7 @@
     {
       "designator": "C12",
       "footprint": "Capacitor_SMD:C_0603_1608Metric",
-      "lcsc": "C1590",
+      "lcsc": "C14663",
       "layer": "Top",
       "centers_mm": {
         "anchor": [
@@ -77,7 +77,7 @@
     {
       "designator": "C13",
       "footprint": "Capacitor_SMD:C_0603_1608Metric",
-      "lcsc": "C1590",
+      "lcsc": "C14663",
       "layer": "Top",
       "centers_mm": {
         "anchor": [
@@ -193,7 +193,7 @@
     {
       "designator": "C15",
       "footprint": "Capacitor_SMD:C_0603_1608Metric",
-      "lcsc": "C1590",
+      "lcsc": "C14663",
       "layer": "Top",
       "centers_mm": {
         "anchor": [
@@ -309,7 +309,7 @@
     {
       "designator": "C17",
       "footprint": "Capacitor_SMD:C_0603_1608Metric",
-      "lcsc": "C1590",
+      "lcsc": "C14663",
       "layer": "Top",
       "centers_mm": {
         "anchor": [
@@ -367,7 +367,7 @@
     {
       "designator": "C18",
       "footprint": "Capacitor_SMD:C_0603_1608Metric",
-      "lcsc": "C1590",
+      "lcsc": "C14663",
       "layer": "Top",
       "centers_mm": {
         "anchor": [
@@ -425,7 +425,7 @@
     {
       "designator": "C19",
       "footprint": "Capacitor_SMD:C_0603_1608Metric",
-      "lcsc": "C1590",
+      "lcsc": "C14663",
       "layer": "Top",
       "centers_mm": {
         "anchor": [
@@ -483,7 +483,7 @@
     {
       "designator": "C20",
       "footprint": "Capacitor_SMD:C_0603_1608Metric",
-      "lcsc": "C108463",
+      "lcsc": "C14663",
       "layer": "Top",
       "centers_mm": {
         "anchor": [
@@ -541,7 +541,7 @@
     {
       "designator": "C21",
       "footprint": "Capacitor_SMD:C_0603_1608Metric",
-      "lcsc": "C1590",
+      "lcsc": "C14663",
       "layer": "Top",
       "centers_mm": {
         "anchor": [
@@ -599,7 +599,7 @@
     {
       "designator": "C22",
       "footprint": "Capacitor_SMD:C_0603_1608Metric",
-      "lcsc": "C1590",
+      "lcsc": "C14663",
       "layer": "Top",
       "centers_mm": {
         "anchor": [
@@ -657,7 +657,7 @@
     {
       "designator": "C23",
       "footprint": "Capacitor_SMD:C_0603_1608Metric",
-      "lcsc": "C1590",
+      "lcsc": "C14663",
       "layer": "Top",
       "centers_mm": {
         "anchor": [
@@ -889,7 +889,7 @@
     {
       "designator": "C6",
       "footprint": "Capacitor_SMD:C_0603_1608Metric",
-      "lcsc": "C1590",
+      "lcsc": "C14663",
       "layer": "Top",
       "centers_mm": {
         "anchor": [
@@ -947,7 +947,7 @@
     {
       "designator": "C7",
       "footprint": "Capacitor_SMD:C_0603_1608Metric",
-      "lcsc": "C1590",
+      "lcsc": "C14663",
       "layer": "Top",
       "centers_mm": {
         "anchor": [
@@ -1817,7 +1817,7 @@
     {
       "designator": "R17",
       "footprint": "Resistor_SMD:R_0603_1608Metric",
-      "lcsc": "C23162",
+      "lcsc": "C25819",
       "layer": "Top",
       "centers_mm": {
         "anchor": [

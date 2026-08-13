@@ -7417,7 +7417,7 @@
 				)
 			)
 		)
-		(property "LCSC PN" "C1590"
+		(property "LCSC PN" "C14663"
 			(at -182.88 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -7428,7 +7428,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "Yageo"
 			(at -182.88 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -7439,7 +7439,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "CL10B104KA8NNNC"
+		(property "Manufacturer Part" "CC0603KRX7R9BB104"
 			(at -182.88 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -7450,7 +7450,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10B104KA8NNNC"
+		(property "MPN" "CC0603KRX7R9BB104"
 			(at -182.88 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -8218,7 +8218,7 @@
 				)
 			)
 		)
-		(property "LCSC PN" "C1590"
+		(property "LCSC PN" "C14663"
 			(at -66.04 -102.87 0)
 			(hide yes)
 			(show_name no)
@@ -8229,7 +8229,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "Yageo"
 			(at -66.04 -102.87 0)
 			(hide yes)
 			(show_name no)
@@ -8240,7 +8240,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "CL10B104KA8NNNC"
+		(property "Manufacturer Part" "CC0603KRX7R9BB104"
 			(at -66.04 -102.87 0)
 			(hide yes)
 			(show_name no)
@@ -8251,7 +8251,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10B104KA8NNNC"
+		(property "MPN" "CC0603KRX7R9BB104"
 			(at -66.04 -102.87 0)
 			(hide yes)
 			(show_name no)

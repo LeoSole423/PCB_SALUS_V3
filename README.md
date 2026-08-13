@@ -33,6 +33,7 @@ placement, ruteo, DRC y pruebas de banco.
 - [Mapa de submodulos y pinout](docs/05_MAPA_DE_SUBMODULOS_Y_PINOUT.md)
 - [Revision V3](docs/06_REVISION_V3_2026-07-15.md)
 - [Generacion CPL auditable KiCad → JLCPCB](docs/07_CPL_AUDITABLE_KICAD_JLCPCB.md)
+- [Validacion del filtro PWM del acelerador](docs/08_VALIDACION_FILTRO_ACELERADOR_PWM.md)
 
 ## CPL para JLCPCB
 

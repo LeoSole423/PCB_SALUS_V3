@@ -1,0 +1,1455 @@
+{
+  "raw": "fabricacion/JLCPCB_2026-08-12_SALUS_v3/validacion/PCB_SALUS_v3-JLC-CPL-raw.csv",
+  "final": "fabricacion/JLCPCB_2026-08-12_SALUS_v3/PCB_SALUS_v3-JLC-CPL.csv",
+  "components": [
+    {
+      "designator": "C12",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "C12",
+        "Mid X": "100.950000mm",
+        "Mid Y": "-112.200000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      },
+      "final": {
+        "Designator": "C12",
+        "Mid X": "100.950000mm",
+        "Mid Y": "-112.200000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      }
+    },
+    {
+      "designator": "C13",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "C13",
+        "Mid X": "99.200000mm",
+        "Mid Y": "-104.450000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      },
+      "final": {
+        "Designator": "C13",
+        "Mid X": "99.200000mm",
+        "Mid Y": "-104.450000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      }
+    },
+    {
+      "designator": "C14",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "C14",
+        "Mid X": "95.000000mm",
+        "Mid Y": "-107.600000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      },
+      "final": {
+        "Designator": "C14",
+        "Mid X": "95.000000mm",
+        "Mid Y": "-107.600000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      }
+    },
+    {
+      "designator": "C15",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "C15",
+        "Mid X": "56.900000mm",
+        "Mid Y": "-78.650000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      },
+      "final": {
+        "Designator": "C15",
+        "Mid X": "56.900000mm",
+        "Mid Y": "-78.650000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      }
+    },
+    {
+      "designator": "C16",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "C16",
+        "Mid X": "58.900000mm",
+        "Mid Y": "-78.550000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      },
+      "final": {
+        "Designator": "C16",
+        "Mid X": "58.900000mm",
+        "Mid Y": "-78.550000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      }
+    },
+    {
+      "designator": "C17",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "C17",
+        "Mid X": "86.400000mm",
+        "Mid Y": "-142.050000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      },
+      "final": {
+        "Designator": "C17",
+        "Mid X": "86.400000mm",
+        "Mid Y": "-142.050000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      }
+    },
+    {
+      "designator": "C18",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "C18",
+        "Mid X": "85.750000mm",
+        "Mid Y": "-137.850000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      },
+      "final": {
+        "Designator": "C18",
+        "Mid X": "85.750000mm",
+        "Mid Y": "-137.850000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      }
+    },
+    {
+      "designator": "C19",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "C19",
+        "Mid X": "118.450000mm",
+        "Mid Y": "-104.750000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      },
+      "final": {
+        "Designator": "C19",
+        "Mid X": "118.450000mm",
+        "Mid Y": "-104.750000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      }
+    },
+    {
+      "designator": "C20",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "C20",
+        "Mid X": "72.600000mm",
+        "Mid Y": "-93.900000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      },
+      "final": {
+        "Designator": "C20",
+        "Mid X": "72.600000mm",
+        "Mid Y": "-93.900000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      }
+    },
+    {
+      "designator": "C21",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "C21",
+        "Mid X": "85.300000mm",
+        "Mid Y": "-92.800000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      },
+      "final": {
+        "Designator": "C21",
+        "Mid X": "85.300000mm",
+        "Mid Y": "-92.800000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      }
+    },
+    {
+      "designator": "C22",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "C22",
+        "Mid X": "117.250000mm",
+        "Mid Y": "-69.800000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      },
+      "final": {
+        "Designator": "C22",
+        "Mid X": "117.250000mm",
+        "Mid Y": "-69.800000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      }
+    },
+    {
+      "designator": "C23",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "C23",
+        "Mid X": "93.675000mm",
+        "Mid Y": "-74.700000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      },
+      "final": {
+        "Designator": "C23",
+        "Mid X": "93.675000mm",
+        "Mid Y": "-74.700000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      }
+    },
+    {
+      "designator": "C28",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "C28",
+        "Mid X": "91.600000mm",
+        "Mid Y": "-72.950000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      },
+      "final": {
+        "Designator": "C28",
+        "Mid X": "91.600000mm",
+        "Mid Y": "-72.950000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      }
+    },
+    {
+      "designator": "C30",
+      "status": "changed",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": -180.0
+      },
+      "raw": {
+        "Designator": "C30",
+        "Mid X": "105.500000mm",
+        "Mid Y": "-70.710000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      },
+      "final": {
+        "Designator": "C30",
+        "Mid X": "105.500000mm",
+        "Mid Y": "-70.710000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      }
+    },
+    {
+      "designator": "C5",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "C5",
+        "Mid X": "111.450000mm",
+        "Mid Y": "-141.250000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      },
+      "final": {
+        "Designator": "C5",
+        "Mid X": "111.450000mm",
+        "Mid Y": "-141.250000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      }
+    },
+    {
+      "designator": "C6",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "C6",
+        "Mid X": "109.450000mm",
+        "Mid Y": "-141.450000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      },
+      "final": {
+        "Designator": "C6",
+        "Mid X": "109.450000mm",
+        "Mid Y": "-141.450000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      }
+    },
+    {
+      "designator": "C7",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "C7",
+        "Mid X": "61.025000mm",
+        "Mid Y": "-126.525000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      },
+      "final": {
+        "Designator": "C7",
+        "Mid X": "61.025000mm",
+        "Mid Y": "-126.525000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      }
+    },
+    {
+      "designator": "C8",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "C8",
+        "Mid X": "111.450000mm",
+        "Mid Y": "-137.750000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      },
+      "final": {
+        "Designator": "C8",
+        "Mid X": "111.450000mm",
+        "Mid Y": "-137.750000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      }
+    },
+    {
+      "designator": "D1",
+      "status": "changed",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": -180.0
+      },
+      "raw": {
+        "Designator": "D1",
+        "Mid X": "61.625000mm",
+        "Mid Y": "-117.800000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      },
+      "final": {
+        "Designator": "D1",
+        "Mid X": "61.625000mm",
+        "Mid Y": "-117.800000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      }
+    },
+    {
+      "designator": "D5",
+      "status": "changed",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": -180.0
+      },
+      "raw": {
+        "Designator": "D5",
+        "Mid X": "138.750000mm",
+        "Mid Y": "-138.300000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      },
+      "final": {
+        "Designator": "D5",
+        "Mid X": "138.750000mm",
+        "Mid Y": "-138.300000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      }
+    },
+    {
+      "designator": "D7",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "D7",
+        "Mid X": "79.400000mm",
+        "Mid Y": "-72.450000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      },
+      "final": {
+        "Designator": "D7",
+        "Mid X": "79.400000mm",
+        "Mid Y": "-72.450000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      }
+    },
+    {
+      "designator": "D9",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "D9",
+        "Mid X": "79.450000mm",
+        "Mid Y": "-76.650000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      },
+      "final": {
+        "Designator": "D9",
+        "Mid X": "79.450000mm",
+        "Mid Y": "-76.650000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      }
+    },
+    {
+      "designator": "FB1",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "FB1",
+        "Mid X": "95.050000mm",
+        "Mid Y": "-105.350000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      },
+      "final": {
+        "Designator": "FB1",
+        "Mid X": "95.050000mm",
+        "Mid Y": "-105.350000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      }
+    },
+    {
+      "designator": "J16",
+      "status": "changed",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 1.185,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "J16",
+        "Mid X": "133.100000mm",
+        "Mid Y": "-146.135000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      },
+      "final": {
+        "Designator": "J16",
+        "Mid X": "133.100000mm",
+        "Mid Y": "-144.950000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      }
+    },
+    {
+      "designator": "R1",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "R1",
+        "Mid X": "134.025000mm",
+        "Mid Y": "-58.100000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      },
+      "final": {
+        "Designator": "R1",
+        "Mid X": "134.025000mm",
+        "Mid Y": "-58.100000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      }
+    },
+    {
+      "designator": "R11",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "R11",
+        "Mid X": "85.100000mm",
+        "Mid Y": "-135.000000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      },
+      "final": {
+        "Designator": "R11",
+        "Mid X": "85.100000mm",
+        "Mid Y": "-135.000000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      }
+    },
+    {
+      "designator": "R12",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "R12",
+        "Mid X": "73.650000mm",
+        "Mid Y": "-134.975000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      },
+      "final": {
+        "Designator": "R12",
+        "Mid X": "73.650000mm",
+        "Mid Y": "-134.975000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      }
+    },
+    {
+      "designator": "R13",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "R13",
+        "Mid X": "101.750000mm",
+        "Mid Y": "-104.450000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      },
+      "final": {
+        "Designator": "R13",
+        "Mid X": "101.750000mm",
+        "Mid Y": "-104.450000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      }
+    },
+    {
+      "designator": "R14",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "R14",
+        "Mid X": "95.900000mm",
+        "Mid Y": "-109.800000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      },
+      "final": {
+        "Designator": "R14",
+        "Mid X": "95.900000mm",
+        "Mid Y": "-109.800000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      }
+    },
+    {
+      "designator": "R15",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "R15",
+        "Mid X": "106.900000mm",
+        "Mid Y": "-107.400000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      },
+      "final": {
+        "Designator": "R15",
+        "Mid X": "106.900000mm",
+        "Mid Y": "-107.400000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      }
+    },
+    {
+      "designator": "R16",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "R16",
+        "Mid X": "101.650000mm",
+        "Mid Y": "-88.800000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      },
+      "final": {
+        "Designator": "R16",
+        "Mid X": "101.650000mm",
+        "Mid Y": "-88.800000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      }
+    },
+    {
+      "designator": "R17",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "R17",
+        "Mid X": "95.100000mm",
+        "Mid Y": "-119.800000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      },
+      "final": {
+        "Designator": "R17",
+        "Mid X": "95.100000mm",
+        "Mid Y": "-119.800000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      }
+    },
+    {
+      "designator": "R18",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "R18",
+        "Mid X": "72.750000mm",
+        "Mid Y": "-91.550000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      },
+      "final": {
+        "Designator": "R18",
+        "Mid X": "72.750000mm",
+        "Mid Y": "-91.550000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      }
+    },
+    {
+      "designator": "R19",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "R19",
+        "Mid X": "57.050000mm",
+        "Mid Y": "-69.150000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      },
+      "final": {
+        "Designator": "R19",
+        "Mid X": "57.050000mm",
+        "Mid Y": "-69.150000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      }
+    },
+    {
+      "designator": "R2",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "R2",
+        "Mid X": "83.400000mm",
+        "Mid Y": "-141.250000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      },
+      "final": {
+        "Designator": "R2",
+        "Mid X": "83.400000mm",
+        "Mid Y": "-141.250000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      }
+    },
+    {
+      "designator": "R20",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "R20",
+        "Mid X": "85.100000mm",
+        "Mid Y": "-133.400000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      },
+      "final": {
+        "Designator": "R20",
+        "Mid X": "85.100000mm",
+        "Mid Y": "-133.400000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      }
+    },
+    {
+      "designator": "R21",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "R21",
+        "Mid X": "119.975000mm",
+        "Mid Y": "-131.525000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      },
+      "final": {
+        "Designator": "R21",
+        "Mid X": "119.975000mm",
+        "Mid Y": "-131.525000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      }
+    },
+    {
+      "designator": "R22",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "R22",
+        "Mid X": "113.550000mm",
+        "Mid Y": "-137.850000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      },
+      "final": {
+        "Designator": "R22",
+        "Mid X": "113.550000mm",
+        "Mid Y": "-137.850000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      }
+    },
+    {
+      "designator": "R23",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "R23",
+        "Mid X": "86.550000mm",
+        "Mid Y": "-123.500000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      },
+      "final": {
+        "Designator": "R23",
+        "Mid X": "86.550000mm",
+        "Mid Y": "-123.500000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      }
+    },
+    {
+      "designator": "R24",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "R24",
+        "Mid X": "120.750000mm",
+        "Mid Y": "-133.250000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      },
+      "final": {
+        "Designator": "R24",
+        "Mid X": "120.750000mm",
+        "Mid Y": "-133.250000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      }
+    },
+    {
+      "designator": "R25",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "R25",
+        "Mid X": "131.340000mm",
+        "Mid Y": "-138.560000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      },
+      "final": {
+        "Designator": "R25",
+        "Mid X": "131.340000mm",
+        "Mid Y": "-138.560000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      }
+    },
+    {
+      "designator": "R26",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "R26",
+        "Mid X": "133.860000mm",
+        "Mid Y": "-138.440000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      },
+      "final": {
+        "Designator": "R26",
+        "Mid X": "133.860000mm",
+        "Mid Y": "-138.440000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      }
+    },
+    {
+      "designator": "R27",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "R27",
+        "Mid X": "112.160000mm",
+        "Mid Y": "-125.820000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      },
+      "final": {
+        "Designator": "R27",
+        "Mid X": "112.160000mm",
+        "Mid Y": "-125.820000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      }
+    },
+    {
+      "designator": "R28",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "R28",
+        "Mid X": "112.150000mm",
+        "Mid Y": "-127.410000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      },
+      "final": {
+        "Designator": "R28",
+        "Mid X": "112.150000mm",
+        "Mid Y": "-127.410000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      }
+    },
+    {
+      "designator": "R29",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "R29",
+        "Mid X": "110.425000mm",
+        "Mid Y": "-130.850000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      },
+      "final": {
+        "Designator": "R29",
+        "Mid X": "110.425000mm",
+        "Mid Y": "-130.850000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      }
+    },
+    {
+      "designator": "R3",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "R3",
+        "Mid X": "83.450000mm",
+        "Mid Y": "-139.500000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      },
+      "final": {
+        "Designator": "R3",
+        "Mid X": "83.450000mm",
+        "Mid Y": "-139.500000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      }
+    },
+    {
+      "designator": "R30",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "R30",
+        "Mid X": "110.425000mm",
+        "Mid Y": "-129.250000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      },
+      "final": {
+        "Designator": "R30",
+        "Mid X": "110.425000mm",
+        "Mid Y": "-129.250000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      }
+    },
+    {
+      "designator": "R31",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "R31",
+        "Mid X": "87.460000mm",
+        "Mid Y": "-109.525000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      },
+      "final": {
+        "Designator": "R31",
+        "Mid X": "87.460000mm",
+        "Mid Y": "-109.525000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      }
+    },
+    {
+      "designator": "R32",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "R32",
+        "Mid X": "84.950000mm",
+        "Mid Y": "-109.525000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      },
+      "final": {
+        "Designator": "R32",
+        "Mid X": "84.950000mm",
+        "Mid Y": "-109.525000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      }
+    },
+    {
+      "designator": "R33",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "R33",
+        "Mid X": "82.440000mm",
+        "Mid Y": "-109.525000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      },
+      "final": {
+        "Designator": "R33",
+        "Mid X": "82.440000mm",
+        "Mid Y": "-109.525000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      }
+    },
+    {
+      "designator": "R34",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "R34",
+        "Mid X": "101.825000mm",
+        "Mid Y": "-100.550000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      },
+      "final": {
+        "Designator": "R34",
+        "Mid X": "101.825000mm",
+        "Mid Y": "-100.550000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      }
+    },
+    {
+      "designator": "R35",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "R35",
+        "Mid X": "96.750000mm",
+        "Mid Y": "-119.800000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      },
+      "final": {
+        "Designator": "R35",
+        "Mid X": "96.750000mm",
+        "Mid Y": "-119.800000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      }
+    },
+    {
+      "designator": "R36",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "R36",
+        "Mid X": "70.950000mm",
+        "Mid Y": "-133.725000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      },
+      "final": {
+        "Designator": "R36",
+        "Mid X": "70.950000mm",
+        "Mid Y": "-133.725000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      }
+    },
+    {
+      "designator": "R37",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "R37",
+        "Mid X": "71.350000mm",
+        "Mid Y": "-124.500000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      },
+      "final": {
+        "Designator": "R37",
+        "Mid X": "71.350000mm",
+        "Mid Y": "-124.500000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      }
+    },
+    {
+      "designator": "SW1",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "SW1",
+        "Mid X": "64.100000mm",
+        "Mid Y": "-142.375000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      },
+      "final": {
+        "Designator": "SW1",
+        "Mid X": "64.100000mm",
+        "Mid Y": "-142.375000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      }
+    },
+    {
+      "designator": "SW2",
+      "status": "unchanged",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "SW2",
+        "Mid X": "127.150000mm",
+        "Mid Y": "-125.500000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      },
+      "final": {
+        "Designator": "SW2",
+        "Mid X": "127.150000mm",
+        "Mid Y": "-125.500000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      }
+    },
+    {
+      "designator": "U1",
+      "status": "changed",
+      "delta": {
+        "Mid X": -0.84,
+        "Mid Y": 0.0,
+        "Rotation": -180.0
+      },
+      "raw": {
+        "Designator": "U1",
+        "Mid X": "99.050000mm",
+        "Mid Y": "-69.700000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      },
+      "final": {
+        "Designator": "U1",
+        "Mid X": "98.210000mm",
+        "Mid Y": "-69.700000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      }
+    },
+    {
+      "designator": "U2",
+      "status": "changed",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": -90.0
+      },
+      "raw": {
+        "Designator": "U2",
+        "Mid X": "62.625000mm",
+        "Mid Y": "-122.957500mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      },
+      "final": {
+        "Designator": "U2",
+        "Mid X": "62.625000mm",
+        "Mid Y": "-122.957500mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      }
+    },
+    {
+      "designator": "U4",
+      "status": "changed",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": -90.0
+      },
+      "raw": {
+        "Designator": "U4",
+        "Mid X": "100.250000mm",
+        "Mid Y": "-108.550000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      },
+      "final": {
+        "Designator": "U4",
+        "Mid X": "100.250000mm",
+        "Mid Y": "-108.550000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      }
+    },
+    {
+      "designator": "U5",
+      "status": "changed",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": -90.0
+      },
+      "raw": {
+        "Designator": "U5",
+        "Mid X": "111.062500mm",
+        "Mid Y": "-101.300000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      },
+      "final": {
+        "Designator": "U5",
+        "Mid X": "111.062500mm",
+        "Mid Y": "-101.300000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      }
+    },
+    {
+      "designator": "U6",
+      "status": "changed",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": -90.0
+      },
+      "raw": {
+        "Designator": "U6",
+        "Mid X": "124.800000mm",
+        "Mid Y": "-93.000000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      },
+      "final": {
+        "Designator": "U6",
+        "Mid X": "124.800000mm",
+        "Mid Y": "-93.000000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      }
+    },
+    {
+      "designator": "U7",
+      "status": "changed",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 0.0,
+        "Rotation": -90.0
+      },
+      "raw": {
+        "Designator": "U7",
+        "Mid X": "79.450000mm",
+        "Mid Y": "-93.050000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      },
+      "final": {
+        "Designator": "U7",
+        "Mid X": "79.450000mm",
+        "Mid Y": "-93.050000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      }
+    },
+    {
+      "designator": "U8",
+      "status": "changed",
+      "delta": {
+        "Mid X": 0.0,
+        "Mid Y": 3.77,
+        "Rotation": 0.0
+      },
+      "raw": {
+        "Designator": "U8",
+        "Mid X": "98.325000mm",
+        "Mid Y": "-137.000000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      },
+      "final": {
+        "Designator": "U8",
+        "Mid X": "98.325000mm",
+        "Mid Y": "-133.230000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      }
+    }
+  ]
+}

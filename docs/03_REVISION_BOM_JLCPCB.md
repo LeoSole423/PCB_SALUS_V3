@@ -12,6 +12,10 @@ lo cual quedan sin pieza de compra y no se deben montar.
 Los stocks son una fotografia del 2026-07-15. Confirmar disponibilidad, precio,
 Basic/Extended y elegibilidad Standard PCBA al preparar el pedido final.
 
+El pedido debe configurarse como `Standard PCBA`, cara superior. U4 (BMI088)
+y U8 (ESP32-S3-WROOM-1-N8R2) requieren esta modalidad de ensamblaje; Economic
+PCBA no es una opcion valida para esta placa.
+
 ## Piezas criticas
 
 | Referencias | MPN / LCSC PN | Huella | Categoria JLC | Stock observado | Decision |
@@ -30,15 +34,14 @@ Basic/Extended y elegibilidad Standard PCBA al preparar el pedido final.
 
 | Valor | MPN / LCSC PN | Huella | Referencias de esta revision |
 |---|---|---|---|
-| 100 nF | CL10B104KA8NNNC / C1590 | 0603 | C6,C9,C11-C13,C15,C17-C19,C21-C23,C29 |
-| 1 uF | 0603B105K160CT / C108463 | 0603 | C20 |
+| 100 nF | CC0603KRX7R9BB104 / C14663 | 0603 | C6,C7,C12,C13,C15,C17-C23 |
 | 10 uF | CL21A106KPFNNNE / C17024 | 0805 | C5,C8,C28 |
 | 22 uF | CL21A226MAQNNNE / C45783 | 0805 | C30,C31 |
 | 22 ohm | 0603WAF220JT5E / C23345 | 0603 | R27,R28 |
 | 330 ohm | 0603WAF3300T5E / C23138 | 0603 | R11,R18,R20 |
-| 4.7 kohm | 0603WAF4701T5E / C23162 | 0603 | R17,R21 |
+| 4.7 kohm | 0603WAF4701T5E / C23162 | 0603 | R21 |
 | 10 kohm | 0603WAF1002T5E / C25804 | 0603 | R1,R8,R9,R12-R16,R22-R24,R34,R36 |
-| 47 kohm | 0603WAF4702T5E / C25819 | 0603 | R19 |
+| 47 kohm | 0603WAF4702T5E / C25819 | 0603 | R17,R19 |
 | 100 kohm | 0603WAF1003T5E / C25803 | 0603 | R35 |
 
 Los restantes SMD ya conservaban MPN/LCSC validos en el esquema. `R2` y `R3`

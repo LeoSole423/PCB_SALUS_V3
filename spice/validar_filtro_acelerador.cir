@@ -1,0 +1,27 @@
+* SALUS v3 — filtro PWM del acelerador (J11)
+*
+* Uso, por ejemplo, para 20 kHz y 50 % de ciclo útil:
+*   sed -e 's/@FREQ_HZ@/20000/' -e 's/@DUTY@/0.5/' \
+*       spice/validar_filtro_acelerador.cir | ngspice -b /dev/stdin
+*
+* El GPIO se representa como una fuente ideal de baja impedancia. R35 es el
+* pull-down de arranque y no forma un divisor durante operación. EBUF modela
+* el seguidor U7A; a 34 Hz su error dinámico frente a un LM358 es despreciable.
+
+.param FREQ=@FREQ_HZ@
+.param DUTY=@DUTY@
+.param R17_OHM=47k
+.param C20_F=100n
+
+VGPIO pwm 0 PULSE(0 3.3 0 1n 1n {DUTY/FREQ} {1/FREQ})
+R35 pwm 0 100k
+R17 pwm filtro {R17_OHM}
+C20 filtro 0 {C20_F}
+EBUF buffer 0 filtro 0 1
+R18 buffer salida 330
+R19 salida 0 47k
+
+.tran 0.02u 70m 50m
+.measure tran salida_media AVG v(salida) FROM=50m TO=70m
+.measure tran salida_rizado_pp PP v(salida) FROM=50m TO=70m
+.end
