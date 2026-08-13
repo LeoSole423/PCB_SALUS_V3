@@ -1,0 +1,3674 @@
+{
+  "schema_version": 1,
+  "board": "PCB_SALUS_v3.kicad_pcb",
+  "bom": "fabricacion/JLCPCB_2026-08-12_SALUS_v3/PCB_SALUS_v3-JLC-BOM.csv",
+  "coordinate_transform": {
+    "x_sign": 1,
+    "y_sign": -1,
+    "origin": "kicad_auxiliary"
+  },
+  "summary": {
+    "bom_designators": 63,
+    "cpl_designators": 63,
+    "missing_from_board": [],
+    "excluded_from_bom": [],
+    "duplicate_bom_designators": [],
+    "needs_review": []
+  },
+  "components": [
+    {
+      "designator": "C12",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "lcsc": "C1590",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          100.95,
+          112.2
+        ],
+        "pad_center": [
+          100.95,
+          112.2
+        ],
+        "body_center": [
+          100.95,
+          112.2
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        100.95,
+        112.2
+      ],
+      "raw_rotation_deg": 90.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0.0,
+        0.0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "base",
+      "rule_precedence": "base",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "C12",
+        "Mid X": "100.950000mm",
+        "Mid Y": "-112.200000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      },
+      "raw_cpl": {
+        "Designator": "C12",
+        "Mid X": "100.950000mm",
+        "Mid Y": "-112.200000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      }
+    },
+    {
+      "designator": "C13",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "lcsc": "C1590",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          99.2,
+          104.45
+        ],
+        "pad_center": [
+          99.2,
+          104.45
+        ],
+        "body_center": [
+          99.2,
+          104.45
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        99.2,
+        104.45
+      ],
+      "raw_rotation_deg": 90.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0.0,
+        0.0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "base",
+      "rule_precedence": "base",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "C13",
+        "Mid X": "99.200000mm",
+        "Mid Y": "-104.450000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      },
+      "raw_cpl": {
+        "Designator": "C13",
+        "Mid X": "99.200000mm",
+        "Mid Y": "-104.450000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      }
+    },
+    {
+      "designator": "C14",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "lcsc": "C107125",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          95.0,
+          107.6
+        ],
+        "pad_center": [
+          95.0,
+          107.6
+        ],
+        "body_center": [
+          95.0,
+          107.6
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        95.0,
+        107.6
+      ],
+      "raw_rotation_deg": 0.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0.0,
+        0.0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "base",
+      "rule_precedence": "base",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "C14",
+        "Mid X": "95.000000mm",
+        "Mid Y": "-107.600000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      },
+      "raw_cpl": {
+        "Designator": "C14",
+        "Mid X": "95.000000mm",
+        "Mid Y": "-107.600000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      }
+    },
+    {
+      "designator": "C15",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "lcsc": "C1590",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          56.9,
+          78.65
+        ],
+        "pad_center": [
+          56.9,
+          78.65
+        ],
+        "body_center": [
+          56.9,
+          78.65
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        56.9,
+        78.65
+      ],
+      "raw_rotation_deg": 90.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0.0,
+        0.0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "base",
+      "rule_precedence": "base",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "C15",
+        "Mid X": "56.900000mm",
+        "Mid Y": "-78.650000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      },
+      "raw_cpl": {
+        "Designator": "C15",
+        "Mid X": "56.900000mm",
+        "Mid Y": "-78.650000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      }
+    },
+    {
+      "designator": "C16",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "lcsc": "C107125",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          58.9,
+          78.55
+        ],
+        "pad_center": [
+          58.9,
+          78.55
+        ],
+        "body_center": [
+          58.9,
+          78.55
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        58.9,
+        78.55
+      ],
+      "raw_rotation_deg": 270.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0.0,
+        0.0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "base",
+      "rule_precedence": "base",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "C16",
+        "Mid X": "58.900000mm",
+        "Mid Y": "-78.550000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      },
+      "raw_cpl": {
+        "Designator": "C16",
+        "Mid X": "58.900000mm",
+        "Mid Y": "-78.550000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      }
+    },
+    {
+      "designator": "C17",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "lcsc": "C1590",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          86.4,
+          142.05
+        ],
+        "pad_center": [
+          86.4,
+          142.05
+        ],
+        "body_center": [
+          86.4,
+          142.05
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        86.4,
+        142.05
+      ],
+      "raw_rotation_deg": 270.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0.0,
+        0.0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "base",
+      "rule_precedence": "base",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "C17",
+        "Mid X": "86.400000mm",
+        "Mid Y": "-142.050000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      },
+      "raw_cpl": {
+        "Designator": "C17",
+        "Mid X": "86.400000mm",
+        "Mid Y": "-142.050000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      }
+    },
+    {
+      "designator": "C18",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "lcsc": "C1590",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          85.75,
+          137.85
+        ],
+        "pad_center": [
+          85.75,
+          137.85
+        ],
+        "body_center": [
+          85.75,
+          137.85
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        85.75,
+        137.85
+      ],
+      "raw_rotation_deg": 90.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0.0,
+        0.0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "base",
+      "rule_precedence": "base",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "C18",
+        "Mid X": "85.750000mm",
+        "Mid Y": "-137.850000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      },
+      "raw_cpl": {
+        "Designator": "C18",
+        "Mid X": "85.750000mm",
+        "Mid Y": "-137.850000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      }
+    },
+    {
+      "designator": "C19",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "lcsc": "C1590",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          118.45,
+          104.75
+        ],
+        "pad_center": [
+          118.45,
+          104.75
+        ],
+        "body_center": [
+          118.45,
+          104.75
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        118.45,
+        104.75
+      ],
+      "raw_rotation_deg": 0.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0.0,
+        0.0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "base",
+      "rule_precedence": "base",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "C19",
+        "Mid X": "118.450000mm",
+        "Mid Y": "-104.750000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      },
+      "raw_cpl": {
+        "Designator": "C19",
+        "Mid X": "118.450000mm",
+        "Mid Y": "-104.750000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      }
+    },
+    {
+      "designator": "C20",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "lcsc": "C108463",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          72.6,
+          93.9
+        ],
+        "pad_center": [
+          72.6,
+          93.9
+        ],
+        "body_center": [
+          72.6,
+          93.9
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        72.6,
+        93.9
+      ],
+      "raw_rotation_deg": 180.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0.0,
+        0.0
+      ],
+      "position_offset_output_mm": [
+        -0.0,
+        0.0
+      ],
+      "rule_id": "base",
+      "rule_precedence": "base",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "C20",
+        "Mid X": "72.600000mm",
+        "Mid Y": "-93.900000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      },
+      "raw_cpl": {
+        "Designator": "C20",
+        "Mid X": "72.600000mm",
+        "Mid Y": "-93.900000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      }
+    },
+    {
+      "designator": "C21",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "lcsc": "C1590",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          85.3,
+          92.8
+        ],
+        "pad_center": [
+          85.3,
+          92.8
+        ],
+        "body_center": [
+          85.3,
+          92.8
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        85.3,
+        92.8
+      ],
+      "raw_rotation_deg": 270.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0.0,
+        0.0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "base",
+      "rule_precedence": "base",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "C21",
+        "Mid X": "85.300000mm",
+        "Mid Y": "-92.800000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      },
+      "raw_cpl": {
+        "Designator": "C21",
+        "Mid X": "85.300000mm",
+        "Mid Y": "-92.800000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      }
+    },
+    {
+      "designator": "C22",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "lcsc": "C1590",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          117.25,
+          69.8
+        ],
+        "pad_center": [
+          117.25,
+          69.8
+        ],
+        "body_center": [
+          117.25,
+          69.8
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        117.25,
+        69.8
+      ],
+      "raw_rotation_deg": 270.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0.0,
+        0.0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "base",
+      "rule_precedence": "base",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "C22",
+        "Mid X": "117.250000mm",
+        "Mid Y": "-69.800000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      },
+      "raw_cpl": {
+        "Designator": "C22",
+        "Mid X": "117.250000mm",
+        "Mid Y": "-69.800000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      }
+    },
+    {
+      "designator": "C23",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "lcsc": "C1590",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          93.675,
+          74.7
+        ],
+        "pad_center": [
+          93.675,
+          74.7
+        ],
+        "body_center": [
+          93.675,
+          74.7
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        93.675,
+        74.7
+      ],
+      "raw_rotation_deg": 270.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0.0,
+        0.0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "base",
+      "rule_precedence": "base",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "C23",
+        "Mid X": "93.675000mm",
+        "Mid Y": "-74.700000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      },
+      "raw_cpl": {
+        "Designator": "C23",
+        "Mid X": "93.675000mm",
+        "Mid Y": "-74.700000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      }
+    },
+    {
+      "designator": "C28",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "lcsc": "C17024",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          91.6,
+          72.95
+        ],
+        "pad_center": [
+          91.6,
+          72.95
+        ],
+        "body_center": [
+          91.6,
+          72.95
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        91.6,
+        72.95
+      ],
+      "raw_rotation_deg": 270.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0.0,
+        0.0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "base",
+      "rule_precedence": "base",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "C28",
+        "Mid X": "91.600000mm",
+        "Mid Y": "-72.950000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      },
+      "raw_cpl": {
+        "Designator": "C28",
+        "Mid X": "91.600000mm",
+        "Mid Y": "-72.950000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      }
+    },
+    {
+      "designator": "C30",
+      "footprint": "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B",
+      "lcsc": "C117030",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          105.5,
+          70.71
+        ],
+        "pad_center": [
+          105.5,
+          70.71
+        ],
+        "body_center": [
+          105.5,
+          70.6875
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0225,
+        "pad_body": 0.0225
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        105.5,
+        70.71
+      ],
+      "raw_rotation_deg": 270.0,
+      "rotation_offset_deg": 180.0,
+      "position_offset_local_mm": [
+        0,
+        0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "calibration-c30-2026-08-12",
+      "rule_precedence": "reference",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "C30",
+        "Mid X": "105.500000mm",
+        "Mid Y": "-70.710000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      },
+      "raw_cpl": {
+        "Designator": "C30",
+        "Mid X": "105.500000mm",
+        "Mid Y": "-70.710000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      }
+    },
+    {
+      "designator": "C5",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "lcsc": "C17024",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          111.45,
+          141.25
+        ],
+        "pad_center": [
+          111.45,
+          141.25
+        ],
+        "body_center": [
+          111.45,
+          141.25
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        111.45,
+        141.25
+      ],
+      "raw_rotation_deg": 270.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0.0,
+        0.0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "base",
+      "rule_precedence": "base",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "C5",
+        "Mid X": "111.450000mm",
+        "Mid Y": "-141.250000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      },
+      "raw_cpl": {
+        "Designator": "C5",
+        "Mid X": "111.450000mm",
+        "Mid Y": "-141.250000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      }
+    },
+    {
+      "designator": "C6",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "lcsc": "C1590",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          109.45,
+          141.45
+        ],
+        "pad_center": [
+          109.45,
+          141.45
+        ],
+        "body_center": [
+          109.45,
+          141.45
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        109.45,
+        141.45
+      ],
+      "raw_rotation_deg": 270.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0.0,
+        0.0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "base",
+      "rule_precedence": "base",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "C6",
+        "Mid X": "109.450000mm",
+        "Mid Y": "-141.450000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      },
+      "raw_cpl": {
+        "Designator": "C6",
+        "Mid X": "109.450000mm",
+        "Mid Y": "-141.450000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      }
+    },
+    {
+      "designator": "C7",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "lcsc": "C1590",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          61.025,
+          126.525
+        ],
+        "pad_center": [
+          61.025,
+          126.525
+        ],
+        "body_center": [
+          61.025,
+          126.525
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        61.025,
+        126.525
+      ],
+      "raw_rotation_deg": 0.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0.0,
+        0.0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "base",
+      "rule_precedence": "base",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "C7",
+        "Mid X": "61.025000mm",
+        "Mid Y": "-126.525000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      },
+      "raw_cpl": {
+        "Designator": "C7",
+        "Mid X": "61.025000mm",
+        "Mid Y": "-126.525000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      }
+    },
+    {
+      "designator": "C8",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "lcsc": "C17024",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          111.45,
+          137.75
+        ],
+        "pad_center": [
+          111.45,
+          137.75
+        ],
+        "body_center": [
+          111.45,
+          137.75
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        111.45,
+        137.75
+      ],
+      "raw_rotation_deg": 90.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0.0,
+        0.0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "base",
+      "rule_precedence": "base",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "C8",
+        "Mid X": "111.450000mm",
+        "Mid Y": "-137.750000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      },
+      "raw_cpl": {
+        "Designator": "C8",
+        "Mid X": "111.450000mm",
+        "Mid Y": "-137.750000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      }
+    },
+    {
+      "designator": "D1",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "lcsc": "C5449363",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          61.625,
+          117.8
+        ],
+        "pad_center": [
+          61.625,
+          117.8
+        ],
+        "body_center": [
+          61.625,
+          117.8
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        61.625,
+        117.8
+      ],
+      "raw_rotation_deg": 0.0,
+      "rotation_offset_deg": 180.0,
+      "position_offset_local_mm": [
+        0,
+        0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "calibration-d1-2026-08-12",
+      "rule_precedence": "reference",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "D1",
+        "Mid X": "61.625000mm",
+        "Mid Y": "-117.800000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      },
+      "raw_cpl": {
+        "Designator": "D1",
+        "Mid X": "61.625000mm",
+        "Mid Y": "-117.800000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      }
+    },
+    {
+      "designator": "D5",
+      "footprint": "Package_TO_SOT_SMD:SOT-143",
+      "lcsc": "C3040626",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          138.75,
+          138.3
+        ],
+        "pad_center": [
+          138.75,
+          138.3
+        ],
+        "body_center": [
+          138.8375,
+          138.3
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0875,
+        "pad_body": 0.0875
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        138.75,
+        138.3
+      ],
+      "raw_rotation_deg": 270.0,
+      "rotation_offset_deg": 180.0,
+      "position_offset_local_mm": [
+        0,
+        0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "calibration-d5-2026-08-12",
+      "rule_precedence": "reference",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "D5",
+        "Mid X": "138.750000mm",
+        "Mid Y": "-138.300000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      },
+      "raw_cpl": {
+        "Designator": "D5",
+        "Mid X": "138.750000mm",
+        "Mid Y": "-138.300000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      }
+    },
+    {
+      "designator": "D7",
+      "footprint": "Diode_SMD:D_SMA",
+      "lcsc": "C2480",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          79.4,
+          72.45
+        ],
+        "pad_center": [
+          79.4,
+          72.45
+        ],
+        "body_center": [
+          79.4225,
+          72.45
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0225,
+        "pad_body": 0.0225
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        79.4,
+        72.45
+      ],
+      "raw_rotation_deg": 180.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0,
+        0
+      ],
+      "position_offset_output_mm": [
+        -0.0,
+        0.0
+      ],
+      "rule_id": "calibration-d7-2026-08-12",
+      "rule_precedence": "reference",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "D7",
+        "Mid X": "79.400000mm",
+        "Mid Y": "-72.450000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      },
+      "raw_cpl": {
+        "Designator": "D7",
+        "Mid X": "79.400000mm",
+        "Mid Y": "-72.450000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      }
+    },
+    {
+      "designator": "D9",
+      "footprint": "Diode_SMD:D_SMA",
+      "lcsc": "C2480",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          79.45,
+          76.65
+        ],
+        "pad_center": [
+          79.45,
+          76.65
+        ],
+        "body_center": [
+          79.4725,
+          76.65
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0225,
+        "pad_body": 0.0225
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        79.45,
+        76.65
+      ],
+      "raw_rotation_deg": 180.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0,
+        0
+      ],
+      "position_offset_output_mm": [
+        -0.0,
+        0.0
+      ],
+      "rule_id": "calibration-d9-2026-08-12",
+      "rule_precedence": "reference",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "D9",
+        "Mid X": "79.450000mm",
+        "Mid Y": "-76.650000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      },
+      "raw_cpl": {
+        "Designator": "D9",
+        "Mid X": "79.450000mm",
+        "Mid Y": "-76.650000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      }
+    },
+    {
+      "designator": "FB1",
+      "footprint": "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder",
+      "lcsc": "C1002",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          95.05,
+          105.35
+        ],
+        "pad_center": [
+          95.05,
+          105.35
+        ],
+        "body_center": [
+          95.05,
+          105.35
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        95.05,
+        105.35
+      ],
+      "raw_rotation_deg": 180.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0.0,
+        0.0
+      ],
+      "position_offset_output_mm": [
+        -0.0,
+        0.0
+      ],
+      "rule_id": "base",
+      "rule_precedence": "base",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "FB1",
+        "Mid X": "95.050000mm",
+        "Mid Y": "-105.350000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      },
+      "raw_cpl": {
+        "Designator": "FB1",
+        "Mid X": "95.050000mm",
+        "Mid Y": "-105.350000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      }
+    },
+    {
+      "designator": "J16",
+      "footprint": "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV",
+      "lcsc": "C2988369",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          133.1,
+          146.135
+        ],
+        "pad_center": [
+          133.1,
+          144.95
+        ],
+        "body_center": [
+          133.1,
+          145.8
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 1.185,
+        "anchor_body": 0.335,
+        "pad_body": 0.85
+      },
+      "selected_origin": "pad_center",
+      "selected_center_mm": [
+        133.1,
+        144.95
+      ],
+      "raw_rotation_deg": 0.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0,
+        0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "calibration-j16-2026-08-12",
+      "rule_precedence": "reference",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "J16",
+        "Mid X": "133.100000mm",
+        "Mid Y": "-144.950000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      },
+      "raw_cpl": {
+        "Designator": "J16",
+        "Mid X": "133.100000mm",
+        "Mid Y": "-146.135000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      }
+    },
+    {
+      "designator": "R1",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "lcsc": "C25804",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          134.025,
+          58.1
+        ],
+        "pad_center": [
+          134.025,
+          58.1
+        ],
+        "body_center": [
+          134.025,
+          58.1
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        134.025,
+        58.1
+      ],
+      "raw_rotation_deg": 180.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0.0,
+        0.0
+      ],
+      "position_offset_output_mm": [
+        -0.0,
+        0.0
+      ],
+      "rule_id": "base",
+      "rule_precedence": "base",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "R1",
+        "Mid X": "134.025000mm",
+        "Mid Y": "-58.100000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      },
+      "raw_cpl": {
+        "Designator": "R1",
+        "Mid X": "134.025000mm",
+        "Mid Y": "-58.100000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      }
+    },
+    {
+      "designator": "R11",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "lcsc": "C23138",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          85.1,
+          135.0
+        ],
+        "pad_center": [
+          85.1,
+          135.0
+        ],
+        "body_center": [
+          85.1,
+          135.0
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        85.1,
+        135.0
+      ],
+      "raw_rotation_deg": 180.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0.0,
+        0.0
+      ],
+      "position_offset_output_mm": [
+        -0.0,
+        0.0
+      ],
+      "rule_id": "base",
+      "rule_precedence": "base",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "R11",
+        "Mid X": "85.100000mm",
+        "Mid Y": "-135.000000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      },
+      "raw_cpl": {
+        "Designator": "R11",
+        "Mid X": "85.100000mm",
+        "Mid Y": "-135.000000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      }
+    },
+    {
+      "designator": "R12",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "lcsc": "C25804",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          73.65,
+          134.975
+        ],
+        "pad_center": [
+          73.65,
+          134.975
+        ],
+        "body_center": [
+          73.65,
+          134.975
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        73.65,
+        134.975
+      ],
+      "raw_rotation_deg": 270.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0.0,
+        0.0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "base",
+      "rule_precedence": "base",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "R12",
+        "Mid X": "73.650000mm",
+        "Mid Y": "-134.975000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      },
+      "raw_cpl": {
+        "Designator": "R12",
+        "Mid X": "73.650000mm",
+        "Mid Y": "-134.975000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      }
+    },
+    {
+      "designator": "R13",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "lcsc": "C25804",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          101.75,
+          104.45
+        ],
+        "pad_center": [
+          101.75,
+          104.45
+        ],
+        "body_center": [
+          101.75,
+          104.45
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        101.75,
+        104.45
+      ],
+      "raw_rotation_deg": 270.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0.0,
+        0.0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "base",
+      "rule_precedence": "base",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "R13",
+        "Mid X": "101.750000mm",
+        "Mid Y": "-104.450000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      },
+      "raw_cpl": {
+        "Designator": "R13",
+        "Mid X": "101.750000mm",
+        "Mid Y": "-104.450000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      }
+    },
+    {
+      "designator": "R14",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "lcsc": "C25804",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          95.9,
+          109.8
+        ],
+        "pad_center": [
+          95.9,
+          109.8
+        ],
+        "body_center": [
+          95.9,
+          109.8
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        95.9,
+        109.8
+      ],
+      "raw_rotation_deg": 0.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0.0,
+        0.0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "base",
+      "rule_precedence": "base",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "R14",
+        "Mid X": "95.900000mm",
+        "Mid Y": "-109.800000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      },
+      "raw_cpl": {
+        "Designator": "R14",
+        "Mid X": "95.900000mm",
+        "Mid Y": "-109.800000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      }
+    },
+    {
+      "designator": "R15",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "lcsc": "C25804",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          106.9,
+          107.4
+        ],
+        "pad_center": [
+          106.9,
+          107.4
+        ],
+        "body_center": [
+          106.9,
+          107.4
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        106.9,
+        107.4
+      ],
+      "raw_rotation_deg": 270.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0.0,
+        0.0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "base",
+      "rule_precedence": "base",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "R15",
+        "Mid X": "106.900000mm",
+        "Mid Y": "-107.400000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      },
+      "raw_cpl": {
+        "Designator": "R15",
+        "Mid X": "106.900000mm",
+        "Mid Y": "-107.400000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      }
+    },
+    {
+      "designator": "R16",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "lcsc": "C25804",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          101.65,
+          88.8
+        ],
+        "pad_center": [
+          101.65,
+          88.8
+        ],
+        "body_center": [
+          101.65,
+          88.8
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        101.65,
+        88.8
+      ],
+      "raw_rotation_deg": 90.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0.0,
+        0.0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "base",
+      "rule_precedence": "base",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "R16",
+        "Mid X": "101.650000mm",
+        "Mid Y": "-88.800000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      },
+      "raw_cpl": {
+        "Designator": "R16",
+        "Mid X": "101.650000mm",
+        "Mid Y": "-88.800000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      }
+    },
+    {
+      "designator": "R17",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "lcsc": "C23162",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          95.1,
+          119.8
+        ],
+        "pad_center": [
+          95.1,
+          119.8
+        ],
+        "body_center": [
+          95.1,
+          119.8
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        95.1,
+        119.8
+      ],
+      "raw_rotation_deg": 90.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0.0,
+        0.0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "base",
+      "rule_precedence": "base",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "R17",
+        "Mid X": "95.100000mm",
+        "Mid Y": "-119.800000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      },
+      "raw_cpl": {
+        "Designator": "R17",
+        "Mid X": "95.100000mm",
+        "Mid Y": "-119.800000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      }
+    },
+    {
+      "designator": "R18",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "lcsc": "C23138",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          72.75,
+          91.55
+        ],
+        "pad_center": [
+          72.75,
+          91.55
+        ],
+        "body_center": [
+          72.75,
+          91.55
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        72.75,
+        91.55
+      ],
+      "raw_rotation_deg": 180.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0.0,
+        0.0
+      ],
+      "position_offset_output_mm": [
+        -0.0,
+        0.0
+      ],
+      "rule_id": "base",
+      "rule_precedence": "base",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "R18",
+        "Mid X": "72.750000mm",
+        "Mid Y": "-91.550000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      },
+      "raw_cpl": {
+        "Designator": "R18",
+        "Mid X": "72.750000mm",
+        "Mid Y": "-91.550000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      }
+    },
+    {
+      "designator": "R19",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "lcsc": "C25819",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          57.05,
+          69.15
+        ],
+        "pad_center": [
+          57.05,
+          69.15
+        ],
+        "body_center": [
+          57.05,
+          69.15
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        57.05,
+        69.15
+      ],
+      "raw_rotation_deg": 270.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0.0,
+        0.0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "base",
+      "rule_precedence": "base",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "R19",
+        "Mid X": "57.050000mm",
+        "Mid Y": "-69.150000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      },
+      "raw_cpl": {
+        "Designator": "R19",
+        "Mid X": "57.050000mm",
+        "Mid Y": "-69.150000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      }
+    },
+    {
+      "designator": "R2",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "lcsc": "C23162",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          83.4,
+          141.25
+        ],
+        "pad_center": [
+          83.4,
+          141.25
+        ],
+        "body_center": [
+          83.4,
+          141.25
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        83.4,
+        141.25
+      ],
+      "raw_rotation_deg": 0.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0.0,
+        0.0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "base",
+      "rule_precedence": "base",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "R2",
+        "Mid X": "83.400000mm",
+        "Mid Y": "-141.250000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      },
+      "raw_cpl": {
+        "Designator": "R2",
+        "Mid X": "83.400000mm",
+        "Mid Y": "-141.250000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      }
+    },
+    {
+      "designator": "R20",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "lcsc": "C23138",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          85.1,
+          133.4
+        ],
+        "pad_center": [
+          85.1,
+          133.4
+        ],
+        "body_center": [
+          85.1,
+          133.4
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        85.1,
+        133.4
+      ],
+      "raw_rotation_deg": 180.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0.0,
+        0.0
+      ],
+      "position_offset_output_mm": [
+        -0.0,
+        0.0
+      ],
+      "rule_id": "base",
+      "rule_precedence": "base",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "R20",
+        "Mid X": "85.100000mm",
+        "Mid Y": "-133.400000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      },
+      "raw_cpl": {
+        "Designator": "R20",
+        "Mid X": "85.100000mm",
+        "Mid Y": "-133.400000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      }
+    },
+    {
+      "designator": "R21",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "lcsc": "C23162",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          119.975,
+          131.525
+        ],
+        "pad_center": [
+          119.975,
+          131.525
+        ],
+        "body_center": [
+          119.975,
+          131.525
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        119.975,
+        131.525
+      ],
+      "raw_rotation_deg": 180.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0.0,
+        0.0
+      ],
+      "position_offset_output_mm": [
+        -0.0,
+        0.0
+      ],
+      "rule_id": "base",
+      "rule_precedence": "base",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "R21",
+        "Mid X": "119.975000mm",
+        "Mid Y": "-131.525000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      },
+      "raw_cpl": {
+        "Designator": "R21",
+        "Mid X": "119.975000mm",
+        "Mid Y": "-131.525000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      }
+    },
+    {
+      "designator": "R22",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "lcsc": "C25804",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          113.55,
+          137.85
+        ],
+        "pad_center": [
+          113.55,
+          137.85
+        ],
+        "body_center": [
+          113.55,
+          137.85
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        113.55,
+        137.85
+      ],
+      "raw_rotation_deg": 90.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0.0,
+        0.0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "base",
+      "rule_precedence": "base",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "R22",
+        "Mid X": "113.550000mm",
+        "Mid Y": "-137.850000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      },
+      "raw_cpl": {
+        "Designator": "R22",
+        "Mid X": "113.550000mm",
+        "Mid Y": "-137.850000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      }
+    },
+    {
+      "designator": "R23",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "lcsc": "C25804",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          86.55,
+          123.5
+        ],
+        "pad_center": [
+          86.55,
+          123.5
+        ],
+        "body_center": [
+          86.55,
+          123.5
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        86.55,
+        123.5
+      ],
+      "raw_rotation_deg": 90.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0.0,
+        0.0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "base",
+      "rule_precedence": "base",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "R23",
+        "Mid X": "86.550000mm",
+        "Mid Y": "-123.500000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      },
+      "raw_cpl": {
+        "Designator": "R23",
+        "Mid X": "86.550000mm",
+        "Mid Y": "-123.500000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      }
+    },
+    {
+      "designator": "R24",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "lcsc": "C25804",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          120.75,
+          133.25
+        ],
+        "pad_center": [
+          120.75,
+          133.25
+        ],
+        "body_center": [
+          120.75,
+          133.25
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        120.75,
+        133.25
+      ],
+      "raw_rotation_deg": 0.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0.0,
+        0.0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "base",
+      "rule_precedence": "base",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "R24",
+        "Mid X": "120.750000mm",
+        "Mid Y": "-133.250000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      },
+      "raw_cpl": {
+        "Designator": "R24",
+        "Mid X": "120.750000mm",
+        "Mid Y": "-133.250000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      }
+    },
+    {
+      "designator": "R25",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "lcsc": "C23186",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          131.34,
+          138.56
+        ],
+        "pad_center": [
+          131.34,
+          138.56
+        ],
+        "body_center": [
+          131.34,
+          138.56
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        131.34,
+        138.56
+      ],
+      "raw_rotation_deg": 90.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0.0,
+        0.0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "base",
+      "rule_precedence": "base",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "R25",
+        "Mid X": "131.340000mm",
+        "Mid Y": "-138.560000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      },
+      "raw_cpl": {
+        "Designator": "R25",
+        "Mid X": "131.340000mm",
+        "Mid Y": "-138.560000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      }
+    },
+    {
+      "designator": "R26",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "lcsc": "C23186",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          133.86,
+          138.44
+        ],
+        "pad_center": [
+          133.86,
+          138.44
+        ],
+        "body_center": [
+          133.86,
+          138.44
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        133.86,
+        138.44
+      ],
+      "raw_rotation_deg": 90.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0.0,
+        0.0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "base",
+      "rule_precedence": "base",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "R26",
+        "Mid X": "133.860000mm",
+        "Mid Y": "-138.440000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      },
+      "raw_cpl": {
+        "Designator": "R26",
+        "Mid X": "133.860000mm",
+        "Mid Y": "-138.440000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      }
+    },
+    {
+      "designator": "R27",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "lcsc": "C23345",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          112.16,
+          125.82
+        ],
+        "pad_center": [
+          112.16,
+          125.82
+        ],
+        "body_center": [
+          112.16,
+          125.82
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        112.16,
+        125.82
+      ],
+      "raw_rotation_deg": 0.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0.0,
+        0.0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "base",
+      "rule_precedence": "base",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "R27",
+        "Mid X": "112.160000mm",
+        "Mid Y": "-125.820000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      },
+      "raw_cpl": {
+        "Designator": "R27",
+        "Mid X": "112.160000mm",
+        "Mid Y": "-125.820000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      }
+    },
+    {
+      "designator": "R28",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "lcsc": "C23345",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          112.15,
+          127.41
+        ],
+        "pad_center": [
+          112.15,
+          127.41
+        ],
+        "body_center": [
+          112.15,
+          127.41
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        112.15,
+        127.41
+      ],
+      "raw_rotation_deg": 0.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0.0,
+        0.0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "base",
+      "rule_precedence": "base",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "R28",
+        "Mid X": "112.150000mm",
+        "Mid Y": "-127.410000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      },
+      "raw_cpl": {
+        "Designator": "R28",
+        "Mid X": "112.150000mm",
+        "Mid Y": "-127.410000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      }
+    },
+    {
+      "designator": "R29",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "lcsc": "C21190",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          110.425,
+          130.85
+        ],
+        "pad_center": [
+          110.425,
+          130.85
+        ],
+        "body_center": [
+          110.425,
+          130.85
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        110.425,
+        130.85
+      ],
+      "raw_rotation_deg": 180.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0.0,
+        0.0
+      ],
+      "position_offset_output_mm": [
+        -0.0,
+        0.0
+      ],
+      "rule_id": "base",
+      "rule_precedence": "base",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "R29",
+        "Mid X": "110.425000mm",
+        "Mid Y": "-130.850000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      },
+      "raw_cpl": {
+        "Designator": "R29",
+        "Mid X": "110.425000mm",
+        "Mid Y": "-130.850000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      }
+    },
+    {
+      "designator": "R3",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "lcsc": "C23162",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          83.45,
+          139.5
+        ],
+        "pad_center": [
+          83.45,
+          139.5
+        ],
+        "body_center": [
+          83.45,
+          139.5
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        83.45,
+        139.5
+      ],
+      "raw_rotation_deg": 0.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0.0,
+        0.0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "base",
+      "rule_precedence": "base",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "R3",
+        "Mid X": "83.450000mm",
+        "Mid Y": "-139.500000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      },
+      "raw_cpl": {
+        "Designator": "R3",
+        "Mid X": "83.450000mm",
+        "Mid Y": "-139.500000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      }
+    },
+    {
+      "designator": "R30",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "lcsc": "C21190",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          110.425,
+          129.25
+        ],
+        "pad_center": [
+          110.425,
+          129.25
+        ],
+        "body_center": [
+          110.425,
+          129.25
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        110.425,
+        129.25
+      ],
+      "raw_rotation_deg": 180.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0.0,
+        0.0
+      ],
+      "position_offset_output_mm": [
+        -0.0,
+        0.0
+      ],
+      "rule_id": "base",
+      "rule_precedence": "base",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "R30",
+        "Mid X": "110.425000mm",
+        "Mid Y": "-129.250000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      },
+      "raw_cpl": {
+        "Designator": "R30",
+        "Mid X": "110.425000mm",
+        "Mid Y": "-129.250000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      }
+    },
+    {
+      "designator": "R31",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "lcsc": "C21190",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          87.46,
+          109.525
+        ],
+        "pad_center": [
+          87.46,
+          109.525
+        ],
+        "body_center": [
+          87.46,
+          109.525
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        87.46,
+        109.525
+      ],
+      "raw_rotation_deg": 270.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0.0,
+        0.0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "base",
+      "rule_precedence": "base",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "R31",
+        "Mid X": "87.460000mm",
+        "Mid Y": "-109.525000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      },
+      "raw_cpl": {
+        "Designator": "R31",
+        "Mid X": "87.460000mm",
+        "Mid Y": "-109.525000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      }
+    },
+    {
+      "designator": "R32",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "lcsc": "C21190",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          84.95,
+          109.525
+        ],
+        "pad_center": [
+          84.95,
+          109.525
+        ],
+        "body_center": [
+          84.95,
+          109.525
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        84.95,
+        109.525
+      ],
+      "raw_rotation_deg": 270.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0.0,
+        0.0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "base",
+      "rule_precedence": "base",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "R32",
+        "Mid X": "84.950000mm",
+        "Mid Y": "-109.525000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      },
+      "raw_cpl": {
+        "Designator": "R32",
+        "Mid X": "84.950000mm",
+        "Mid Y": "-109.525000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      }
+    },
+    {
+      "designator": "R33",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "lcsc": "C21190",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          82.44,
+          109.525
+        ],
+        "pad_center": [
+          82.44,
+          109.525
+        ],
+        "body_center": [
+          82.44,
+          109.525
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        82.44,
+        109.525
+      ],
+      "raw_rotation_deg": 270.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0.0,
+        0.0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "base",
+      "rule_precedence": "base",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "R33",
+        "Mid X": "82.440000mm",
+        "Mid Y": "-109.525000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      },
+      "raw_cpl": {
+        "Designator": "R33",
+        "Mid X": "82.440000mm",
+        "Mid Y": "-109.525000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      }
+    },
+    {
+      "designator": "R34",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "lcsc": "C25804",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          101.825,
+          100.55
+        ],
+        "pad_center": [
+          101.825,
+          100.55
+        ],
+        "body_center": [
+          101.825,
+          100.55
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        101.825,
+        100.55
+      ],
+      "raw_rotation_deg": 0.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0.0,
+        0.0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "base",
+      "rule_precedence": "base",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "R34",
+        "Mid X": "101.825000mm",
+        "Mid Y": "-100.550000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      },
+      "raw_cpl": {
+        "Designator": "R34",
+        "Mid X": "101.825000mm",
+        "Mid Y": "-100.550000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      }
+    },
+    {
+      "designator": "R35",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "lcsc": "C25803",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          96.75,
+          119.8
+        ],
+        "pad_center": [
+          96.75,
+          119.8
+        ],
+        "body_center": [
+          96.75,
+          119.8
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        96.75,
+        119.8
+      ],
+      "raw_rotation_deg": 270.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0.0,
+        0.0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "base",
+      "rule_precedence": "base",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "R35",
+        "Mid X": "96.750000mm",
+        "Mid Y": "-119.800000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      },
+      "raw_cpl": {
+        "Designator": "R35",
+        "Mid X": "96.750000mm",
+        "Mid Y": "-119.800000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      }
+    },
+    {
+      "designator": "R36",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "lcsc": "C25804",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          70.95,
+          133.725
+        ],
+        "pad_center": [
+          70.95,
+          133.725
+        ],
+        "body_center": [
+          70.95,
+          133.725
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        70.95,
+        133.725
+      ],
+      "raw_rotation_deg": 270.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0.0,
+        0.0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "base",
+      "rule_precedence": "base",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "R36",
+        "Mid X": "70.950000mm",
+        "Mid Y": "-133.725000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      },
+      "raw_cpl": {
+        "Designator": "R36",
+        "Mid X": "70.950000mm",
+        "Mid Y": "-133.725000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      }
+    },
+    {
+      "designator": "R37",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "lcsc": "C25804",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          71.35,
+          124.5
+        ],
+        "pad_center": [
+          71.35,
+          124.5
+        ],
+        "body_center": [
+          71.35,
+          124.5
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        71.35,
+        124.5
+      ],
+      "raw_rotation_deg": 90.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0.0,
+        0.0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "base",
+      "rule_precedence": "base",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "R37",
+        "Mid X": "71.350000mm",
+        "Mid Y": "-124.500000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      },
+      "raw_cpl": {
+        "Designator": "R37",
+        "Mid X": "71.350000mm",
+        "Mid Y": "-124.500000mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      }
+    },
+    {
+      "designator": "SW1",
+      "footprint": "Footprints:Switch-Definitivo",
+      "lcsc": "C318884",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          64.1,
+          142.375
+        ],
+        "pad_center": [
+          64.1,
+          142.375
+        ],
+        "body_center": [
+          64.1,
+          142.375
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        64.1,
+        142.375
+      ],
+      "raw_rotation_deg": 180.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0,
+        0
+      ],
+      "position_offset_output_mm": [
+        -0.0,
+        0.0
+      ],
+      "rule_id": "calibration-sw1-2026-08-12",
+      "rule_precedence": "reference",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "SW1",
+        "Mid X": "64.100000mm",
+        "Mid Y": "-142.375000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      },
+      "raw_cpl": {
+        "Designator": "SW1",
+        "Mid X": "64.100000mm",
+        "Mid Y": "-142.375000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      }
+    },
+    {
+      "designator": "SW2",
+      "footprint": "Footprints:Switch-Definitivo",
+      "lcsc": "C318884",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          127.15,
+          125.5
+        ],
+        "pad_center": [
+          127.15,
+          125.5
+        ],
+        "body_center": [
+          127.15,
+          125.5
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0,
+        "pad_body": 0.0
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        127.15,
+        125.5
+      ],
+      "raw_rotation_deg": 270.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0,
+        0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "calibration-sw2-2026-08-12",
+      "rule_precedence": "reference",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "SW2",
+        "Mid X": "127.150000mm",
+        "Mid Y": "-125.500000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      },
+      "raw_cpl": {
+        "Designator": "SW2",
+        "Mid X": "127.150000mm",
+        "Mid Y": "-125.500000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      }
+    },
+    {
+      "designator": "U1",
+      "footprint": "Package_TO_SOT_SMD:TO-252-3_TabPin2",
+      "lcsc": "C841796",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          99.05,
+          69.7
+        ],
+        "pad_center": [
+          98.21,
+          69.7
+        ],
+        "body_center": [
+          98.21,
+          69.6275
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.84,
+        "anchor_body": 0.843123,
+        "pad_body": 0.0725
+      },
+      "selected_origin": "pad_center",
+      "selected_center_mm": [
+        98.21,
+        69.7
+      ],
+      "raw_rotation_deg": 0.0,
+      "rotation_offset_deg": 180.0,
+      "position_offset_local_mm": [
+        0,
+        0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "calibration-u1-2026-08-12",
+      "rule_precedence": "reference",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "U1",
+        "Mid X": "98.210000mm",
+        "Mid Y": "-69.700000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      },
+      "raw_cpl": {
+        "Designator": "U1",
+        "Mid X": "99.050000mm",
+        "Mid Y": "-69.700000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      }
+    },
+    {
+      "designator": "U2",
+      "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+      "lcsc": "C8963",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          62.625,
+          122.9575
+        ],
+        "pad_center": [
+          62.625,
+          122.9575
+        ],
+        "body_center": [
+          62.625,
+          123.025
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0675,
+        "pad_body": 0.0675
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        62.625,
+        122.9575
+      ],
+      "raw_rotation_deg": 180.0,
+      "rotation_offset_deg": 270.0,
+      "position_offset_local_mm": [
+        0,
+        0
+      ],
+      "position_offset_output_mm": [
+        -0.0,
+        0.0
+      ],
+      "rule_id": "calibration-u2-2026-08-12",
+      "rule_precedence": "reference",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "U2",
+        "Mid X": "62.625000mm",
+        "Mid Y": "-122.957500mm",
+        "Layer": "Top",
+        "Rotation": "90.000"
+      },
+      "raw_cpl": {
+        "Designator": "U2",
+        "Mid X": "62.625000mm",
+        "Mid Y": "-122.957500mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      }
+    },
+    {
+      "designator": "U4",
+      "footprint": "Package_LGA:Bosch_LGA-16_4.5x3mm_P0.5mm_LayoutBorder7x1y_ClockwisePinNumbering",
+      "lcsc": "C194919",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          100.25,
+          108.55
+        ],
+        "pad_center": [
+          100.25,
+          108.55
+        ],
+        "body_center": [
+          100.25,
+          108.3625
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.1875,
+        "pad_body": 0.1875
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        100.25,
+        108.55
+      ],
+      "raw_rotation_deg": 0.0,
+      "rotation_offset_deg": 270.0,
+      "position_offset_local_mm": [
+        0,
+        0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "calibration-u4-2026-08-12",
+      "rule_precedence": "reference",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "U4",
+        "Mid X": "100.250000mm",
+        "Mid Y": "-108.550000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      },
+      "raw_cpl": {
+        "Designator": "U4",
+        "Mid X": "100.250000mm",
+        "Mid Y": "-108.550000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      }
+    },
+    {
+      "designator": "U5",
+      "footprint": "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm",
+      "lcsc": "C10092",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          111.0625,
+          101.3
+        ],
+        "pad_center": [
+          111.0625,
+          101.3
+        ],
+        "body_center": [
+          111.15,
+          101.3
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0875,
+        "pad_body": 0.0875
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        111.0625,
+        101.3
+      ],
+      "raw_rotation_deg": 270.0,
+      "rotation_offset_deg": 270.0,
+      "position_offset_local_mm": [
+        0,
+        0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "calibration-u5-2026-08-12",
+      "rule_precedence": "reference",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "U5",
+        "Mid X": "111.062500mm",
+        "Mid Y": "-101.300000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      },
+      "raw_cpl": {
+        "Designator": "U5",
+        "Mid X": "111.062500mm",
+        "Mid Y": "-101.300000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      }
+    },
+    {
+      "designator": "U6",
+      "footprint": "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm",
+      "lcsc": "C157485",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          124.8,
+          93.0
+        ],
+        "pad_center": [
+          124.8,
+          93.0
+        ],
+        "body_center": [
+          124.8,
+          92.9125
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0875,
+        "pad_body": 0.0875
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        124.8,
+        93.0
+      ],
+      "raw_rotation_deg": 0.0,
+      "rotation_offset_deg": 270.0,
+      "position_offset_local_mm": [
+        0,
+        0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "calibration-u6-2026-08-12",
+      "rule_precedence": "reference",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "U6",
+        "Mid X": "124.800000mm",
+        "Mid Y": "-93.000000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      },
+      "raw_cpl": {
+        "Designator": "U6",
+        "Mid X": "124.800000mm",
+        "Mid Y": "-93.000000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      }
+    },
+    {
+      "designator": "U7",
+      "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+      "lcsc": "C5423",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          79.45,
+          93.05
+        ],
+        "pad_center": [
+          79.45,
+          93.05
+        ],
+        "body_center": [
+          79.45,
+          92.9825
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 0.0,
+        "anchor_body": 0.0675,
+        "pad_body": 0.0675
+      },
+      "selected_origin": "anchor",
+      "selected_center_mm": [
+        79.45,
+        93.05
+      ],
+      "raw_rotation_deg": 0.0,
+      "rotation_offset_deg": 270.0,
+      "position_offset_local_mm": [
+        0,
+        0
+      ],
+      "position_offset_output_mm": [
+        0.0,
+        0.0
+      ],
+      "rule_id": "calibration-u7-2026-08-12",
+      "rule_precedence": "reference",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "U7",
+        "Mid X": "79.450000mm",
+        "Mid Y": "-93.050000mm",
+        "Layer": "Top",
+        "Rotation": "270.000"
+      },
+      "raw_cpl": {
+        "Designator": "U7",
+        "Mid X": "79.450000mm",
+        "Mid Y": "-93.050000mm",
+        "Layer": "Top",
+        "Rotation": "0.000"
+      }
+    },
+    {
+      "designator": "U8",
+      "footprint": "RF_Module:ESP32-S3-WROOM-1",
+      "lcsc": "C2913204",
+      "layer": "Top",
+      "centers_mm": {
+        "anchor": [
+          98.325,
+          137.0
+        ],
+        "pad_center": [
+          98.325,
+          133.23
+        ],
+        "body_center": [
+          98.325,
+          144.15
+        ]
+      },
+      "center_differences_mm": {
+        "anchor_pad": 3.77,
+        "anchor_body": 7.15,
+        "pad_body": 10.92
+      },
+      "selected_origin": "pad_center",
+      "selected_center_mm": [
+        98.325,
+        133.23
+      ],
+      "raw_rotation_deg": 180.0,
+      "rotation_offset_deg": 0.0,
+      "position_offset_local_mm": [
+        0,
+        0
+      ],
+      "position_offset_output_mm": [
+        -0.0,
+        0.0
+      ],
+      "rule_id": "calibration-u8-2026-08-12",
+      "rule_precedence": "reference",
+      "status": "ready",
+      "reasons": [],
+      "cpl": {
+        "Designator": "U8",
+        "Mid X": "98.325000mm",
+        "Mid Y": "-133.230000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      },
+      "raw_cpl": {
+        "Designator": "U8",
+        "Mid X": "98.325000mm",
+        "Mid Y": "-137.000000mm",
+        "Layer": "Top",
+        "Rotation": "180.000"
+      }
+    }
+  ]
+}

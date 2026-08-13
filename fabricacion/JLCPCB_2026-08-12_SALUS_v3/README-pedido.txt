@@ -23,8 +23,8 @@ CONFIGURACION PREVISTA EN JLCPCB
 CONTENIDO
 - PCB_SALUS_v3-Gerbers.zip: exclusivamente archivos de fabricacion.
 - PCB_SALUS_v3-JLC-BOM.csv: 26 lineas y 63 componentes, todos con LCSC.
-- PCB_SALUS_v3-JLC-CPL.csv: 63 designadores en milimetros y cara Top. Incluye
-  compensaciones de rotacion para el convenio de orientacion de JLCPCB.
+- PCB_SALUS_v3-JLC-CPL.csv: 63 designadores en milimetros y cara Top,
+  generado con tools/jlc_cpl.py y calibraciones verificadas en el visor JLCPCB.
 - gerbers/: archivos sin comprimir, Excellon, informe de taladros y .gbrjob.
 - origen/: exportaciones intermedias de KiCad/BOM para trazabilidad.
 - validacion/: ERC, DRC, BOM/CPL, Gerbers, pasta, stock y controles visuales.
@@ -50,10 +50,11 @@ VALIDACION REALIZADA
   las capas alineadas y taladros PTH/NPTH presentes.
 - Pasta termica: U1 y U8 aprobados; detalle en validacion/cobertura_pasta.json.
 - Render superior actualizado en validacion/render-superior.png.
-- Rotaciones criticas inventariadas en validacion/rotaciones_criticas.csv.
-- Compensaciones aplicadas tras revisar el primer visor JLCPCB: D1 +180 grados;
-  D7/D9 +180 grados (normalizados de 180 a 0); U2/U4/U5/U6/U7 +90 grados.
-  La exportacion cruda de KiCad permanece en origen/PCB_SALUS_v3-posiciones.csv.
+- CPL final: 63 designadores, sin duplicados ni ausentes, validada contra BOM
+  y placa actual. La auditoria, CPL cruda, revision de centroides y superposicion
+  estan en validacion/cpl-candidate-*.
+- Compensaciones confirmadas en el visor JLCPCB se guardan de forma versionada
+  en config/jlcpcb-cpl.json y config/jlcpcb-cpl-observations-2026-08-12.json.
 
 STOCK LCSC
 La API publica devolvio HTTP 403 al consultar los 26 numeros LCSC. Esto no
@@ -72,4 +73,4 @@ SHA-256 (archivos de carga)
 Los valores vigentes se encuentran tambien en CHECKSUMS-SHA256.txt.
 6ee5002bde1fff0caad7f54dc98fefe96334ed9ef1e805ff14bcc706a5bb4e47  PCB_SALUS_v3-Gerbers.zip
 db4dfd942e11db0d97c8e06b097a85979ff217dd7e32cb563cc0c100fa7756e4  PCB_SALUS_v3-JLC-BOM.csv
-24c1df69deac071509b31526ecfac20c7cd2c3b43935d2c15aa287d8e9fac78b  PCB_SALUS_v3-JLC-CPL.csv
+2bc02c03520af4c7ff43d2e0fb4eced395bdb52725917987f4055ff701b6ae9b  PCB_SALUS_v3-JLC-CPL.csv

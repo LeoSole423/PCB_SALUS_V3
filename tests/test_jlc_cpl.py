@@ -1,6 +1,7 @@
 import importlib.util
 import json
 import csv
+import math
 import tempfile
 import unittest
 from pathlib import Path
@@ -47,6 +48,10 @@ class ConfigTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             jlc_cpl.validate_config({"schema_version": 1, "rules": [{"match": {"reference": "U1", "lcsc": "C1"}}]})
 
+    def test_confirmed_rule_metadata_is_valid(self):
+        config = {"schema_version": 1, "rules": [{"id": "confirmed", "match": {"reference": "U1"}, "origin": "anchor", "position_offset_local_mm": [0, 0], "requires_confirmation": False, "confirmed_on": "2026-08-12"}]}
+        jlc_cpl.validate_config(config)
+
 
 class CsvTests(unittest.TestCase):
     def test_bom_designator_parser_detects_duplicates(self):
@@ -74,7 +79,7 @@ class SalusGoldenTests(unittest.TestCase):
         self.expected = self.ROOT / "production/pcb_test_positions.csv"
         self.board = jlc_cpl.pcbnew.LoadBoard(str(self.ROOT / "PCB_SALUS_v3.kicad_pcb"))
 
-    def test_golden_bom_and_toolkit_baseline(self):
+    def test_golden_matches_toolkit_except_confirmed_calibrations(self):
         wanted, duplicates = jlc_cpl.load_bom_designators(self.bom)
         lcsc = jlc_cpl.get_lcsc_by_ref(self.bom)
         footprints = {x.GetReference(): x for x in self.board.GetFootprints() if not (x.GetAttributes() & jlc_cpl.pcbnew.FP_EXCLUDE_FROM_POS_FILES) and not x.IsDNP()}
@@ -84,17 +89,21 @@ class SalusGoldenTests(unittest.TestCase):
         self.assertEqual(len(wanted), 63)
         self.assertEqual(duplicates, [])
         self.assertEqual(set(actual), set(baseline))
+        changed = set()
         for ref, row in actual.items():
-            self.assertAlmostEqual(jlc_cpl.parse_number(row["cpl"]["Mid X"]), float(baseline[ref]["Mid X"]), places=6)
-            self.assertAlmostEqual(jlc_cpl.parse_number(row["cpl"]["Mid Y"]), float(baseline[ref]["Mid Y"]), places=6)
-            self.assertAlmostEqual(float(row["cpl"]["Rotation"]), float(baseline[ref]["Rotation"]), places=6)
+            values = (jlc_cpl.parse_number(row["cpl"]["Mid X"]), jlc_cpl.parse_number(row["cpl"]["Mid Y"]), float(row["cpl"]["Rotation"]))
+            expected = (float(baseline[ref]["Mid X"]), float(baseline[ref]["Mid Y"]), float(baseline[ref]["Rotation"]))
+            if any(not math.isclose(left, right, abs_tol=1e-6) for left, right in zip(values, expected)):
+                changed.add(ref)
+        self.assertEqual(changed, {"U1", "U4", "U8", "J16"})
 
-    def test_off_center_footprints_are_audited(self):
+    def test_off_center_footprints_have_confirmed_explicit_rules(self):
         lcsc = jlc_cpl.get_lcsc_by_ref(self.bom)
         fps = {x.GetReference(): x for x in self.board.GetFootprints()}
         for ref in ("U1", "U8", "J16"):
             row = jlc_cpl.make_row(fps[ref], self.config, lcsc[ref])
-            self.assertEqual(row["status"], "needs_review")
+            self.assertEqual(row["status"], "ready")
+            self.assertEqual(row["rule_precedence"], "reference")
             self.assertGreater(max(x for x in row["center_differences_mm"].values() if x is not None), 0.2)
 
 

@@ -185,7 +185,8 @@ def make_row(footprint: Any, config: dict[str, Any], lcsc: str) -> dict[str, Any
     max_difference = max((x for x in (distance(anchor, pad), distance(anchor, body), distance(pad, body)) if x is not None), default=0.0)
     explicit = tier in ("reference", "lcsc", "footprint")
     required_refs = set(config.get("review", {}).get("require_confirmation_references", []))
-    asymmetric = ref in required_refs or bool((rule or {}).get("requires_confirmation", False))
+    confirmed = bool((rule or {}).get("confirmed_on")) and (rule or {}).get("requires_confirmation") is False
+    asymmetric = (ref in required_refs or bool((rule or {}).get("requires_confirmation", False))) and not confirmed
     if max_difference > threshold and not explicit:
         status.append(f"center difference {max_difference:.3f} mm needs explicit rule")
     if asymmetric:
@@ -223,7 +224,7 @@ def make_row(footprint: Any, config: dict[str, Any], lcsc: str) -> dict[str, Any
 def write_csv(path: Path, rows: list[dict[str, str]]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=HEADERS)
+        writer = csv.DictWriter(handle, fieldnames=HEADERS, lineterminator="\n")
         writer.writeheader(); writer.writerows(rows)
 
 
@@ -231,7 +232,7 @@ def write_review(path: Path, rows: list[dict[str, Any]]) -> None:
     fields = ["Designator", "Footprint", "LCSC", "Selected origin", "Rule", "Status", "Reasons", "Anchor mm", "Pad center mm", "Body center mm", "CPL X", "CPL Y", "Rotation"]
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fields); writer.writeheader()
+        writer = csv.DictWriter(handle, fieldnames=fields, lineterminator="\n"); writer.writeheader()
         for row in rows:
             c = row["cpl"]; centers = row["centers_mm"]
             writer.writerow({"Designator": row["designator"], "Footprint": row["footprint"], "LCSC": row["lcsc"], "Selected origin": row["selected_origin"], "Rule": row["rule_id"], "Status": row["status"], "Reasons": "; ".join(row["reasons"]), "Anchor mm": centers["anchor"], "Pad center mm": centers["pad_center"], "Body center mm": centers["body_center"], "CPL X": c["Mid X"], "CPL Y": c["Mid Y"], "Rotation": c["Rotation"]})
