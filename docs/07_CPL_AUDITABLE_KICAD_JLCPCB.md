@@ -38,13 +38,13 @@ son un error: un agente debe resolverlas, no elegir arbitrariamente.
 ```bash
 /usr/bin/python3 tools/jlc_cpl.py generate PCB_SALUS_v3.kicad_pcb \
   --config config/jlcpcb-cpl.json \
-  --bom fabricacion/JLCPCB_2026-08-12_SALUS_v3/PCB_SALUS_v3-JLC-BOM.csv \
+  --bom fabricacion/historico/JLCPCB_2026-08-12_SALUS_v3/PCB_SALUS_v3-JLC-BOM.csv \
   --output /tmp/salus-cpl.csv --raw-output /tmp/salus-cpl-raw.csv \
   --report /tmp/cpl-audit.json --review-output /tmp/cpl-review.csv \
   --overlay /tmp/cpl-overlay.svg
 
 /usr/bin/python3 tools/jlc_cpl.py validate PCB_SALUS_v3.kicad_pcb \
-  --config config/jlcpcb-cpl.json --bom fabricacion/JLCPCB_2026-08-12_SALUS_v3/PCB_SALUS_v3-JLC-BOM.csv \
+  --config config/jlcpcb-cpl.json --bom fabricacion/historico/JLCPCB_2026-08-12_SALUS_v3/PCB_SALUS_v3-JLC-BOM.csv \
   --cpl /tmp/salus-cpl.csv --report /tmp/cpl-validation.json
 
 /usr/bin/python3 tools/jlc_cpl.py diff /tmp/salus-cpl-raw.csv /tmp/salus-cpl.csv \

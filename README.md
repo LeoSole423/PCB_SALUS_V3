@@ -9,7 +9,7 @@ independiente.
 En KiCad 10, abre `PCB_SALUS_v3.kicad_pro`. El esquema raiz contiene tres
 hojas jerarquicas activas: `ESP32`, `SENSORES` y `ALIMENTACION`.
 
-El diseño actual corresponde a `fabricacion/JLCPCB_2026-08-20_SALUS_v3_R4/`.
+El diseño actual corresponde a `fabricacion/actual/JLCPCB_2026-08-20_SALUS_v3_R4/`.
 Incluye cuatro agujeros M3 NPTH, contorno redondeado y R4 de 120 ohm montada
 como terminacion RS-485. El sufijo R4 identifica esa resistencia. Las fuentes
 en `origen/` coinciden con los archivos de trabajo al registrar este paquete.
@@ -21,6 +21,13 @@ la validacion electrica ni las pruebas de banco. Antes de pedir, seguir
 
 `JLCPCB_2026-08-20_SALUS_v3/` conserva la exportacion anterior del mismo dia,
 sin R4 montada; los paquetes de julio y del 12 de agosto son historicos.
+
+## Organización
+
+- [Mapa del repositorio](docs/09_ORGANIZACION_REPOSITORIO.md).
+- [Índice de fabricación](fabricacion/README.md): entrega actual, históricas y cotizaciones.
+- [Archivo histórico](archivo/README.md): respaldos, v2 y exportaciones antiguas.
+- `referencias/jlcpcb/`: plantillas XLSX del proveedor.
 
 ## Arquitectura actual
 

@@ -75,8 +75,8 @@ class SalusGoldenTests(unittest.TestCase):
 
     def setUp(self):
         self.config = jlc_cpl.read_json(self.ROOT / "config/jlcpcb-cpl.json")
-        self.bom = self.ROOT / "fabricacion/JLCPCB_2026-08-12_SALUS_v3/PCB_SALUS_v3-JLC-BOM.csv"
-        self.expected = self.ROOT / "production/pcb_test_positions.csv"
+        self.bom = self.ROOT / "fabricacion/historico/JLCPCB_2026-08-12_SALUS_v3/PCB_SALUS_v3-JLC-BOM.csv"
+        self.expected = self.ROOT / "archivo/exportaciones-toolkit/production/pcb_test_positions.csv"
         self.board = jlc_cpl.pcbnew.LoadBoard(str(self.ROOT / "PCB_SALUS_v3.kicad_pcb"))
 
     def test_golden_matches_toolkit_except_confirmed_calibrations(self):
