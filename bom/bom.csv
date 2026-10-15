@@ -8,6 +8,7 @@ D5,1,SP0503BAHTG,SOT-143,SP0503BAHTG,Littelfuse,C3040626,,,http://www.littelfuse
 "D9,D7",2,SS14,SMA,SS14,Yangzhou Yangjie Electronic Technology,C2480,,,https://www.vishay.com/docs/88746/ss12.pdf,,,
 FB1,1,600R@100MHz,0603,GZ1608D601TF,Sunlord,C1002,,,,,,
 J16,1,USB_NATIVO,USB_C_Receptacle_G-Switch_GT-USB-7010ASV,GT-USB-7010ASV,G-Switch,C2988369,,,https://www.usb.org/sites/default/files/documents/usb_type-c.zip,,,
+R4,1,120,0603,0603WAF1200T5E,UNI-ROYAL,C22787,,,,,,
 "R17,R19",2,47k,0603,0603WAF4702T5E,UNI-ROYAL,C25819,,,,,,
 "R20,R11,R18",3,330,0603,0603WAF3300T5E,Walsin Technology,C23138,,,,,,Huella asignada.
 "R21,R2,R3",3,4.7k,0603,0603WAF4701T5E,Walsin Technology,C23162,,,,,,Huella asignada.

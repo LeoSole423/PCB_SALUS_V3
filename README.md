@@ -9,9 +9,18 @@ independiente.
 En KiCad 10, abre `PCB_SALUS_v3.kicad_pro`. El esquema raiz contiene tres
 hojas jerarquicas activas: `ESP32`, `SENSORES` y `ALIMENTACION`.
 
-La PCB esta sincronizada de forma parcial y aun no tiene placement ni ruteo
-final. No debe enviarse a fabricar hasta completar la revision electrica,
-placement, ruteo, DRC y pruebas de banco.
+El diseño actual corresponde a `fabricacion/JLCPCB_2026-08-20_SALUS_v3_R4/`.
+Incluye cuatro agujeros M3 NPTH, contorno redondeado y R4 de 120 ohm montada
+como terminacion RS-485. El sufijo R4 identifica esa resistencia. Las fuentes
+en `origen/` coinciden con los archivos de trabajo al registrar este paquete.
+
+Los informes archivados del 20 de agosto registran cero conexiones sin rutear
+y cero errores DRC/ERC, con avisos e ignorados documentados. Esto no sustituye
+la validacion electrica ni las pruebas de banco. Antes de pedir, seguir
+`README-pedido.txt` y revisar el montaje en el visor JLCPCB.
+
+`JLCPCB_2026-08-20_SALUS_v3/` conserva la exportacion anterior del mismo dia,
+sin R4 montada; los paquetes de julio y del 12 de agosto son historicos.
 
 ## Arquitectura actual
 
