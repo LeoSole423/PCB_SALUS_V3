@@ -14790,7 +14790,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21A475KAQNNNE_Spec.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14824,7 +14824,7 @@
 				)
 			)
 		)
-		(property "LCSC PN" "C107125"
+		(property "LCSC PN" "C1779"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14837,7 +14837,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14850,7 +14850,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "CC0805KKX5R6BB475"
+		(property "Manufacturer Part" "CL21A475KAQNNNE"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14863,7 +14863,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC0805KKX5R6BB475"
+		(property "MPN" "CL21A475KAQNNNE"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18605,7 +18605,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21A475KAQNNNE_Spec.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18639,7 +18639,7 @@
 				)
 			)
 		)
-		(property "LCSC PN" "C107125"
+		(property "LCSC PN" "C1779"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18652,7 +18652,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18665,7 +18665,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "CC0805KKX5R6BB475"
+		(property "Manufacturer Part" "CL21A475KAQNNNE"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18678,7 +18678,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC0805KKX5R6BB475"
+		(property "MPN" "CL21A475KAQNNNE"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")

@@ -21,3 +21,8 @@ ERC: 6 avisos, sin errores. BOM/CPL validado sin errores.
 Este paquete NO cierra los pendientes de la revision del 15/10/2026:
 termica, acelerador, interfaces y mecanica siguen sujetos a validacion.
 No es aprobacion incondicional para fabricar ni pedido realizado.
+
+Actualizacion de abastecimiento 15/10/2026: C14/C16 pasan a Samsung
+CL21A475KAQNNNE / C1779, 4.7uF 25V X5R +/-10% 0805 Basic.
+Reemplazan C107125 sin stock; capacidad, tolerancia y huella se conservan.
+Solicitud actual: 5 PCB totales, montaje SMD en 2; 3 sin componentes.

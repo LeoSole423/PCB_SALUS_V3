@@ -135,7 +135,7 @@
     {
       "designator": "C14",
       "footprint": "Capacitor_SMD:C_0805_2012Metric",
-      "lcsc": "C107125",
+      "lcsc": "C1779",
       "layer": "Top",
       "centers_mm": {
         "anchor": [
@@ -251,7 +251,7 @@
     {
       "designator": "C16",
       "footprint": "Capacitor_SMD:C_0805_2012Metric",
-      "lcsc": "C107125",
+      "lcsc": "C1779",
       "layer": "Top",
       "centers_mm": {
         "anchor": [

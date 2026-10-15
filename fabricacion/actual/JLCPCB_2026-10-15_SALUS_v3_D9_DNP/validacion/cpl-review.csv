@@ -1,9 +1,9 @@
 Designator,Footprint,LCSC,Selected origin,Rule,Status,Reasons,Anchor mm,Pad center mm,Body center mm,CPL X,CPL Y,Rotation
 C12,Capacitor_SMD:C_0603_1608Metric,C14663,anchor,base,ready,,"[100.95, 112.2]","[100.95, 112.2]","[100.95, 112.2]",100.950000mm,-112.200000mm,90.000
 C13,Capacitor_SMD:C_0603_1608Metric,C14663,anchor,base,ready,,"[99.2, 104.45]","[99.2, 104.45]","[99.2, 104.45]",99.200000mm,-104.450000mm,90.000
-C14,Capacitor_SMD:C_0805_2012Metric,C107125,anchor,base,ready,,"[95.0, 107.6]","[95.0, 107.6]","[95.0, 107.6]",95.000000mm,-107.600000mm,0.000
+C14,Capacitor_SMD:C_0805_2012Metric,C1779,anchor,base,ready,,"[95.0, 107.6]","[95.0, 107.6]","[95.0, 107.6]",95.000000mm,-107.600000mm,0.000
 C15,Capacitor_SMD:C_0603_1608Metric,C14663,anchor,base,ready,,"[56.9, 78.65]","[56.9, 78.65]","[56.9, 78.65]",56.900000mm,-78.650000mm,90.000
-C16,Capacitor_SMD:C_0805_2012Metric,C107125,anchor,base,ready,,"[58.9, 78.55]","[58.9, 78.55]","[58.9, 78.55]",58.900000mm,-78.550000mm,270.000
+C16,Capacitor_SMD:C_0805_2012Metric,C1779,anchor,base,ready,,"[58.9, 78.55]","[58.9, 78.55]","[58.9, 78.55]",58.900000mm,-78.550000mm,270.000
 C17,Capacitor_SMD:C_0603_1608Metric,C14663,anchor,base,ready,,"[86.4, 142.05]","[86.4, 142.05]","[86.4, 142.05]",86.400000mm,-142.050000mm,270.000
 C18,Capacitor_SMD:C_0603_1608Metric,C14663,anchor,base,ready,,"[85.75, 137.85]","[85.75, 137.85]","[85.75, 137.85]",85.750000mm,-137.850000mm,90.000
 C19,Capacitor_SMD:C_0603_1608Metric,C14663,anchor,base,ready,,"[118.45, 104.75]","[118.45, 104.75]","[118.45, 104.75]",118.450000mm,-104.750000mm,0.000

@@ -1,7 +1,7 @@
 Reference,Qty,Value,Footprint,MPN,Manufacturer,LCSC,LC_Stock,Chosen_Distributor,Datasheet,Validated,DNP,Notes
 "C6,C7,C12,C13,C19,C18,C21,C15,C20,C17,C22,C23",12,100nF,0603,CC0603KRX7R9BB104,Yageo,C14663,,,,,,Huella asignada; consolidar propiedades al cerrar BOM.
 "C8,C5,C28",3,10uF,0805,CL21A106KPFNNNE,Samsung Electro-Mechanics,C17024,,,,,,
-"C16,C14",2,4.7uF,0805,CC0805KKX5R6BB475,YAGEO,C107125,,,,,,
+"C16,C14",2,4.7uF,0805,CL21A475KAQNNNE,Samsung Electro-Mechanics,C1779,,,https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21A475KAQNNNE_Spec.pdf,2026-10-15,,4.7uF 25V X5R +/-10% 0805; Basic; sustituye C107125 sin stock; comprobar stock antes de pagar.
 C30,1,22uF,CP_EIA-3528-21_Kemet-B,T491B226K010AT,KEMET,C117030,,,https://content.kemet.com/datasheets/KEM_T2005_T491.pdf,,,
 D1,1,SM712-02HTG,SOT-23,SM712-02HTG,DOWO,C5449363,,,https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sm712_datasheet.pdf.pdf,,,
 D5,1,SP0503BAHTG,SOT-143,SP0503BAHTG,Littelfuse,C3040626,,,http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf,,,
