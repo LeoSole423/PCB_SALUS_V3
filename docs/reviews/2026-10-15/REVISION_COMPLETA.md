@@ -1,6 +1,6 @@
 # Revisión de diseño PCB SALUS v3 — 15/10/2026
 
-> Actualización de decisiones: ver [registro vigente](DECISIONES_Y_PENDIENTES.md). Se conserva el lineal, se prevé USB Serial/JTAG sin detección VBUS y queda pendiente desconectar D9. Las descripciones siguientes reflejan el circuito revisado, todavía sin modificar.
+> Actualización de decisiones: ver [registro vigente](DECISIONES_Y_PENDIENTES.md). Se conserva el lineal, se prevé USB Serial/JTAG sin detección VBUS y posteriormente se aplicó D9 DNP (sin montar). Las descripciones siguientes reflejan el circuito revisado, todavía sin modificar.
 
 ## Dictamen
 

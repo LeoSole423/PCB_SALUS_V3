@@ -1,6 +1,6 @@
 # Decisiones y pendientes — 15/10/2026
 
-Este registro incorpora las decisiones del operador posteriores a la revisión. Las decisiones de arquitectura no implican modificaciones ya realizadas al circuito. El esquema, PCB y paquete de fabricación siguen basados en `5d39f71`.
+Este registro incorpora las decisiones del operador posteriores a la revisión. Las decisiones de arquitectura no implican modificaciones ya realizadas al circuito. Base de revisión: `5d39f71`. Actualización posterior: D9 marcado DNP en esquema/PCB y excluido de BOM/CPL; entrega `fabricacion/actual/JLCPCB_2026-10-15_SALUS_v3_D9_DNP/`.
 
 ## Decisiones adoptadas
 
@@ -10,7 +10,7 @@ Este registro incorpora las decisiones del operador posteriores a la revisión. 
 - USB servirá para comunicación bidireccional con la Jetson, programación y depuración. La alimentación normal de la PCB vendrá del buck; no se desea alimentación desde VBUS ni retorno de potencia hacia la Jetson.
 - Se adopta USB Serial/JTAG como modo inicial previsto del ESP32-S3. Permite puerto serie y JTAG simultáneos; flashear reinicia/interrumpe la aplicación. La implementación del protocolo del robot por USB está pendiente.
 - No añadir detección de VBUS, por decisión explícita del operador. GPIO auxiliares permanecen disponibles. USB OTG/TinyUSB con alimentación propia requeriría revisar nuevamente la detección; no se declara cubierto ese caso ni la función USB host.
-- La modificación propuesta es eliminar la ruta de potencia de D9 (no sustituir el diodo por un puente), conservando D7, D+/D−, GND, resistencias CC y protección USB. **Todavía no se aplicó**. Sin buck y tras desconectar D9, USB no alimentará la lógica ni permitirá programarla sin alimentación externa.
+- La modificación propuesta es eliminar la ruta de potencia de D9 (no sustituir el diodo por un puente), conservando D7, D+/D−, GND, resistencias CC y protección USB. **Aplicado como DNP en esquema y PCB; excluido de BOM/CPL de la nueva entrega**. Sin buck y tras desconectar D9, USB no alimentará la lógica ni permitirá programarla sin alimentación externa.
 - Conservar BOOT/RESET accesibles para recuperación. No deshabilitar mediante eFuses las funciones necesarias de programación/depuración. El bloqueo de potencia no es aislamiento galvánico: USB comparte GND.
 - Módulo previsto: ESP32-S3-WROOM-1-N8R2. J22 expone GPIO3/45/46 (strapping, uso condicionado por arranque) y GPIO47/48 (sin esa restricción en N8R2). No tratar todos los pines de J22 como intercambiables ni tolerantes a 5 V.
 - Receptor RC: FlySky FS-iA6B. Su amplitud PPM sigue pendiente de medición; alimentación y amplitud lógica no son equivalentes.
@@ -24,13 +24,13 @@ Este registro incorpora las decisiones del operador posteriores a la revisión. 
 
 ## Pendientes para cerrar el diseño y validar la primera placa
 
-1. Aplicar y revisar la desconexión de D9 en esquema/PCB y montaje. Definir alimentación externa durante programación y verificar encendido/apagado de Jetson y PCB en ambos órdenes.
+1. D9 DNP aplicado y BOM/CPL comprobados (63 SMD, D7 incluido). Verificar ausencia física de D9 al recibir el montaje. Definir alimentación externa durante programación y verificar encendido/apagado de Jetson y PCB en ambos órdenes.
 2. Fijar la configuración USB Serial/JTAG del firmware S3, implementar comandos/telemetría, y probar comunicación, flasheo, JTAG y recuperación BOOT/RESET desde la Jetson. Revisar comportamiento al desconectar USB y apagar cada equipo; no se garantiza fuga cero por retirar D9.
 3. Medir corriente media/picos, entrada real de U1 después de D7, estabilidad/ripple de 3.3 V y temperatura interna/U1 con carga representativa. El informe térmico contiene escenarios, no una temperatura máxima garantizada del robot.
 4. Validar acelerador filtrado: margen del LM358 con tensión mínima/temperatura, rango y carga de entrada del controlador, respuesta y estado seguro al arrancar/resetear/perder alimentación.
 5. Cerrar interfaces: amplitud PPM del FS-iA6B y divisor; niveles de Hall; módulos de relé y protección de bobinas; pull-ups I2C; uso exclusivo o habilitación de UART J4 compartida con RS485; umbral PWM y corriente/cableado de servos.
 6. Cerrar fabricación/mecánica: disponibilidad o sustitución de U6 ULN2003BDR; dibujo exacto de pulsadores y USB; especificación de conectores; desplazamiento de 0.5 mm de H2; rieles/fiduciales y montaje.
-7. Después de cambios de diseño, repetir ERC/DRC/paridad y generar un paquete nuevo BOM/CPL/Gerbers. El paquete actual no incorpora decisiones todavía pendientes. Realizar pruebas de banco, integridad USB/ESD y ruido proporcionales a la instalación, sin movimiento no autorizado.
+7. Después de cambios de diseño, repetir ERC/DRC/paridad y generar un paquete nuevo BOM/CPL/Gerbers. El paquete D9_DNP incorpora esa exclusión de montaje; otros pendientes de diseño y validación siguen abiertos. Realizar pruebas de banco, integridad USB/ESD y ruido proporcionales a la instalación, sin movimiento no autorizado.
 
 ## Referencias
 

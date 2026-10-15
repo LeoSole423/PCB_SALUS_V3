@@ -1,12 +1,13 @@
 # Entregas de fabricación
 
-La entrega más reciente conservada es [SALUS v3 del 20/08/2026 con R4 montada](actual/JLCPCB_2026-08-20_SALUS_v3_R4/README-pedido.txt).
+La entrega más reciente es [SALUS v3 del 15/10/2026 con D9 no montado](actual/JLCPCB_2026-10-15_SALUS_v3_D9_DNP/README-pedido.txt). Conserva R4 montada y excluye D9; 63 componentes SMD. Los pendientes de revisión siguen abiertos.
 El sufijo R4 identifica la resistencia de terminación RS-485 de 120 ohm.
 No indica una versión mayor v4 ni confirma que se haya realizado el pedido.
 
 | Carpeta | Uso |
 |---|---|
-| `actual/JLCPCB_2026-08-20_SALUS_v3_R4/` | Última entrega; 64 componentes SMD, R4 montada. |
+| `actual/JLCPCB_2026-10-15_SALUS_v3_D9_DNP/` | Entrega actual; 63 SMD, D9 DNP y R4 montada. |
+| `historico/JLCPCB_2026-08-20_SALUS_v3_R4/` | Entrega previa; 64 SMD, incluía D9. |
 | `historico/JLCPCB_2026-08-20_SALUS_v3/` | Entrega previa del mismo día; agujeros M3 y contorno redondeado, 63 componentes. |
 | `historico/JLCPCB_2026-08-12_SALUS_v3/` | Entrega anterior, con archivos de montaje actualizados el 13/08. |
 | `cotizaciones/JLCPCB_cotizacion_2026-07-30_v2/` | Cotización histórica; conservar su nombre original. |
@@ -16,11 +17,11 @@ No indica una versión mayor v4 ni confirma que se haya realizado el pedido.
 
 Cada paquete conserva su nombre, ZIP, BOM, CPL, fuentes e informes existentes.
 Los informes son evidencia de su fecha de generación, no una nueva validación.
-Los archivos de entrega no se regeneraron durante la organización del 15/10/2026.
+La entrega D9_DNP posterior a la organización actualiza fuentes, BOM/CPL y validaciones; reutiliza Gerbers sin cambios de geometría.
 Los manifiestos de checksum usan nombres relativos al paquete. Para verificarlos:
 
 ```bash
-cd fabricacion/actual/JLCPCB_2026-08-20_SALUS_v3_R4
+cd fabricacion/actual/JLCPCB_2026-10-15_SALUS_v3_D9_DNP
 sha256sum -c CHECKSUMS-SHA256.txt
 ```
 

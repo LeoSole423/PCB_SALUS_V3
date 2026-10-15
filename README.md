@@ -9,7 +9,7 @@ independiente.
 En KiCad 10, abre `PCB_SALUS_v3.kicad_pro`. El esquema raiz contiene tres
 hojas jerarquicas activas: `ESP32`, `SENSORES` y `ALIMENTACION`.
 
-El diseño actual corresponde a `fabricacion/actual/JLCPCB_2026-08-20_SALUS_v3_R4/`.
+El diseño actual corresponde a `fabricacion/actual/JLCPCB_2026-10-15_SALUS_v3_D9_DNP/`.
 Incluye cuatro agujeros M3 NPTH, contorno redondeado y R4 de 120 ohm montada
 como terminacion RS-485. El sufijo R4 identifica esa resistencia. Las fuentes
 en `origen/` coinciden con los archivos de trabajo al registrar este paquete.
@@ -32,7 +32,7 @@ sin R4 montada; los paquetes de julio y del 12 de agosto son historicos.
 ## Arquitectura actual
 
 - `U8`: ESP32-S3-WROOM-1-N8R2.
-- `U1`: LDO AMS1117CD-3.3; J5 y USB J16 alimentan `5V_SYS` mediante D7/D9.
+- `U1`: LDO AMS1117CD-3.3; J5 alimenta `5V_SYS` mediante D7; D9 se conserva como DNP y USB J16 no alimenta la lógica.
 - `JP1` cerrado alimenta `+3.3V` desde el LDO; `JP2` abierto permite una
   fuente alternativa por J20 con selección de puentes apropiada.
 - J16 es USB nativo; J1 es debug UART0, J3/J21 son RS-485 mediante U2.
@@ -67,4 +67,4 @@ directamente en un CSV.
 
 ## Decisiones de integración
 
-El [registro del 15/10/2026](docs/reviews/2026-10-15/DECISIONES_Y_PENDIENTES.md) distingue decisiones y cambios pendientes: conservar el lineal de 3.3 V, USB Serial/JTAG para la Jetson y no añadir detección VBUS. Desconectar D9 sigue pendiente; el circuito y los Gerbers actuales todavía permiten alimentación desde USB.
+El [registro del 15/10/2026](docs/reviews/2026-10-15/DECISIONES_Y_PENDIENTES.md) distingue decisiones y cambios pendientes: conservar el lineal de 3.3 V, USB Serial/JTAG para la Jetson y no añadir detección VBUS. D9 ya está marcado DNP en esquema y PCB y excluido del montaje de la entrega actual. Sus pads/pistas permanecen; no montar ni puentear D9.

@@ -1,0 +1,16 @@
+{
+  "d9_dnp": true,
+  "d9_excluded_bom": true,
+  "d9_excluded_positions": true,
+  "d7_populated": true,
+  "pcb_geometry_unchanged": true,
+  "bom_cpl_components": 63,
+  "tests_passed": 11,
+  "drc_errors": 0,
+  "drc_unconnected": 0,
+  "drc_known_warnings": 2,
+  "parity_mechanical_extras": 4,
+  "erc_errors": 0,
+  "erc_warnings": 6,
+  "gerbers_reused_identically_from": "fabricacion/historico/JLCPCB_2026-08-20_SALUS_v3_R4/PCB_SALUS_v3-Gerbers.zip"
+}
