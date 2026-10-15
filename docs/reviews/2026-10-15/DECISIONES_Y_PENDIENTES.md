@@ -32,6 +32,39 @@ Este registro incorpora las decisiones del operador posteriores a la revisión. 
 6. Cerrar fabricación/mecánica: disponibilidad o sustitución de U6 ULN2003BDR; dibujo exacto de pulsadores y USB; especificación de conectores; desplazamiento de 0.5 mm de H2; rieles/fiduciales y montaje.
 7. Después de cambios de diseño, repetir ERC/DRC/paridad y generar un paquete nuevo BOM/CPL/Gerbers. El paquete D9_DNP incorpora esa exclusión de montaje; otros pendientes de diseño y validación siguen abiertos. Realizar pruebas de banco, integridad USB/ESD y ruido proporcionales a la instalación, sin movimiento no autorizado.
 
+## Mejora diferida para próxima revisión: IMU-SYNC-001
+
+Decisión del operador (2026-10-15): **conservar la PCB ya enviada a fabricar**.
+No modificar ni cancelar el pedido por la sincronización del BMI088. Este
+requisito queda documentado, sin cambios de esquema, layout ni fabricación.
+
+Para disponer del modo de sincronización interna de Bosch en una revisión futura:
+
+- Unir **U4 INT3, pad 12**, a **U4 INT1, pad 16**, conservando la conexión
+  de INT3 a `DR_GIRO` / ESP32 GPIO15.
+- Separar INT1 de su conexión actual a `DR_ACCEL` / ESP32 GPIO14 y trasladar
+  esa conexión a **U4 INT2, pad 1**, hoy sin conectar. INT4, pad 13, sigue NC.
+- Configurar en firmware INT1 como entrada de sincronización e INT2 como
+  salida de datos sincronizados; incorporar la configuración Bosch requerida.
+  La unión física sola no activa el modo. Evitar configurar INT1 e INT3 como
+  salidas enfrentadas.
+
+Es una propuesta que conserva los dos GPIO y no exige componentes adicionales;
+no es un ruteo ya validado. Al retomarla: revisar esquema/layout, ERC/DRC/paridad,
+generar paquete nuevo identificado por revisión y verificar la función física.
+Conservar D9 DNP y la entrega actual como evidencia histórica.
+
+La placa actual permite lectura independiente de acelerómetro y giróscopo.
+El firmware usará marcas de tiempo separadas. No bloquea la primera sustitución
+inercial: el EKF local real inspeccionado de `salus_robot` utiliza de la IMU solo
+`angular_velocity.z`; no se declara todavía equivalencia física con Pixhawk.
+
+Detalle del requisito y perfil de firmware en
+`salus-esp32s3-fw/docs/migration/IMU_REQUIREMENTS.md` (repositorio SALUS).
+Referencia: [Bosch, sincronización BMI08x](https://www.bosch-sensortec.com/media/boschsensortec/downloads/application_notes_1/bst-mis-an006.pdf),
+secciones Concept y Technical Realization. Base de conexiones inspeccionada:
+PCB `506cada`, U4 pads 1/12/16.
+
 ## Referencias
 
 - [Revisión completa](REVISION_COMPLETA.md), con hallazgos y evidencia de los archivos actuales.
