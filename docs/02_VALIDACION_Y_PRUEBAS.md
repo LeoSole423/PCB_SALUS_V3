@@ -1,5 +1,11 @@
 # Validacion y pruebas
 
+> Estado al 15/10/2026: este documento contiene referencias históricas a bloques
+> sustituidos (buck/USB-UART). Para el diseño actual consultar la
+> [revisión completa](reviews/2026-10-15/REVISION_COMPLETA.md) y el
+> [pinout del netlist actual](reviews/2026-10-15/CONECTORES.md).
+
+
 ## Estado de V3
 
 La V3 cambio el ESP32 clasico y el LDO TLV757 por ESP32-S3 y buck AP63203WU-7.

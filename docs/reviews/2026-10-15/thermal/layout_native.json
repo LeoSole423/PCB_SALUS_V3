@@ -1,0 +1,29 @@
+{
+  "reference": "U1",
+  "package": "TO-252-3_TabPin2",
+  "x_mm": 99.05,
+  "y_mm": 69.7,
+  "pad2_local_zone_connection": [
+    -1,
+    -1
+  ],
+  "zone_connections": [
+    {
+      "name": "LINEAR_3.3V",
+      "connection_enum": 2,
+      "connection": "FULL"
+    },
+    {
+      "name": "LINEAR_3.3V_2_F",
+      "connection_enum": 2,
+      "connection": "FULL"
+    },
+    {
+      "name": "LINEAR_3.3V_B",
+      "connection_enum": 2,
+      "connection": "FULL"
+    }
+  ],
+  "output_net_vias": 32,
+  "output_net_vias_within6mm_of_anchor": 14
+}

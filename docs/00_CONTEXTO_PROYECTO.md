@@ -7,7 +7,16 @@ Jetson Orin Nano conserva las tareas de alto nivel y el ESP32-S3 se ocupa de
 FreeRTOS, adquisicion de sensores, PID, entradas, salidas y comunicaciones de
 campo. La placa no controla directamente la potencia de traccion.
 
-## Arquitectura confirmada
+## Estado de la documentación
+
+Actualización 15/10/2026: el diseño actual usa U1 AMS1117CD-3.3, no U9 buck;
+J3/J21 son RS-485, J16 es USB nativo y J1 es debug UART0. U3 CP2102N ya
+no está en la placa. R2/R3 son 4.7k. La referencia operativa actual es el
+[README](../README.md) y la [revisión completa](reviews/2026-10-15/REVISION_COMPLETA.md).
+No se aprobó la integración en robot. El bloque siguiente conserva el contexto
+histórico de la migración y no debe usarse como pinout del diseño actual.
+
+## Arquitectura histórica
 
 ```text
 Jetson Orin Nano <--> USB / UART segun interfaz <--> ESP32-S3

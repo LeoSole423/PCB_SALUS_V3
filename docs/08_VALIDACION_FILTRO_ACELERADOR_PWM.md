@@ -1,5 +1,15 @@
 # Validacion del filtro PWM del acelerador
 
+> Revisión 15/10/2026: los resultados del RC ideal se reproducen, pero no
+> garantizan el rango del LM358DR real. A 5V, su modo común en temperatura
+> llega a 3.0V, mientras la entrada puede llegar a 3.3V. La conclusión de
+> suficiencia de rango a continuación solo consideró el límite a25°C.
+> Contraste posterior: el firmware clásico limita el duty máximo a228/255
+> (promedio ideal2.951V), por lo que el caso actual tiene49mV de margen
+> nominal con5V. La escala completa y las tolerancias siguen pendientes.
+> Ver [hallazgo A1 y condiciones de cierre](reviews/2026-10-15/REVISION_COMPLETA.md).
+
+
 Fecha de validacion: 2026-08-13.
 
 ## Veredicto

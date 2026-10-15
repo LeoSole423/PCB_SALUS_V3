@@ -1,5 +1,11 @@
 # Mapa de submodulos y pinout
 
+> Estado al 15/10/2026: este documento contiene referencias históricas a bloques
+> sustituidos (buck/USB-UART). Para el diseño actual consultar la
+> [revisión completa](reviews/2026-10-15/REVISION_COMPLETA.md) y el
+> [pinout del netlist actual](reviews/2026-10-15/CONECTORES.md).
+
+
 Fecha de actualizacion: 2026-07-15.
 
 ## Alimentacion

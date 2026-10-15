@@ -31,13 +31,19 @@ sin R4 montada; los paquetes de julio y del 12 de agosto son historicos.
 
 ## Arquitectura actual
 
-- `U8`: ESP32-S3-WROOM-1-N8R2 como controlador de tiempo real e I/O.
-- `U9`: buck AP63203WU-7 que convierte `5V_SYS` a `+3.3V`.
-- Dos receptaculos USB-C: `J3` para UART0 mediante CP2102N y `J16` para el USB
-  nativo del ESP32-S3.
-- BMI088, I2C externo, puente BTS7960, salidas de reles, sensores Hall,
-  finales de carrera, acelerador, RF PPM, UART1 y dos headers de servo.
-- Entrada manual de 5 V por `J5` y entrada manual de 7 V por `J19`.
+- `U8`: ESP32-S3-WROOM-1-N8R2.
+- `U1`: LDO AMS1117CD-3.3; J5 y USB J16 alimentan `5V_SYS` mediante D7/D9.
+- `JP1` cerrado alimenta `+3.3V` desde el LDO; `JP2` abierto permite una
+  fuente alternativa por J20 con selección de puentes apropiada.
+- J16 es USB nativo; J1 es debug UART0, J3/J21 son RS-485 mediante U2.
+- BMI088, I2C, interfaz BTS7960, siete salidas de relé, Hall, finales,
+  acelerador y PPM. Receptor RC previsto: FlySky FS-iA6B.
+- J19 recibe 7 V externos para J17/J18; no hay conversión de potencia de tracción.
+
+La [revisión completa del 15/10/2026](docs/reviews/2026-10-15/REVISION_COMPLETA.md)
+registra los límites actuales: no hay aprobación incondicional para fabricar
+ni integrar. Resolver especialmente el rango del LM358, alimentación e interfaces.
+La documentación histórica que menciona U9 buck o U3 CP2102N describe etapas anteriores.
 
 ## Documentacion
 
@@ -58,3 +64,7 @@ Para toda exportación futura de montaje usar exclusivamente
 incluye el flujo reproducible para agentes, auditoría de centroides y
 calibración desde el visor de JLCPCB. No editar rotaciones o posiciones
 directamente en un CSV.
+
+## Decisiones de integración
+
+El [registro del 15/10/2026](docs/reviews/2026-10-15/DECISIONES_Y_PENDIENTES.md) distingue decisiones y cambios pendientes: conservar el lineal de 3.3 V, USB Serial/JTAG para la Jetson y no añadir detección VBUS. Desconectar D9 sigue pendiente; el circuito y los Gerbers actuales todavía permiten alimentación desde USB.

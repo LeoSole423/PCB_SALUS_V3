@@ -1,0 +1,835 @@
+{
+  "date": "2026-10-15",
+  "design_commit": "5d39f71",
+  "skill_commit": "6a91aaaea124152b2923326c1cf77278e0999cd4",
+  "source_hashes": {
+    "PCB_SALUS_v3.kicad_pro": "85268b4dbcbdb0292f228555d8040172c830a2caf23ae46beb5013df6c08d380",
+    "PCB_SALUS_v3.kicad_pcb": "2053b777de3f9e56e808d4b0f9c4bfa2653e74e82dbf853187c144b2630bc394",
+    "PCB_SALUS_v3.kicad_sch": "c951b0b67598c9e549af5b654545d3a18005987f1bc8bac11d8d79d5dbb2abb7",
+    "PCB_SALUS_v3.kicad_dru": "490f175065d97967cfd8dd70cbbcb22af77a006ceafe4233eb3c84ad9d285dcf",
+    "ESP32.kicad_sch": "e0f53e41ce6fcc0c2f8cda0c59f5298e191f6def38c4befcefbd577a3112cef2",
+    "SENSORES.kicad_sch": "6c13759a6bb9d60a117992a4c0f746e4d563ecab7257ce168227df3607f6084a",
+    "ALIMENTACION.kicad_sch": "793cca0c18d8930883215a20f04b7e19789e2924bacd80cadd24b49f8b367d2b",
+    "config/jlcpcb-cpl.json": "a24f31c8b2b78c9e4b74ceebc72d1acd825f20af6b0a2c7636ae0c372f59a8f6"
+  },
+  "native_parity": {
+    "native_pin_count": 325,
+    "analyzer_pin_checks": 315,
+    "analyzer_net_mismatches": [],
+    "schematic_pcb_pad_net_mismatches": [],
+    "native_pins_without_pcb_net": [],
+    "unique_schematic_references": 87,
+    "pcb_footprints": 91
+  },
+  "native_rule_areas": [
+    {
+      "reference": "U4",
+      "at": [
+        "at",
+        "100.25",
+        "108.55"
+      ],
+      "layers": [
+        "layer",
+        "F.Cu"
+      ],
+      "keepout": [
+        "keepout",
+        [
+          "tracks",
+          "not_allowed"
+        ],
+        [
+          "vias",
+          "not_allowed"
+        ],
+        [
+          "pads",
+          "allowed"
+        ],
+        [
+          "copperpour",
+          "not_allowed"
+        ],
+        [
+          "footprints",
+          "allowed"
+        ]
+      ],
+      "polygon": [
+        "polygon",
+        [
+          "pts",
+          [
+            "xy",
+            "98.575",
+            "107.625"
+          ],
+          [
+            "xy",
+            "101.925",
+            "107.625"
+          ],
+          [
+            "xy",
+            "101.925",
+            "109.475"
+          ],
+          [
+            "xy",
+            "98.575",
+            "109.475"
+          ]
+        ]
+      ]
+    },
+    {
+      "reference": "U8",
+      "at": [
+        "at",
+        "98.325",
+        "137",
+        "180"
+      ],
+      "layers": [
+        "layers",
+        "F.Cu",
+        "B.Cu"
+      ],
+      "keepout": [
+        "keepout",
+        [
+          "tracks",
+          "not_allowed"
+        ],
+        [
+          "vias",
+          "not_allowed"
+        ],
+        [
+          "pads",
+          "not_allowed"
+        ],
+        [
+          "copperpour",
+          "not_allowed"
+        ],
+        [
+          "footprints",
+          "not_allowed"
+        ]
+      ],
+      "polygon": [
+        "polygon",
+        [
+          "pts",
+          [
+            "xy",
+            "122.325",
+            "143.75"
+          ],
+          [
+            "xy",
+            "74.325",
+            "143.75"
+          ],
+          [
+            "xy",
+            "74.325",
+            "164.75"
+          ],
+          [
+            "xy",
+            "122.325",
+            "164.75"
+          ]
+        ]
+      ]
+    }
+  ],
+  "schematic_stats": {
+    "total_components": 87,
+    "unique_parts": 26,
+    "dnp_parts": 0,
+    "total_nets": 89,
+    "total_wires": 159,
+    "total_no_connects": 10,
+    "component_types": {
+      "resistor": 31,
+      "diode": 4,
+      "capacitor": 18,
+      "connector": 22,
+      "switch": 2,
+      "ic": 7,
+      "ferrite_bead": 1,
+      "jumper": 2
+    },
+    "power_rails": [
+      {
+        "name": "+3.3V",
+        "voltage": 3.3
+      },
+      {
+        "name": "+5V",
+        "voltage": 5.0
+      },
+      {
+        "name": "+7V",
+        "voltage": 7.0
+      },
+      {
+        "name": "5V_SYS",
+        "voltage": 5.0
+      },
+      {
+        "name": "GND",
+        "voltage": null
+      },
+      {
+        "name": "USB2_VBUS",
+        "voltage": null
+      }
+    ],
+    "missing_mpn": [],
+    "missing_footprint": []
+  },
+  "analyzers": {
+    "pcb": {
+      "summary": {
+        "total_findings": 40,
+        "by_severity": {
+          "error": 1,
+          "warning": 2,
+          "info": 37
+        }
+      },
+      "trust_summary": {
+        "total_findings": 40,
+        "trust_level": "high",
+        "by_confidence": {
+          "deterministic": 39,
+          "heuristic": 1,
+          "datasheet_backed": 0
+        },
+        "by_evidence_source": {
+          "datasheet": 0,
+          "topology": 16,
+          "heuristic_rule": 0,
+          "symbol_footprint": 0,
+          "bom": 0,
+          "geometry": 24,
+          "api_lookup": 0
+        },
+        "provenance_coverage_pct": 0.0
+      }
+    },
+    "gerber-delivery": {
+      "summary": {
+        "total_findings": 1,
+        "by_severity": {
+          "error": 0,
+          "warning": 1,
+          "info": 0
+        }
+      },
+      "trust_summary": {
+        "total_findings": 1,
+        "trust_level": "low",
+        "by_confidence": {
+          "deterministic": 0,
+          "heuristic": 1,
+          "datasheet_backed": 0
+        },
+        "by_evidence_source": {
+          "datasheet": 0,
+          "topology": 1,
+          "heuristic_rule": 0,
+          "symbol_footprint": 0,
+          "bom": 0,
+          "geometry": 0,
+          "api_lookup": 0
+        },
+        "provenance_coverage_pct": 0.0
+      }
+    },
+    "spice": {
+      "summary": {
+        "total": 14,
+        "total_findings": 0,
+        "pass": 14,
+        "warn": 0,
+        "fail": 0,
+        "skip": 0,
+        "by_severity": {
+          "error": 0,
+          "warning": 0,
+          "info": 14
+        }
+      },
+      "trust_summary": {
+        "total_findings": 0,
+        "trust_level": "high",
+        "by_confidence": {
+          "deterministic": 0,
+          "heuristic": 0,
+          "datasheet_backed": 0
+        },
+        "by_evidence_source": {
+          "datasheet": 0,
+          "topology": 0,
+          "heuristic_rule": 0,
+          "symbol_footprint": 0,
+          "bom": 0,
+          "geometry": 0,
+          "api_lookup": 0
+        },
+        "provenance_coverage_pct": null
+      }
+    },
+    "thermal": {
+      "summary": {
+        "total_findings": 1,
+        "components_assessed": 1,
+        "components_skipped": 0,
+        "active": 1,
+        "suppressed": 0,
+        "by_severity": {
+          "error": 0,
+          "warning": 0,
+          "info": 1
+        },
+        "thermal_score": 100,
+        "total_board_dissipation_w": 0.374,
+        "hottest_component": {
+          "ref": "U1",
+          "tj_estimated_c": 49.7
+        },
+        "components_analyzed": 1,
+        "components_above_85c": 0,
+        "components_above_tjmax": 0,
+        "ambient_c": 40.0
+      },
+      "trust_summary": {
+        "total_findings": 1,
+        "trust_level": "low",
+        "by_confidence": {
+          "deterministic": 0,
+          "heuristic": 1,
+          "datasheet_backed": 0
+        },
+        "by_evidence_source": {
+          "datasheet": 0,
+          "topology": 0,
+          "heuristic_rule": 1,
+          "symbol_footprint": 0,
+          "bom": 0,
+          "geometry": 0,
+          "api_lookup": 0
+        },
+        "provenance_coverage_pct": 0.0
+      }
+    },
+    "emc": {
+      "summary": {
+        "total_findings": 64,
+        "categories_checked": 9,
+        "active": 64,
+        "suppressed": 0,
+        "by_severity": {
+          "error": 2,
+          "warning": 21,
+          "info": 41
+        },
+        "emc_risk_score": 70.0
+      },
+      "trust_summary": {
+        "total_findings": 64,
+        "trust_level": "low",
+        "by_confidence": {
+          "deterministic": 24,
+          "heuristic": 40,
+          "datasheet_backed": 0
+        },
+        "by_evidence_source": {
+          "datasheet": 0,
+          "topology": 24,
+          "heuristic_rule": 40,
+          "symbol_footprint": 0,
+          "bom": 0,
+          "geometry": 0,
+          "api_lookup": 0
+        },
+        "provenance_coverage_pct": 0.0
+      }
+    },
+    "lifecycle": {
+      "summary": {
+        "total_findings": 26,
+        "by_severity": {
+          "error": 0,
+          "warning": 0,
+          "info": 26
+        },
+        "components_checked": 26,
+        "lifecycle_issues": 26,
+        "temperature_issues": 0
+      },
+      "trust_summary": {
+        "total_findings": 26,
+        "trust_level": "high",
+        "by_confidence": {
+          "deterministic": 26,
+          "heuristic": 0,
+          "datasheet_backed": 0
+        },
+        "by_evidence_source": {
+          "datasheet": 0,
+          "topology": 0,
+          "heuristic_rule": 0,
+          "symbol_footprint": 0,
+          "bom": 0,
+          "geometry": 0,
+          "api_lookup": 26
+        },
+        "provenance_coverage_pct": 0.0
+      }
+    },
+    "cross_analysis": {
+      "summary": {
+        "total_findings": 0,
+        "by_severity": {
+          "error": 0,
+          "warning": 0,
+          "info": 0
+        }
+      },
+      "trust_summary": {
+        "total_findings": 0,
+        "trust_level": "high",
+        "by_confidence": {
+          "deterministic": 0,
+          "heuristic": 0,
+          "datasheet_backed": 0
+        },
+        "by_evidence_source": {
+          "datasheet": 0,
+          "topology": 0,
+          "heuristic_rule": 0,
+          "symbol_footprint": 0,
+          "bom": 0,
+          "geometry": 0,
+          "api_lookup": 0
+        },
+        "provenance_coverage_pct": null
+      }
+    }
+  },
+  "native_drc": {
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-15T08:52:26",
+    "ignored_checks": [
+      {
+        "description": "Footprint has no courtyard defined",
+        "key": "missing_courtyard"
+      },
+      {
+        "description": "Track endpoint not centered on via",
+        "key": "track_not_centered_on_via"
+      },
+      {
+        "description": "Tuning profile track geometries",
+        "key": "tuning_profile_track_geometries"
+      },
+      {
+        "description": "Footprint doesn't match symbol's footprint filters",
+        "key": "footprint_filters_mismatch"
+      },
+      {
+        "description": "Footprint component type doesn't match footprint pads",
+        "key": "footprint_type_mismatch"
+      }
+    ],
+    "included_severities": [
+      "error",
+      "warning",
+      "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [
+      {
+        "description": "Extra footprint",
+        "items": [
+          {
+            "description": "Footprint H1",
+            "pos": {
+              "x": 145.0,
+              "y": 145.0
+            },
+            "uuid": "3cfff5c9-fd90-4853-a2ef-16c88a45d482"
+          }
+        ],
+        "severity": "warning",
+        "type": "extra_footprint"
+      },
+      {
+        "description": "Extra footprint",
+        "items": [
+          {
+            "description": "Footprint H3",
+            "pos": {
+              "x": 55.0,
+              "y": 55.0
+            },
+            "uuid": "44335d8d-4857-468e-9385-e48fd71d09eb"
+          }
+        ],
+        "severity": "warning",
+        "type": "extra_footprint"
+      },
+      {
+        "description": "Extra footprint",
+        "items": [
+          {
+            "description": "Footprint H4",
+            "pos": {
+              "x": 55.0,
+              "y": 145.0
+            },
+            "uuid": "53bd9974-3e41-45fa-8b3f-a1ac074d63d3"
+          }
+        ],
+        "severity": "warning",
+        "type": "extra_footprint"
+      },
+      {
+        "description": "Extra footprint",
+        "items": [
+          {
+            "description": "Footprint H2",
+            "pos": {
+              "x": 145.5,
+              "y": 55.0
+            },
+            "uuid": "ad1bca7a-1564-4621-b0dc-f36711dbfae3"
+          }
+        ],
+        "severity": "warning",
+        "type": "extra_footprint"
+      }
+    ],
+    "source": "PCB_SALUS_v3.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+      {
+        "description": "Footprint 'Switch-Definitivo' does not match copy in library 'Footprints'",
+        "items": [
+          {
+            "description": "Footprint SW2",
+            "pos": {
+              "x": 127.15,
+              "y": 125.5
+            },
+            "uuid": "0173ec51-34cb-4406-986c-d053609f83d9"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_mismatch"
+      },
+      {
+        "description": "Footprint 'Switch-Definitivo' does not match copy in library 'Footprints'",
+        "items": [
+          {
+            "description": "Footprint SW1",
+            "pos": {
+              "x": 64.1,
+              "y": 142.375
+            },
+            "uuid": "f8ab4909-355f-4cb5-b731-233e42e829b2"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_mismatch"
+      }
+    ]
+  },
+  "native_erc": {
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-15T08:52:24",
+    "ignored_checks": [
+      {
+        "description": "Global label only appears once in the schematic",
+        "key": "single_global_label"
+      },
+      {
+        "description": "Four connection points are joined together",
+        "key": "four_way_junction"
+      },
+      {
+        "description": "SPICE model issue",
+        "key": "simulation_model_issue"
+      },
+      {
+        "description": "Assigned footprint doesn't match footprint filters",
+        "key": "footprint_filter"
+      }
+    ],
+    "included_severities": [
+      "error",
+      "warning",
+      "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+      {
+        "path": "/",
+        "uuid_path": "/73bd63ea-8f0f-4b31-8d24-3cde4b540ad9",
+        "violations": [
+          {
+            "description": "Unconnected wire endpoint",
+            "items": [
+              {
+                "description": "Horizontal Wire, length 0.0127 mm",
+                "pos": {
+                  "x": 1.7526,
+                  "y": 0.508
+                },
+                "uuid": "b86dc8da-c163-437a-995c-d3eb90d219a7"
+              }
+            ],
+            "severity": "warning",
+            "type": "unconnected_wire_endpoint"
+          }
+        ]
+      },
+      {
+        "path": "/ALIMENTACION/",
+        "uuid_path": "/73bd63ea-8f0f-4b31-8d24-3cde4b540ad9/ee63faab-e0b7-4195-9948-f74f91d21edc",
+        "violations": []
+      },
+      {
+        "path": "/ESP32/",
+        "uuid_path": "/73bd63ea-8f0f-4b31-8d24-3cde4b540ad9/195b6a32-4ce2-4ad3-b1b2-c1501c147c70",
+        "violations": [
+          {
+            "description": "Pins of type Unspecified and Passive are connected",
+            "items": [
+              {
+                "description": "Symbol SW1 Pin 1 [1, Unspecified, Line]",
+                "pos": {
+                  "x": 2.3622,
+                  "y": 0.5207
+                },
+                "uuid": "7d8b5297-2f7c-401d-be4c-ca04b4e5fb8a"
+              },
+              {
+                "description": "Symbol R23 Pin 1 [Passive, Line]",
+                "pos": {
+                  "x": 2.3622,
+                  "y": 0.3556
+                },
+                "uuid": "7681fefe-e3f1-4354-9f41-68b7377068fd"
+              }
+            ],
+            "severity": "warning",
+            "type": "pin_to_pin"
+          },
+          {
+            "description": "Pins of type Unspecified and Power input are connected",
+            "items": [
+              {
+                "description": "Symbol SW1 Pin 2 [2, Unspecified, Line]",
+                "pos": {
+                  "x": 2.3622,
+                  "y": 0.6223
+                },
+                "uuid": "9c129081-cfac-4406-8102-1fd625db3a3f"
+              },
+              {
+                "description": "Symbol #PWR047 Pin 1 [Power input, Line]",
+                "pos": {
+                  "x": 2.3622,
+                  "y": 0.6223
+                },
+                "uuid": "707d88c2-5267-4f10-9b54-33c396a0ca51"
+              }
+            ],
+            "severity": "warning",
+            "type": "pin_to_pin"
+          },
+          {
+            "description": "Pins of type Unspecified and Passive are connected",
+            "items": [
+              {
+                "description": "Symbol SW2 Pin 1 [1, Unspecified, Line]",
+                "pos": {
+                  "x": 2.6543,
+                  "y": 0.5334
+                },
+                "uuid": "fd2c213a-e97a-4c94-9178-76e184556fb4"
+              },
+              {
+                "description": "Symbol C8 Pin 1 [Passive, Line]",
+                "pos": {
+                  "x": 2.6543,
+                  "y": 0.4699
+                },
+                "uuid": "9d39b41c-2974-45c9-9936-c2e31ee846a1"
+              }
+            ],
+            "severity": "warning",
+            "type": "pin_to_pin"
+          },
+          {
+            "description": "Pins of type Unspecified and Power input are connected",
+            "items": [
+              {
+                "description": "Symbol SW2 Pin 2 [2, Unspecified, Line]",
+                "pos": {
+                  "x": 2.6543,
+                  "y": 0.635
+                },
+                "uuid": "aaa2ba8a-abd2-45e5-93ed-86a7bc47074a"
+              },
+              {
+                "description": "Symbol #PWR049 Pin 1 [Power input, Line]",
+                "pos": {
+                  "x": 2.6543,
+                  "y": 0.635
+                },
+                "uuid": "4cefbeaa-2fcc-4c6a-8bcf-d4a27d945b89"
+              }
+            ],
+            "severity": "warning",
+            "type": "pin_to_pin"
+          }
+        ]
+      },
+      {
+        "path": "/SENSORES/",
+        "uuid_path": "/73bd63ea-8f0f-4b31-8d24-3cde4b540ad9/20e3551c-55ad-441c-9e51-79e4c75cc265",
+        "violations": [
+          {
+            "description": "Both HBRIDGE_EN and HB_EN are attached to the same items; HBRIDGE_EN will be used in the netlist",
+            "items": [
+              {
+                "description": "Global Label 'HBRIDGE_EN'",
+                "pos": {
+                  "x": 1.1938,
+                  "y": 0.5969
+                },
+                "uuid": "7bb2fc23-8ed9-4d52-87b1-c6907d3d5718"
+              },
+              {
+                "description": "Label 'HB_EN'",
+                "pos": {
+                  "x": 1.4351,
+                  "y": 0.7493
+                },
+                "uuid": "100c2d15-ad14-44d2-b14f-28ebddc98020"
+              }
+            ],
+            "severity": "warning",
+            "type": "multiple_net_names"
+          },
+          {
+            "comment": "",
+            "description": "Conflict problem between pins",
+            "excluded": true,
+            "items": [
+              {
+                "description": "Symbol U4 Pin 10 [SDO2, Output, Line]",
+                "pos": {
+                  "x": 0.5842,
+                  "y": 0.6604
+                },
+                "uuid": "d0ae3c79-45d6-49aa-8024-c0ea4c7239c1"
+              },
+              {
+                "description": "Symbol U4 Pin 15 [SDO1, Output, Line]",
+                "pos": {
+                  "x": 0.5842,
+                  "y": 0.635
+                },
+                "uuid": "c7ca8c7d-9f52-40d4-93f4-1be64ffa0d1a"
+              }
+            ],
+            "severity": "warning",
+            "type": "pin_to_pin"
+          }
+        ]
+      }
+    ],
+    "source": "PCB_SALUS_v3.kicad_sch"
+  },
+  "cpl_validation": {
+    "valid": true,
+    "errors": [],
+    "bom_designators": 64,
+    "cpl_designators": 64,
+    "duplicate_bom_designators": []
+  },
+  "margin_calculations": {
+    "lm358_common_mode": "LM358 a 5.0 V: VCM max recomendado en temperatura = 3.0 V; entrada PWM filtrada máxima = 3.3 V; margen = -0.3 V. A 4.75 V de alimentación, margen = -0.55 V.",
+    "throttle_filter": "R17=47000 ohm, C20=100nF: tau=4.700 ms, fc=33.863 Hz, t10-90=10.327 ms; salida ideal FS=3.27699 V.",
+    "ppm_levels": "R21=4700, R24=10000: ratio=0.680272; entrada3.3V -> 2.2449V; entrada5.0V -> 3.4014V; entrada5.5V -> 3.7415V; VIHminESP=2.475V; entrada mínimaHIGH=3.6383V.",
+    "i2c_pullups": "{'I2C_SDA': [], 'I2C_SCL': []}",
+    "hall_inputs": "{'J14': {'4': 'GND', '1': 'HALL_A', '2': 'HALL_B', '3': 'HALL_C'}, 'R31': {'1': 'HALL_A', '2': 'Net-(U8-IO35)'}, 'R32': {'1': 'HALL_B', '2': 'Net-(U8-IO36)'}, 'R33': {'1': 'HALL_C', '2': 'Net-(U8-IO37)'}}",
+    "power_selection": "{'U1': {'2': '/ALIMENTACION/LINEAR_3.3V', '3': '5V_SYS', '1': 'GND'}, 'D7': {'2': '+5V', '1': '5V_SYS'}, 'D9': {'1': '5V_SYS', '2': 'USB2_VBUS'}, 'JP1': {'2': '+3.3V', '1': '/ALIMENTACION/LINEAR_3.3V'}, 'JP2': {'2': '+3.3V', '1': '/ALIMENTACION/3.3V_EXT'}, 'J20': {'1': '/ALIMENTACION/3.3V_EXT', '2': 'GND'}, 'U7': {'8': '+5V', '4': 'GND', '5': 'GND', '3': 'Net-(U7A-+)', '1': 'Net-(U7A--)', '2': 'Net-(U7A--)', '6': 'Net-(U7B--)', '7': 'Net-(U7B--)'}}",
+    "uln_com": "unconnected-(U6-COM-Pad9)",
+    "uln_mpn": "ULN2003BDR",
+    "servo_supply": "[{'component': 'J17', 'pin_number': '2', 'pin_name': 'Pin_2', 'pin_type': 'passive'}, {'component': '#PWR014', 'pin_number': '1', 'pin_name': '', 'pin_type': 'power_in'}, {'component': 'J19', 'pin_number': '1', 'pin_name': 'Pin_1', 'pin_type': 'passive'}, {'component': '#PWR075', 'pin_number': '1', 'pin_name': '', 'pin_type': 'power_in'}, {'component': '#PWR01', 'pin_number': '1', 'pin_name': '', 'pin_type': 'power_in'}, {'component': 'J18', 'pin_number': '2', 'pin_name': 'Pin_2', 'pin_type': 'passive'}]",
+    "mounting_holes": "[('H1', 145.0, 145.0), ('H3', 55.0, 55.0), ('H4', 55.0, 145.0), ('H2', 145.5, 55.0)]",
+    "keepouts": "[{'reference': 'U4', 'at': ['at', '100.25', '108.55'], 'layers': ['layer', 'F.Cu'], 'keepout': ['keepout', ['tracks', 'not_allowed'], ['vias', 'not_allowed'], ['pads', 'allowed'], ['copperpour', 'not_allowed'], ['footprints', 'allowed']], 'polygon': ['polygon', ['pts', ['xy', '98.575', '107.625'], ['xy', '101.925', '107.625'], ['xy', '101.925', '109.475'], ['xy', '98.575', '109.475']]]}, {'reference': 'U8', 'at': ['at', '98.325', '137', '180'], 'layers': ['layers', 'F.Cu', 'B.Cu'], 'keepout': ['keepout', ['tracks', 'not_allowed'], ['vias', 'not_allowed'], ['pads', 'not_allowed'], ['copperpour', 'not_allowed'], ['footprints', 'not_allowed']], 'polygon': ['polygon', ['pts', ['xy', '122.325', '143.75'], ['xy', '74.325', '143.75'], ['xy', '74.325', '164.75'], ['xy', '122.325', '164.75']]]}]",
+    "fiducials": "[]",
+    "usb_lengths": "[('/ESP32/USB2_D-', 44.448, 0), ('/ESP32/USB2_D+', 43.556, 0), ('Net-(U8-USB_D-)', 4.412, 0), ('Net-(U8-USB_D+)', 4.289, 0)]",
+    "ldo_sweep": "[{'current_A': 0.22, 'assumed_input_V': 4.6, 'power_W': 0.286, 'Tj_at40_theta80': 62.9}, {'current_A': 0.35, 'assumed_input_V': 4.6, 'power_W': 0.455, 'Tj_at40_theta80': 76.4}, {'current_A': 0.5, 'assumed_input_V': 4.6, 'power_W': 0.65, 'Tj_at40_theta80': 92.0}, {'current_A': 0.8, 'assumed_input_V': 4.6, 'power_W': 1.04, 'Tj_at40_theta80': 123.2}]",
+    "native_parity": "325 terminales nativos; 0 diferencias esquema/PCB y 0 diferencias entre analizador y netlist."
+  },
+  "external_components": {
+    "rc_receiver": {
+      "model": "FlySky FS-iA6B",
+      "source": "operador, 2026-10-15",
+      "manufacturer_spec": "https://www.flysky-cn.com/ia6b-canshu",
+      "supply_range_v": [
+        4.0,
+        8.4
+      ],
+      "ppm_logic_level": "no especificado por fuente consultada; pendiente medición"
+    },
+    "hall_sensors": "no especificados",
+    "servos": "no especificados",
+    "throttle_controller": {
+      "source": "corrección del operador15/10/2026; firmware local037c1ed",
+      "original_potentiometer_range_v": [
+        0,
+        5
+      ],
+      "observed_full_acceleration_with_pwm_amplitude_v": 3.3,
+      "required_5v_output": false,
+      "model": "pendiente",
+      "firmware_duty_min": 62,
+      "firmware_duty_max": 228,
+      "firmware_duty_scale": 255,
+      "pwm_frequency_hz": 20000,
+      "ideal_mean_range_v": [
+        0.8023529411764705,
+        2.9505882352941177
+      ],
+      "input_impedance": "pendiente"
+    },
+    "relay_modules": "no especificados"
+  },
+  "installation_requirements": {
+    "source": "operador15/10/2026",
+    "battery_nominal_v": 48,
+    "power_conversion": "bucks externos5V y7V; modelos pendientes",
+    "usb": "programación y datos aJetson Orin; simultáneo con alimentación; no se desea alimentarPCB porVBUS ni devolver potencia aJetson",
+    "enclosure": "chapa pintada blanca con aberturas, PCB sin sol directo",
+    "thermal": "exterior verano; temperatura interna máxima no cuantificada",
+    "hardware_changes_applied": false,
+    "3v3_load_scope": "solo cargas internas PCB; sin cargas externas3.3V",
+    "design_priority": "bajo presupuesto y primera revisión funcional; priorizar solución lineal si térmica y margen se justifican"
+  }
+}

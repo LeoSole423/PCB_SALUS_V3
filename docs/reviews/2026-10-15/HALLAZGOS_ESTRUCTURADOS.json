@@ -1,0 +1,380 @@
+{
+  "schema_version": "1.0",
+  "produced_for_run_id": "review-2026-10-15",
+  "produced_at": "2026-10-15T12:04:16.733706+00:00",
+  "findings": [
+    {
+      "detector": "deep_review",
+      "category": "analog",
+      "severity": "warning",
+      "confidence": "high",
+      "summary": "Acelerador: margen estrecho con firmware62..228/255; escala completa futura no garantizada",
+      "description": "Corrección15/10: firmware037c1ed limita promedio nominal a2.95059V. A5V U7 cumple límite nominal3.0V con49.4mV de margen; validar tolerancias. Operador retira requisito5V.",
+      "recommendation": "Revisar opamp/rango y validar salida contra entrada real del controlador.",
+      "evidence": {
+        "components": [
+          "U7",
+          "R17",
+          "C20"
+        ],
+        "computation": {
+          "description": "lm358_common_mode",
+          "script": "analysis/review-2026-10-15/helpers/check_margins.py",
+          "result": "LM358 a 5.0 V: VCM max recomendado en temperatura = 3.0 V; entrada PWM filtrada máxima = 3.3 V; margen = -0.3 V. A 4.75 V de alimentación, margen = -0.55 V."
+        }
+      },
+      "evidence_checked": "partial",
+      "components": [
+        "U7",
+        "R17",
+        "C20"
+      ],
+      "finding_id": "deep_review:d6d3529b88d0"
+    },
+    {
+      "detector": "deep_review",
+      "category": "assembly",
+      "severity": "warning",
+      "confidence": "medium",
+      "summary": "Sin fiduciales propios: coordinar panel/rieles",
+      "description": "Analizador no encuentra fiduciales; ensamblador puede aportar en rieles.",
+      "recommendation": "Acordar panel y reconocimiento o agregar fiduciales. No es fallo eléctrico.",
+      "evidence": {
+        "components": [
+          "U4",
+          "U8"
+        ],
+        "computation": {
+          "description": "fiducials",
+          "script": "analysis/review-2026-10-15/helpers/check_margins.py",
+          "result": "[]"
+        }
+      },
+      "evidence_checked": "full",
+      "components": [
+        "U4",
+        "U8"
+      ],
+      "finding_id": "deep_review:627009ddb02a"
+    },
+    {
+      "detector": "deep_review",
+      "category": "bus_levels",
+      "severity": "warning",
+      "confidence": "high",
+      "summary": "PPM: una señal3.3V no garantizaHIGH",
+      "description": "Divisor0.680272 entrega2.245V frente VIH2.475V aVDD3.3.",
+      "recommendation": "Definir salida de receptor y tolerancias o rediseñar interfaz.",
+      "evidence": {
+        "components": [
+          "J15",
+          "R21",
+          "R24",
+          "U8"
+        ],
+        "computation": {
+          "description": "ppm_levels",
+          "script": "analysis/review-2026-10-15/helpers/check_margins.py",
+          "result": "R21=4700, R24=10000: ratio=0.680272; entrada3.3V -> 2.2449V; entrada5.0V -> 3.4014V; entrada5.5V -> 3.7415V; VIHminESP=2.475V; entrada mínimaHIGH=3.6383V."
+        }
+      },
+      "evidence_checked": "full",
+      "components": [
+        "J15",
+        "R21",
+        "R24",
+        "U8"
+      ],
+      "finding_id": "deep_review:918dc483f0e1"
+    },
+    {
+      "detector": "deep_review",
+      "category": "bus_levels",
+      "severity": "warning",
+      "confidence": "high",
+      "summary": "Hall: serie1k no adapta salida push-pull5V",
+      "description": "Sin modelo de sensores no puede garantizarse nivelni estado. Resistencia serie sin divisor ni adaptación.",
+      "recommendation": "Confirmar niveles; adaptar5V o definir colector abierto ypull-ups3.3V/protección.",
+      "evidence": {
+        "components": [
+          "J14",
+          "R31",
+          "R32",
+          "R33",
+          "U8"
+        ],
+        "computation": {
+          "description": "hall_inputs",
+          "script": "analysis/review-2026-10-15/helpers/check_margins.py",
+          "result": "{'J14': {'4': 'GND', '1': 'HALL_A', '2': 'HALL_B', '3': 'HALL_C'}, 'R31': {'1': 'HALL_A', '2': 'Net-(U8-IO35)'}, 'R32': {'1': 'HALL_B', '2': 'Net-(U8-IO36)'}, 'R33': {'1': 'HALL_C', '2': 'Net-(U8-IO37)'}}"
+        }
+      },
+      "evidence_checked": "full",
+      "components": [
+        "J14",
+        "R31",
+        "R32",
+        "R33",
+        "U8"
+      ],
+      "finding_id": "deep_review:d02d0d2ddcfd"
+    },
+    {
+      "detector": "deep_review",
+      "category": "lifecycle",
+      "severity": "warning",
+      "confidence": "high",
+      "summary": "ULN2003BDR obsoleto segúnTI",
+      "description": "Página oficialTI/ULN2003B consultada15/10/2026 marcaOBSOLETE. MPN de diseñoULN2003BDR.",
+      "recommendation": "Revisar alternativa con entradas3.3V y carga real, y actualizar BOM controladamente.",
+      "evidence": {
+        "components": [
+          "U6"
+        ],
+        "computation": {
+          "description": "uln_mpn",
+          "script": "analysis/review-2026-10-15/helpers/check_margins.py",
+          "result": "ULN2003BDR"
+        }
+      },
+      "evidence_checked": "full",
+      "components": [
+        "U6"
+      ],
+      "finding_id": "deep_review:7667bfc1126a"
+    },
+    {
+      "detector": "deep_review",
+      "category": "mechanical",
+      "severity": "warning",
+      "confidence": "high",
+      "summary": "Patrón de fijación asimétrico en0.5mm",
+      "description": "H2.x145.5;H1.x145;los otrosx55.",
+      "recommendation": "Contrastar plano de chasis antesfabricar; no asumir cuadrícula90x90.",
+      "evidence": {
+        "components": [
+          "H1",
+          "H2",
+          "H3",
+          "H4"
+        ],
+        "computation": {
+          "description": "mounting_holes",
+          "script": "analysis/review-2026-10-15/helpers/check_margins.py",
+          "result": "[('H1', 145.0, 145.0), ('H3', 55.0, 55.0), ('H4', 55.0, 145.0), ('H2', 145.5, 55.0)]"
+        }
+      },
+      "evidence_checked": "full",
+      "components": [
+        "H1",
+        "H2",
+        "H3",
+        "H4"
+      ],
+      "finding_id": "deep_review:a345fdd0e61f"
+    },
+    {
+      "detector": "deep_review",
+      "category": "power",
+      "severity": "warning",
+      "confidence": "medium",
+      "summary": "Cerrar dropout y disipación de la fuente3.3V",
+      "description": "AMS DS1117 p3:1.3V máximo dropout a0.8A; se agrega caídaSS14. Temperatura automática parte de carga y theta no medidos.",
+      "recommendation": "Presupuesto de carga, tolerancias y prueba escalonada en peor entrada/temperatura.",
+      "evidence": {
+        "components": [
+          "U1",
+          "D7",
+          "D9"
+        ],
+        "computation": {
+          "description": "ldo_sweep",
+          "script": "analysis/review-2026-10-15/helpers/check_margins.py",
+          "result": "[{'current_A': 0.22, 'assumed_input_V': 4.6, 'power_W': 0.286, 'Tj_at40_theta80': 62.9}, {'current_A': 0.35, 'assumed_input_V': 4.6, 'power_W': 0.455, 'Tj_at40_theta80': 76.4}, {'current_A': 0.5, 'assumed_input_V': 4.6, 'power_W': 0.65, 'Tj_at40_theta80': 92.0}, {'current_A': 0.8, 'assumed_input_V': 4.6, 'power_W': 1.04, 'Tj_at40_theta80': 123.2}]"
+        }
+      },
+      "evidence_checked": "full",
+      "components": [
+        "U1",
+        "D7",
+        "D9"
+      ],
+      "finding_id": "deep_review:ab5d72e3edfa"
+    },
+    {
+      "detector": "deep_review",
+      "category": "power",
+      "severity": "warning",
+      "confidence": "high",
+      "summary": "USB puede encender MCU mientras U7 queda sin5V",
+      "description": "USB2_VBUS llega a5V_SYS porD9; U7 toma+5V antesD7.",
+      "recommendation": "Definir USB solo programación o corregir secuencia; comprobar salida segura al perder5V.",
+      "evidence": {
+        "components": [
+          "U1",
+          "U7",
+          "D7",
+          "D9"
+        ],
+        "computation": {
+          "description": "power_selection",
+          "script": "analysis/review-2026-10-15/helpers/check_margins.py",
+          "result": "{'U1': {'2': '/ALIMENTACION/LINEAR_3.3V', '3': '5V_SYS', '1': 'GND'}, 'D7': {'2': '+5V', '1': '5V_SYS'}, 'D9': {'1': '5V_SYS', '2': 'USB2_VBUS'}, 'JP1': {'2': '+3.3V', '1': '/ALIMENTACION/LINEAR_3.3V'}, 'JP2': {'2': '+3.3V', '1': '/ALIMENTACION/3.3V_EXT'}, 'J20': {'1': '/ALIMENTACION/3.3V_EXT', '2': 'GND'}, 'U7': {'8': '+5V', '4': 'GND', '5': 'GND', '3': 'Net-(U7A-+)', '1': 'Net-(U7A--)', '2': 'Net-(U7A--)', '6': 'Net-(U7B--)', '7': 'Net-(U7B--)'}}"
+        }
+      },
+      "evidence_checked": "full",
+      "components": [
+        "U1",
+        "U7",
+        "D7",
+        "D9"
+      ],
+      "finding_id": "deep_review:b85baa00df6a"
+    },
+    {
+      "detector": "deep_review",
+      "category": "power",
+      "severity": "warning",
+      "confidence": "high",
+      "summary": "Selección de3.3V requiere impedir paralelo de fuentes",
+      "description": "JP1 cerrado yJP2 abierto de fábrica; cerrarJP2 conJP1 intacto une fuenteexterna y salidaLDO.",
+      "recommendation": "Documentar exclusión de puentes y alimentación inversa; no conectar fuentes simultáneas.",
+      "evidence": {
+        "components": [
+          "JP1",
+          "JP2",
+          "J20"
+        ],
+        "computation": {
+          "description": "power_selection",
+          "script": "analysis/review-2026-10-15/helpers/check_margins.py",
+          "result": "{'U1': {'2': '/ALIMENTACION/LINEAR_3.3V', '3': '5V_SYS', '1': 'GND'}, 'D7': {'2': '+5V', '1': '5V_SYS'}, 'D9': {'1': '5V_SYS', '2': 'USB2_VBUS'}, 'JP1': {'2': '+3.3V', '1': '/ALIMENTACION/LINEAR_3.3V'}, 'JP2': {'2': '+3.3V', '1': '/ALIMENTACION/3.3V_EXT'}, 'J20': {'1': '/ALIMENTACION/3.3V_EXT', '2': 'GND'}, 'U7': {'8': '+5V', '4': 'GND', '5': 'GND', '3': 'Net-(U7A-+)', '1': 'Net-(U7A--)', '2': 'Net-(U7A--)', '6': 'Net-(U7B--)', '7': 'Net-(U7B--)'}}"
+        }
+      },
+      "evidence_checked": "full",
+      "components": [
+        "JP1",
+        "JP2",
+        "J20"
+      ],
+      "finding_id": "deep_review:bfd7da278ef6"
+    },
+    {
+      "detector": "deep_review",
+      "category": "power",
+      "severity": "warning",
+      "confidence": "medium",
+      "summary": "Corriente de servos y conectores sin cerrar",
+      "description": "Headergenérico2.54mm, pistas7V1mm; sin modelos ni picos conocidos.",
+      "recommendation": "Establecer corriente de bloqueo, fuente,conectores,cables,bulk y retorno.",
+      "evidence": {
+        "components": [
+          "J17",
+          "J18",
+          "J19"
+        ],
+        "computation": {
+          "description": "servo_supply",
+          "script": "analysis/review-2026-10-15/helpers/check_margins.py",
+          "result": "[{'component': 'J17', 'pin_number': '2', 'pin_name': 'Pin_2', 'pin_type': 'passive'}, {'component': '#PWR014', 'pin_number': '1', 'pin_name': '', 'pin_type': 'power_in'}, {'component': 'J19', 'pin_number': '1', 'pin_name': 'Pin_1', 'pin_type': 'passive'}, {'component': '#PWR075', 'pin_number': '1', 'pin_name': '', 'pin_type': 'power_in'}, {'component': '#PWR01', 'pin_number': '1', 'pin_name': '', 'pin_type': 'power_in'}, {'component': 'J18', 'pin_number': '2', 'pin_name': 'Pin_2', 'pin_type': 'passive'}]"
+        }
+      },
+      "evidence_checked": "full",
+      "components": [
+        "J17",
+        "J18",
+        "J19"
+      ],
+      "finding_id": "deep_review:ec3c88669a67"
+    },
+    {
+      "detector": "deep_review",
+      "category": "protection",
+      "severity": "warning",
+      "confidence": "high",
+      "summary": "COM abierto solo admite cargas con protección externa",
+      "description": "U6.9 NC; no se dispone de contrato de módulosrele.",
+      "recommendation": "Confirmar módulos de entrada protegidos; si son bobinas directas, implementarclamp apropiado.",
+      "evidence": {
+        "components": [
+          "U6",
+          "J9",
+          "J10"
+        ],
+        "computation": {
+          "description": "uln_com",
+          "script": "analysis/review-2026-10-15/helpers/check_margins.py",
+          "result": "unconnected-(U6-COM-Pad9)"
+        }
+      },
+      "evidence_checked": "full",
+      "components": [
+        "U6",
+        "J9",
+        "J10"
+      ],
+      "finding_id": "deep_review:42e8f224a58b"
+    },
+    {
+      "detector": "deep_review",
+      "category": "required_externals",
+      "severity": "warning",
+      "confidence": "high",
+      "summary": "I2C depende de pull-ups externos",
+      "description": "No hay resistencias conectadas aSDA/SCL en la placa.",
+      "recommendation": "Asignar responsabilidad a módulos y dimensionar pull-ups3.3V según Cbus y frecuencia.",
+      "evidence": {
+        "components": [
+          "U8",
+          "J2",
+          "J12",
+          "J13"
+        ],
+        "computation": {
+          "description": "i2c_pullups",
+          "script": "analysis/review-2026-10-15/helpers/check_margins.py",
+          "result": "{'I2C_SDA': [], 'I2C_SCL': []}"
+        }
+      },
+      "evidence_checked": "full",
+      "components": [
+        "U8",
+        "J2",
+        "J12",
+        "J13"
+      ],
+      "finding_id": "deep_review:39c6c11b0cb1"
+    },
+    {
+      "detector": "deep_review",
+      "category": "signal_integrity",
+      "severity": "warning",
+      "confidence": "medium",
+      "summary": "USB: falta demostración de impedancia90ohm",
+      "description": "Pistas0.25mm en FR4doscapas1.6mm; largos combinados aproximados48.86/47.85mm y0vías. Modelo simple no incluye coplanar.",
+      "recommendation": "Validar impedancia con geometría real/fabricante y enumeración/margenUSBFullSpeed.",
+      "evidence": {
+        "components": [
+          "J16",
+          "U8",
+          "R27",
+          "R28"
+        ],
+        "computation": {
+          "description": "usb_lengths",
+          "script": "analysis/review-2026-10-15/helpers/check_margins.py",
+          "result": "[('/ESP32/USB2_D-', 44.448, 0), ('/ESP32/USB2_D+', 43.556, 0), ('Net-(U8-USB_D-)', 4.412, 0), ('Net-(U8-USB_D+)', 4.289, 0)]"
+        }
+      },
+      "evidence_checked": "full",
+      "components": [
+        "J16",
+        "U8",
+        "R27",
+        "R28"
+      ],
+      "finding_id": "deep_review:6e127e0ca65a"
+    }
+  ],
+  "quarantined": []
+}
